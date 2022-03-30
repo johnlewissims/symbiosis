@@ -1,3 +1,11 @@
+## Notes for Developing Locally
+
+I am running this locally using <a href="https://roots.io/sage/">Local WP</a>. PHP 7.4.1, Wordpress 5.9.2. I'm running Node v16.14.2 NPM 8.5.0.
+
+Create your site, then import symbiosis.WordPress.2022-03-30.xml (in the repo) using WP Admin. 
+
+Clone this repo into the themes folder. CD into the theme, run `npm install` and then `npm run dev`.
+
 <p align="center">
   <a href="https://roots.io/sage/">
     <img alt="Sage" src="https://cdn.roots.io/app/uploads/logo-sage.svg" height="100">
