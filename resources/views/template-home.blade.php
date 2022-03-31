@@ -133,52 +133,55 @@ if ($gettingStarted) : ?>
 <?php
 $resources = get_field('resources');
 if ($resources) : ?>
-<div class="resources">
-  <div class="row">
-    <div class="col">
-      <h2>Resources</h2>
-    </div>
-    <div class="col">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      <a href="#">
-        <div class="resource-row">
-          <img src="https://www.freepnglogos.com/uploads/line-png/long-lines-straight-line-transparent-7.png" alt="Click Here">
-          <h5>Learn More</h5>
-        </div>        
-      </a>
-      <a href="#">
-        <div class="resource-row">
-          <img src="https://www.freepnglogos.com/uploads/line-png/long-lines-straight-line-transparent-7.png" alt="Click Here">
-          <h5>Learn More</h5>
-        </div>        
-      </a>
+  <div class="resources">
+    <div class="row">
+      <div class="col">
+        <h2>Resources</h2>
+      </div>
+      <div class="col">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <a href="#">
+          <div class="resource-row">
+            <img src="https://www.freepnglogos.com/uploads/line-png/long-lines-straight-line-transparent-7.png" alt="Click Here">
+            <h5>Learn More</h5>
+          </div>
+        </a>
+        <a href="#">
+          <div class="resource-row">
+            <img src="https://www.freepnglogos.com/uploads/line-png/long-lines-straight-line-transparent-7.png" alt="Click Here">
+            <h5>Learn More</h5>
+          </div>
+        </a>
+      </div>
     </div>
   </div>
-</div>
 <?php endif; ?>
 
 <div class="blog-list">
   <div class="blog-row">
+
+  <?php
+  $args = array(
+    'post_type' => 'post',
+    'posts_per_page' => 4
+  );
+
+  $post_query = new WP_Query($args);
+
+  if ($post_query->have_posts()) {
+    while ($post_query->have_posts()) {
+      $post_query->the_post();
+  ?>
+
     <div class="blog-tile">
-      <img src="https://images.unsplash.com/photo-1485056981035-7a565c03c6aa" alt="Blog Image">
-      <h3>Lorem ipsum dolor sit amet</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <img src="<?php the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>">
+      <h3><?php the_title(); ?></h3>
+      <p><?php the_excerpt(); ?></p>
     </div>
-    <div class="blog-tile">
-      <img src="https://images.unsplash.com/photo-1580845884420-a44b1e37b8e9" alt="Blog Image">
-      <h3>Lorem ipsum dolor sit amet</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </div>
-    <div class="blog-tile">
-      <img src="https://images.unsplash.com/photo-1580845884420-a44b1e37b8e9" alt="Blog Image">
-      <h3>Lorem ipsum dolor sit amet</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </div>
-    <div class="blog-tile">
-      <img src="https://images.unsplash.com/photo-1485056981035-7a565c03c6aa" alt="Blog Image">
-      <h3>Lorem ipsum dolor sit amet</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </div>
+  <?php
+    }
+  }
+  ?>
   </div>
   <div class="more-row">
     <h5>Load More</h5>
@@ -186,22 +189,28 @@ if ($resources) : ?>
   </div>
 </div>
 
-<div class="callout-section">
-  <img src="https://www.freepnglogos.com/uploads/line-png/long-lines-straight-line-transparent-7.png" alt="Symbiosis Background Circle Image">
-  <h2>All power to the People</h2>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
-  <a href="#">
-    <div class="button bg-green button-big">
-      Learn More
-    </div>
-  </a>
-</div>
+<?php
+$callout2 = get_field('callout_2');
+if ($callout2) : ?>
+  <div class="callout-section">
+    <img src="https://www.freepnglogos.com/uploads/line-png/long-lines-straight-line-transparent-7.png" alt="Symbiosis Background Circle Image">
+    <h2><?php echo esc_attr($callout2['title']); ?></h2>
+    <p><?php echo esc_attr($callout2['sub_title']); ?></p>
+    <a href="<?php echo esc_attr($callout2['link']); ?>">
+      <div class="button bg-green button-big">
+        <?php echo esc_attr($callout2['link_title']); ?>
+      </div>
+    </a>
+  </div>
+<?php endif; ?>
 
-<div class="ticker-tape">
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
-  -
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
-</div>
+<?php
+if ($tickerTape) : ?>
+  <div class="ticker-tape">
+    <?php echo esc_attr($tickerTape['news']); ?>
+  </div>
+<?php endif; ?>
+
 
 <div class="signup-email-form">
   <h2>Subscribe</h2>
