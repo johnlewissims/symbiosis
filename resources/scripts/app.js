@@ -10,7 +10,13 @@ const main = async (err) => {
     console.error(err);
   }
 
-  // application code
+  jQuery(function ($) {
+    try {
+    }
+    catch (e) {
+      console.log(e);
+    }
+  });  
 };
 
 /**
@@ -20,10 +26,3 @@ const main = async (err) => {
  */
 domReady(main);
 import.meta.webpackHot?.accept(main);
-
-jQuery(function ($) {
-  $(".home-banner").ripples({
-    resolution: 256,
-    perturbance: 0.01,
-  });
-});

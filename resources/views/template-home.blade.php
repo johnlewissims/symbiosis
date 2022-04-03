@@ -6,6 +6,11 @@
 
 @section('content')
 
+<div class="my-div">
+  <img src="https://i.postimg.cc/J07vSC9q/hero-background.jpg" alt="Img">
+</div>
+
+
 <?php
 $hero = get_field('home_banner');
 if ($hero) : ?>
