@@ -6,8 +6,9 @@
 
 @section('content')
 
-<div class="my-div">
-  <img src="https://i.postimg.cc/J07vSC9q/hero-background.jpg" alt="Img">
+<div class="symbiosis-header">
+  <!-- <img src="https://i.postimg.cc/J07vSC9q/hero-background.jpg" alt="Img"> -->
+  <canvas class="webgl"></canvas>
 </div>
 
 

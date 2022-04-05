@@ -1,5 +1,6 @@
 import {domReady} from '@roots/sage/client';
 import 'jquery';
+import './effects/header.js';
 
 /**
  * app.main

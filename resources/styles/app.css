@@ -43,9 +43,17 @@
     color: var(--color-dark-green-1);
 }
 
-/* .home-banner {
+.webgl {
+    position: absolute;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+.symbiosis-header {
+    position: relative;
     width: 100%;
     height: 100vh;
     background: url('https://i.postimg.cc/J07vSC9q/hero-background.jpg') no-repeat center;
     background-size: cover;
-} */
+}
