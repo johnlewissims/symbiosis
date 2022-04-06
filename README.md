@@ -5,9 +5,10 @@ I am running this locally using <a href="https://localwp.com/">Local WP</a>. PHP
 Create your site. 
 
 Clone this repo into the themes folder. CD into the theme then...
+Install the <a href="https://github.com/roots/acorn/releases/tag/v2.0.3">Acorn plugin<a> for Sage. 
 Run `npm install`, `npm run dev` & `composer install`.
 
-Now install the Advanced Custom Fields plugin. 
+Install the Advanced Custom Fields plugin.
 
 Lastly, import symbiosis.WordPress.2022-03-31.xml (in the repo) using WP Admin.
 
