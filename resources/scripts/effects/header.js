@@ -1,6 +1,11 @@
 import * as THREE from 'three';
 import * as dat from 'dat.gui';
 
+// Loading
+const textureLoader = new THREE.TextureLoader();
+
+const normalTexture = textureLoader.load('http://symbiosis.local/wp-content/uploads/2022/04/golfball.png');
+
 const gui = new dat.GUI();
 
 const canvas = document.querySelector('canvas.webgl');
@@ -13,17 +18,31 @@ const geometry = new THREE.SphereBufferGeometry(.5, 64, 64 );
 const material = new THREE.MeshStandardMaterial();
 material.metalness = 0.7;
 material.roughness = 0.7;
-material.color = new THREE.Color(0x292929);
+material.normalMap = normalTexture;
+material.color = new THREE.Color(0xcdcdcd);
 
 const sphere = new THREE.Mesh(geometry, material);
 scene.add(sphere);
 
-const pointlight = new THREE.PointLight(0xffffff, 0.1);
-pointlight.position.x = 2;
-pointlight.position.y = 3;
-pointlight.position.z = 4;
+const pointlight = new THREE.PointLight(0x0000FF, 0.7);
+pointlight.position.set(-7,-7,0.5);
+scene.add(pointlight);
 
-scene.add(pointlight)
+const pointlight2 = new THREE.PointLight(0xff0000, 1);
+pointlight2.position.set(1,1,1);
+pointlight2.intensity = 1;
+
+gui.add(pointlight2.position, 'y');
+gui.add(pointlight2.position, 'x');
+gui.add(pointlight2.position, 'z');
+gui.add(pointlight2, 'intensity');
+
+gui.add(pointlight.position, 'y');
+gui.add(pointlight.position, 'x');
+gui.add(pointlight.position, 'z');
+gui.add(pointlight, 'intensity');
+
+scene.add(pointlight2);
 
 const sizes = {
     width: window.innerWidth,
@@ -54,12 +73,35 @@ const renderer = new THREE.WebGLRenderer({
 renderer.setSize(sizes.width, sizes.height)
 renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))
 
+// Interactive
+let onDocumentMouseMove = (event) => {
+    mouseX = (event.clientX - windowHalfX)
+    mouseY = (event.clientY - windowHalfY)
+}
+
+document.addEventListener('mousemove', onDocumentMouseMove)
+
+let mouseX = 0
+let mouseY = 0
+
+let targetX = 0
+let targetY = 0
+
+const windowHalfX = window.innerWidth / 2
+const windowHalfY = window.innerHeight / 2
+
 const clock = new THREE.Clock()
 const tick = () =>
 {
+    targetX = mouseX * .001
+    targetY = mouseY * .001
 
     const elapsedTime = clock.getElapsedTime()
     sphere.rotation.y = .5 * elapsedTime
+
+    sphere.rotation.y += .5 * (targetX - sphere.rotation.y);
+    sphere.rotation.x += .05 * (targetY - sphere.rotation.x);
+    sphere.rotation.z += -.05 * (targetY - sphere.rotation.x);
 
     // controls.update()
 
