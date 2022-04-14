@@ -9,6 +9,7 @@ Install the <a href="https://github.com/roots/acorn/releases/tag/v2.0.3">Acorn p
 Run `npm install`, `npm run dev` & `composer install`.
 
 Install the Advanced Custom Fields plugin.
+Install [Acorn](https://github.com/roots/acorn/releases) v2.0.3. Unzip the folder in the plugins directory and press 'activate' in wp-admin.
 
 Lastly, import symbiosis.WordPress.2022-03-31.xml (in the repo) using WP Admin.
 
