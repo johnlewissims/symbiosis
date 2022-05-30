@@ -13,6 +13,9 @@ const main = async (err) => {
 
   jQuery(function ($) {
     try {
+      function copyUrl() {
+        console.log('hello')
+      }
     }
     catch (e) {
       console.log(e);
