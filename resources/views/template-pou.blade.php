@@ -1,5 +1,5 @@
 {{--
-  Template Name: Our Strategy Template
+  Template Name: Points of Unity Template
 --}}
 
 @extends('layouts.app')
@@ -7,7 +7,7 @@
 @section('content')
 
 <?php
-$aboutBanner = get_field('about_banner');
+$aboutBanner = get_field('pou_banner');
 if ($aboutBanner) : ?>
   <div class="about-banner">
     <div class="container">
@@ -70,17 +70,20 @@ if ($aboutBanner) : ?>
       <?php endif; ?>
 
       <?php
-      $launchStatements = get_field('launch_statements');
-      if ($launchStatements) : ?>
-      <div class="launch_statements">
-        <hr>
-        <p><?php echo esc_attr($launchStatements['text']); ?></p>
+      $textBlock5 = get_field('text_block_5');
+      if ($textBlock5) : ?>
+      <div class="text_block_5">
+        <h3><?php echo esc_attr($textBlock5['header']); ?></h3>
+        <p><?php echo esc_attr($textBlock5['body']); ?></p>
+      </div>
+      <?php endif; ?>
 
-        <div class="button_row">
-          <a class="file_button" href="<?php echo $launchStatements['file_1']['url'] ?>"><?php echo $launchStatements['file_1']['title'] ?></a>
-          <a class="file_button" href="<?php echo $launchStatements['file_2']['url'] ?>"><?php echo $launchStatements['file_2']['title'] ?></a>
-          <a class="file_button" href="<?php echo $launchStatements['file_3']['url'] ?>"><?php echo $launchStatements['file_3']['title'] ?></a>
-        </div>
+      <?php
+      $textBlock6 = get_field('text_block_6');
+      if ($textBlock6) : ?>
+      <div class="text_block_6">
+        <h3><?php echo esc_attr($textBlock6['header']); ?></h3>
+        <p><?php echo esc_attr($textBlock6['body']); ?></p>
       </div>
       <?php endif; ?>
 

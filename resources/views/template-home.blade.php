@@ -25,9 +25,14 @@ if ($hero) : ?>
 <?php
 $tickerTape = get_field('ticker_tape');
 if ($tickerTape) : ?>
-  <div class="ticker-tape">
-    <?php echo esc_attr($tickerTape['news']); ?>
-  </div>
+    <div class="marquee3k ticker-tape"
+      data-speed="0.25"
+      data-reverse="true"
+      data-pausable="false">
+      <div class="marqueeInner">
+      <?php echo esc_attr($tickerTape['news']); ?>
+      </div>
+    </div>
 <?php endif; ?>
 
 <?php
@@ -210,12 +215,17 @@ if ($callout2) : ?>
   </div>
 <?php endif; ?>
 
-<?php
-if ($tickerTape) : ?>
-  <div class="ticker-tape">
-    <?php echo esc_attr($tickerTape['news']); ?>
-  </div>
-<?php endif; ?>
+  <?php
+    if ($tickerTape) : ?>
+    <div class="marquee3k newsTicker"
+      data-speed="0.25"
+      data-reverse="true"
+      data-pausable="false">
+      <div class="marqueeInner">
+      <?php echo esc_attr($tickerTape['news']); ?>
+      </div>
+    </div>
+  <?php endif; ?>
 
 
 <div class="signup-email-form">

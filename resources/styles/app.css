@@ -70,3 +70,22 @@
     background: #E8FF59;
     padding: 50px 15px;
 }
+
+/* News Ticker */
+
+.news_ticker {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.news_ticker .news_item {
+    position: absolute;
+    left: 0;
+    transition: all 10s ease;
+}
+
+.news_ticker .news_item.moving {
+    left: 100px;
+}
