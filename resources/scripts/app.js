@@ -1,5 +1,6 @@
 import {domReady} from '@roots/sage/client';
 import 'jquery';
+import Masonry from 'masonry-layout';
 import './effects/header.js';
 import Marquee3k from 'marquee3000';
 
@@ -29,6 +30,11 @@ const main = async (err) => {
 
       $('main').on( "mouseover", function() {
         $('.sub-menu').removeClass('active');
+      });
+
+      var elem = document.querySelector('.blog-row');
+      new Masonry( elem, {
+        itemSelector: '.blog-tile'
       });
     }
     catch (e) {

@@ -65,7 +65,7 @@ if ($newsBar) : ?>
 <?php
 $callout1 = get_field('callout_1');
 if ($callout1) : ?>
-  <div class="callout-section">
+  <div class="callout-section container">
     <img src="https://www.freepnglogos.com/uploads/line-png/long-lines-straight-line-transparent-7.png" alt="Symbiosis Background Circle Image">
     <h2><?php echo esc_attr($callout1['title']); ?></h2>
     <p><?php echo esc_attr($callout1['sub_title']); ?></p>
@@ -81,58 +81,61 @@ if ($callout1) : ?>
 $gettingStarted = get_field('getting_started');
 if ($gettingStarted) : ?>
   <div class="getting-started">
-    <div class="row">
-      <div class="col">
-        <h2><?php echo esc_attr($callout1['title']); ?></h2>
-        <img src="https://www.freepnglogos.com/uploads/line-png/long-lines-straight-line-transparent-7.png" alt="Arrow Pointing Down">
+    <div class="container_2 container">
+      <div class="row getting-started-1">
+        <div class="col col_1">
+          <h2><?php echo esc_attr($gettingStarted['title']); ?></h2>
+          <img src="/wp-content/uploads/2022/07/down_arrow.png" alt="Arrow Pointing Down">
+        </div>
+        <div class="col col_2">
+          <p class="sub_text_1"><?php echo esc_attr($gettingStarted['sub_text']); ?></p>
+          <p><?php echo esc_attr($gettingStarted['sub_text_2']); ?></p>
+        </div>
       </div>
-      <div class="col">
-        <p><?php echo esc_attr($callout1['sub_text']); ?></p>
+      <div class="row getting-started-2">
+        <?php
+        $box1 = get_field('getting_started')['box_1'];
+        if ($box1['title']) : ?>
+          <div class="box">
+            <h3><?php echo esc_attr($box1['title']); ?></h3>
+            <p><?php echo esc_attr($box1['sub_text']); ?></p>
+            <a href="<?php echo esc_attr($box1['link']); ?>">
+              <div class="learn-row">
+                <h5><?php echo esc_attr($box1['link_text']); ?></h5>
+                <img src="/wp-content/uploads/2022/07/right_arrow_yellow.png" alt="Click Here">
+              </div>
+            </a>
+          </div>
+        <?php endif; ?>
+        <?php
+        $box2 = get_field('getting_started')['box_2'];
+        if ($box2['title']) : ?>
+          <div class="box">
+            <h3><?php echo esc_attr($box2['title']); ?></h3>
+            <p><?php echo esc_attr($box2['sub_text']); ?></p>
+            <a href="<?php echo esc_attr($box2['link']); ?>">
+              <div class="learn-row">
+                <h5><?php echo esc_attr($box2['link_text']); ?></h5>
+                <img src="/wp-content/uploads/2022/07/right_arrow_yellow.png" alt="Click Here">
+              </div>
+            </a>
+          </div>
+        <?php endif; ?>
+        <?php
+        $box3 = get_field('getting_started')['box_3'];
+        if ($box3['title']) : ?>
+          <div class="box">
+            <h3><?php echo esc_attr($box3['title']); ?></h3>
+            <p><?php echo esc_attr($box3['sub_text']); ?></p>
+            <a href="<?php echo esc_attr($box3['link']); ?>">
+              <div class="learn-row">
+                <h5><?php echo esc_attr($box3['link_text']); ?></h5>
+                <img src="/wp-content/uploads/2022/07/right_arrow_yellow.png" alt="Click Here">
+              </div>
+            </a>
+          </div>
+        <?php endif; ?>
       </div>
-    </div>
-    <div class="row">
-      <?php
-      $box1 = get_field('getting_started')['box_1'];
-      if ($box1['title']) : ?>
-        <div class="box">
-          <h3><?php echo esc_attr($box1['title']); ?></h3>
-          <p><?php echo esc_attr($box1['sub_text']); ?></p>
-          <a href="<?php echo esc_attr($box1['link']); ?>">
-            <div class="learn-row">
-              <h5><?php echo esc_attr($box1['link_text']); ?></h5>
-              <img src="https://www.freepnglogos.com/uploads/line-png/long-lines-straight-line-transparent-7.png" alt="Click Here">
-            </div>
-          </a>
-        </div>
-      <?php endif; ?>
-      <?php
-      $box2 = get_field('getting_started')['box_2'];
-      if ($box2['title']) : ?>
-        <div class="box">
-          <h3><?php echo esc_attr($box2['title']); ?></h3>
-          <p><?php echo esc_attr($box2['sub_text']); ?></p>
-          <a href="<?php echo esc_attr($box2['link']); ?>">
-            <div class="learn-row">
-              <h5><?php echo esc_attr($box2['link_text']); ?></h5>
-              <img src="https://www.freepnglogos.com/uploads/line-png/long-lines-straight-line-transparent-7.png" alt="Click Here">
-            </div>
-          </a>
-        </div>
-      <?php endif; ?>
-      <?php
-      $box3 = get_field('getting_started')['box_3'];
-      if ($box3['title']) : ?>
-        <div class="box">
-          <h3><?php echo esc_attr($box3['title']); ?></h3>
-          <p><?php echo esc_attr($box3['sub_text']); ?></p>
-          <a href="<?php echo esc_attr($box3['link']); ?>">
-            <div class="learn-row">
-              <h5><?php echo esc_attr($box3['link_text']); ?></h5>
-              <img src="https://www.freepnglogos.com/uploads/line-png/long-lines-straight-line-transparent-7.png" alt="Click Here">
-            </div>
-          </a>
-        </div>
-      <?php endif; ?>
     </div>
   </div>
 <?php endif; ?>
@@ -140,23 +143,23 @@ if ($gettingStarted) : ?>
 <?php
 $resources = get_field('resources');
 if ($resources) : ?>
-  <div class="resources">
+  <div class="resources container container_2">
     <div class="row">
       <div class="col">
-        <h2>Resources</h2>
+        <h2><?php echo esc_attr($resources['title']); ?></h2>
       </div>
       <div class="col">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <a href="#">
+        <p><?php echo esc_attr($resources['sub_text']); ?></p>
+        <a href="<?php echo esc_attr($resources['link_1']); ?>">
           <div class="resource-row">
-            <img src="https://www.freepnglogos.com/uploads/line-png/long-lines-straight-line-transparent-7.png" alt="Click Here">
-            <h5>Learn More</h5>
+            <img src="/wp-content/uploads/2022/07/right_arrow_yellow.png" alt="Click Here">
+            <h5><?php echo esc_attr($resources['link_title_1']); ?></h5>
           </div>
         </a>
-        <a href="#">
+        <a href="<?php echo esc_attr($resources['link_2']); ?>">
           <div class="resource-row">
-            <img src="https://www.freepnglogos.com/uploads/line-png/long-lines-straight-line-transparent-7.png" alt="Click Here">
-            <h5>Learn More</h5>
+            <img src="/wp-content/uploads/2022/07/right_arrow_yellow.png" alt="Click Here">
+            <h5><?php echo esc_attr($resources['link_title_2']); ?></h5>
           </div>
         </a>
       </div>
@@ -164,7 +167,7 @@ if ($resources) : ?>
   </div>
 <?php endif; ?>
 
-<div class="blog-list">
+<div class="blog-list container container_2">
   <div class="blog-row">
 
     <?php

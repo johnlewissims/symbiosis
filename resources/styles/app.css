@@ -20,6 +20,7 @@
 body {
     width: 100%;
     overflow-x: hidden;
+    background:#e3e3e3;
 }
 
 .container {
@@ -28,6 +29,10 @@ body {
     margin: auto;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.container_2 {
+    max-width: 1000px;
 }
 
 .banner {
@@ -133,6 +138,12 @@ body {
     border-radius: 5px;
 }
 
+@media screen and (max-width: 768px) {
+    .banner {
+        display: none;
+    }
+}
+
 /* HOME */
 
 .home-banner {
@@ -187,6 +198,181 @@ body {
     background-size: cover;
 }
 
+.news-bar {
+    margin: 75px 0px;
+}
+
+.news-bar h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #04452E;    
+}
+
+.news-bar .button-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;    
+}
+
+.news-bar .button-row a {
+    margin: 0px 10px;
+}
+
+.callout-section img {
+    display: none;
+}
+
+.callout-section h2 {
+    text-align: center;
+    font-size: 96px;
+    color: #04452E;
+}
+
+.callout-section p {
+    text-align: center;
+    color: #04452E;
+}
+
+.callout-section .button {
+    text-align: center;
+    max-width: 170px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.callout-section.container {
+    max-width: 894px;
+}
+
+.getting-started {
+    background-image: url("http://symbiosis.local/wp-content/uploads/2022/07/bg_3_small.png");
+    margin-top: 150px;
+    padding: 75px 0px;
+    background-position: center;
+    background-size: cover;
+}
+
+.getting-started-1 {
+    justify-content: space-between;
+}
+
+.getting-started-1 .col_1 {
+    width: 40%;
+}
+
+.getting-started-1 .col_1 h2 {
+    font-size: 86px;
+    line-height: 90px;
+    color: #fff;
+}
+
+.getting-started-1 .col_1 img {
+    width: 60px;
+    margin-top: 15px;
+}
+
+.getting-started-1 .col_2 {
+    width: 60%;
+    max-width: 500px;
+}
+
+.getting-started-1 .col_2 p {
+    font-size: 29px;
+    color: #fff;
+}
+
+.getting-started-1 .col_2 .sub_text_1 {
+    margin-bottom: 25px;
+}
+
+.getting-started-2 .box {
+    width: 30%;
+    padding: 15px;
+    border: solid 1px #fff;
+    border-radius: 12px;
+    height: 350px;
+    position: relative;
+}
+
+.getting-started-2 {
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.getting-started-2 h3 {
+    font-size: 30px;
+    color: #fff;
+}
+
+.getting-started-2 p {
+    position: absolute;
+    bottom: 75px;
+    color: #fff;
+}
+
+.getting-started-2 a {
+    position: absolute;
+    bottom: 15px;
+}
+
+.getting-started-2 .learn-row {
+    position: relative;
+}
+
+.getting-started-2 h5 {
+    color: #fff;
+}
+
+.getting-started-2 img {
+    position: absolute;
+    right: -26px;
+    top: 5px;
+    width: 16px;
+}
+
+.resources {
+    margin-top: 100px;
+    margin-bottom: 100px;    
+}
+
+.resources .col {
+    width: 50%;
+}
+
+.resources h2 {
+    color: #04452E;
+    font-size: 96px;
+    text-transform: lowercase;
+    line-height: 60px;
+}
+
+.resources p {
+    font-size: 28px;
+    color: #04452E;
+}
+
+.resource-row {
+    display: flex;
+    margin-bottom: 15px;    
+}
+
+.resource-row img {
+    height: 18px;
+    margin-top: 3px;
+    padding-right: 10px;  
+}
+
+.resource-row h5 {
+    color: #04452E;
+}
+
+.blog-tile {
+    width: 47%;
+}
+
+
+
 /* OUR STRATEGY */
 
 .about-banner {
@@ -211,4 +397,11 @@ body {
 
 .news_ticker .news_item.moving {
     left: 100px;
+}
+
+.ticker-tape {
+    background: #E8FF59;
+    color: #04452E;
+    text-transform: uppercase;
+    padding: 10px 0px;
 }
