@@ -7,32 +7,28 @@
 @section('content')
 
 <div class="symbiosis-header">
-  <!-- <img src="https://i.postimg.cc/J07vSC9q/hero-background.jpg" alt="Img"> -->
   <canvas class="webgl"></canvas>
+  <?php
+  $hero = get_field('home_banner');
+  if ($hero) : ?>
+    <div class="home-banner">
+      <div class="wrapper">
+        <h1><?php echo esc_attr($hero['banner_text']); ?></h1>
+        <img src="wp-content/uploads/2022/07/Group-55.png" alt="Symbiosis Flare">
+        <h3><?php echo esc_attr($hero['sub_text']); ?></h3>
+      </div>
+    </div>
+  <?php endif; ?>
 </div>
-
-
-<?php
-$hero = get_field('home_banner');
-if ($hero) : ?>
-  <div class="home-banner">
-    <h1><?php echo esc_attr($hero['banner_text']); ?></h1>
-    <img src="https://www.freepnglogos.com/uploads/line-png/long-lines-straight-line-transparent-7.png" alt="Symbiosis Flare">
-    <h3><?php echo esc_attr($hero['sub_text']); ?></h3>
-  </div>
-<?php endif; ?>
 
 <?php
 $tickerTape = get_field('ticker_tape');
 if ($tickerTape) : ?>
-    <div class="marquee3k ticker-tape"
-      data-speed="0.25"
-      data-reverse="true"
-      data-pausable="false">
-      <div class="marqueeInner">
+  <div class="marquee3k ticker-tape" data-speed="0.25" data-reverse="true" data-pausable="false">
+    <div class="marqueeInner">
       <?php echo esc_attr($tickerTape['news']); ?>
-      </div>
     </div>
+  </div>
 <?php endif; ?>
 
 <?php
@@ -171,28 +167,28 @@ if ($resources) : ?>
 <div class="blog-list">
   <div class="blog-row">
 
-  <?php
-  $args = array(
-    'post_type' => 'post',
-    'posts_per_page' => 4
-  );
+    <?php
+    $args = array(
+      'post_type' => 'post',
+      'posts_per_page' => 4
+    );
 
-  $post_query = new WP_Query($args);
+    $post_query = new WP_Query($args);
 
-  if ($post_query->have_posts()) {
-    while ($post_query->have_posts()) {
-      $post_query->the_post();
-  ?>
+    if ($post_query->have_posts()) {
+      while ($post_query->have_posts()) {
+        $post_query->the_post();
+    ?>
 
-    <div class="blog-tile">
-      <img src="<?php the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>">
-      <h3><?php the_title(); ?></h3>
-      <p><?php the_excerpt(); ?></p>
-    </div>
-  <?php
+        <div class="blog-tile">
+          <img src="<?php the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>">
+          <h3><?php the_title(); ?></h3>
+          <p><?php the_excerpt(); ?></p>
+        </div>
+    <?php
+      }
     }
-  }
-  ?>
+    ?>
   </div>
   <div class="more-row">
     <h5>Load More</h5>
@@ -215,17 +211,14 @@ if ($callout2) : ?>
   </div>
 <?php endif; ?>
 
-  <?php
-    if ($tickerTape) : ?>
-    <div class="marquee3k newsTicker"
-      data-speed="0.25"
-      data-reverse="true"
-      data-pausable="false">
-      <div class="marqueeInner">
+<?php
+if ($tickerTape) : ?>
+  <div class="marquee3k newsTicker" data-speed="0.25" data-reverse="true" data-pausable="false">
+    <div class="marqueeInner">
       <?php echo esc_attr($tickerTape['news']); ?>
-      </div>
     </div>
-  <?php endif; ?>
+  </div>
+<?php endif; ?>
 
 
 <div class="signup-email-form">

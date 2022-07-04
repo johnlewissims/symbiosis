@@ -19,6 +19,17 @@ const main = async (err) => {
       }
       let newsFeed = $('.news_ticker').text()
       Marquee3k.init()
+
+      $('.menu-item a:first-child').on( "mouseover", function() {
+        if(!$(this).closest('.sub-menu').length) {
+          $('.sub-menu').removeClass('active');
+          $(this).next().addClass('active');
+        }
+      });
+
+      $('main').on( "mouseover", function() {
+        $('.sub-menu').removeClass('active');
+      });
     }
     catch (e) {
       console.log(e);

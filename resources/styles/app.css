@@ -7,6 +7,8 @@
 /* LIGHT GREEN #E3FF48 */
 /* DARK BLUE #000067 */
 
+/* GENERAL STYLE */
+
 :root {
     /* COLORS */
     --color-white-1: #FFF;
@@ -15,33 +17,154 @@
     --color-dark-blue-1: #000067;
 }
 
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
 .container {
     max-width: 1200px;
     display: block;
     margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .banner {
     display: flex;
     width: 100%;
     background: var(--color-dark-blue-1);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
 }
 
-.column {
+.banner .column {
     width: 33%;
+}
+
+.row {
+    display: flex;
+}
+
+/* NAVIGATION MENU */
+
+#menu-primary-navigation {
+    display: flex;
+    justify-content: space-between;    
+}
+
+.nav-secodary {
+    justify-content: end;
+}
+
+.nav-primary {
+    align-items: center;
+    display: flex;    
+}
+
+.menu-primary-navigation-container {
+    width: 100%;    
+}
+
+.menu-primary-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.nav-secodary {
+    justify-content: end;
+    align-items: center;
+}
+
+.logo-column {
+    display: flex;
+    align-items: center;
+}
+
+.logo-column img {
+    height: 30px;;
 }
 
 .banner a {
     color: var(--color-white-1);
+    text-transform: lowercase;
+}
+
+.sub-menu {
+    display: none;
+}
+
+.sub-menu.active {
+    display: block;
+    position: absolute;
+    background: #04452E;
+    width: 100%;
+    left: 0;
+    top: 100%;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;    
+}
+
+.sub-menu .menu-item {
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.sub-menu .menu-item a {
+    color: #E8FF59;
+    text-transform: lowercase;
 }
 
 .nav-secodary {
     display: flex;
 }
 
+.nav-secodary a {
+    padding-left: 20px;
+}
+
 .button {
     padding: 10px 30px;
     border-radius: 5px;
+}
+
+/* HOME */
+
+.home-banner {
+    position: absolute;
+    width: 100%;
+    height: 100%;   
+    display: flex;
+    align-items: center;
+}
+
+.home-banner .wrapper {
+    width: 100%;
+}
+
+.home-banner h1 {
+    color: #E8FF59;
+    font-size: 200px;
+    text-align: center;
+}
+
+.home-banner .wrapper img {
+    display: block;
+    margin: auto;
+    width: 200px;    
+}
+
+.home-banner .wrapper h3 {
+    font-size: 28px;
+    line-height: 120%;
+    text-align: center;
+    color: #E3E3E3;
+    margin-top: 75px;
 }
 
 .bg-green {
@@ -64,7 +187,7 @@
     background-size: cover;
 }
 
-/* Our Strategy */
+/* OUR STRATEGY */
 
 .about-banner {
     background: #E8FF59;
