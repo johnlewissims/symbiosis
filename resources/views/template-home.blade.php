@@ -67,7 +67,7 @@ $callout1 = get_field('callout_1');
 $callout2 = get_field('callout_2');
 if ($callout1) : ?>
   <div class="callout-section container">
-    <img src="https://www.freepnglogos.com/uploads/line-png/long-lines-straight-line-transparent-7.png" alt="Symbiosis Background Circle Image">
+    <img src="/wp-content/uploads/2022/07/circle_graphic.png" alt="Symbiosis Background Circle Image">
     <h2><?php echo esc_attr($callout1['title']); ?></h2>
     <p><?php echo esc_attr($callout1['sub_title']); ?></p>
     <a href="<?php echo esc_attr($callout1['link']); ?>">
@@ -204,7 +204,7 @@ if ($resources) : ?>
 <?php
 if ($callout2) : ?>
   <div class="callout-section callout-section-2 container">
-    <img src="https://www.freepnglogos.com/uploads/line-png/long-lines-straight-line-transparent-7.png" alt="Symbiosis Background Circle Image">
+    <img src="/wp-content/uploads/2022/07/circle_graphic.png" alt="Symbiosis Background Circle Image">
     <h2><?php echo esc_attr($callout2['title']); ?></h2>
     <p><?php echo esc_attr($callout2['sub_title']); ?></p>
     <a href="<?php echo esc_attr($callout2['link']); ?>">

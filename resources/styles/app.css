@@ -9,12 +9,36 @@
 
 /* GENERAL STYLE */
 
+@font-face {
+    font-family: 'kulturregular';
+    src: url('http://symbiosis.local/wp-content/uploads/2022/07/kulture_type.woff2') format('woff2'),
+         url('http://symbiosis.local/wp-content/uploads/2022/07/kulture_type.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'interregular';
+    src: url('http://symbiosis.local/wp-content/uploads/2022/07/inter-regular.woff2') format('woff2'),
+         url('http://symbiosis.local/wp-content/uploads/2022/07/inter-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 :root {
     /* COLORS */
     --color-white-1: #FFF;
     --color-dark-green-1: #0A3623;
     --color-light-green-1: #E3FF48;
     --color-dark-blue-1: #000067;
+}
+
+h1, h2, h3 {
+    font-family: 'kulturregular';
+}
+
+h4, h5, p, span, div {
+    font-family: 'interregular';
 }
 
 body {
@@ -218,8 +242,18 @@ body {
     margin: 0px 10px;
 }
 
+.callout-section {
+    position: relative;
+}
+
 .callout-section img {
-    display: none;
+    position: absolute;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
 }
 
 .callout-section h2 {
