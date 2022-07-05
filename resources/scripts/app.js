@@ -34,6 +34,7 @@ const main = async (err) => {
 
       var elem = document.querySelector('.blog-row');
       new Masonry( elem, {
+        gutter: 20,
         itemSelector: '.blog-tile'
       });
     }

@@ -64,6 +64,7 @@ if ($newsBar) : ?>
 
 <?php
 $callout1 = get_field('callout_1');
+$callout2 = get_field('callout_2');
 if ($callout1) : ?>
   <div class="callout-section container">
     <img src="https://www.freepnglogos.com/uploads/line-png/long-lines-straight-line-transparent-7.png" alt="Symbiosis Background Circle Image">
@@ -149,7 +150,7 @@ if ($resources) : ?>
         <h2><?php echo esc_attr($resources['title']); ?></h2>
       </div>
       <div class="col">
-        <p><?php echo esc_attr($resources['sub_text']); ?></p>
+        <p class="sub_text"><?php echo esc_attr($resources['sub_text']); ?></p>
         <a href="<?php echo esc_attr($resources['link_1']); ?>">
           <div class="resource-row">
             <img src="/wp-content/uploads/2022/07/right_arrow_yellow.png" alt="Click Here">
@@ -185,8 +186,9 @@ if ($resources) : ?>
 
         <div class="blog-tile">
           <img src="<?php the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>">
-          <h3><?php the_title(); ?></h3>
-          <p><?php the_excerpt(); ?></p>
+          <h4 class="category"><?php the_category(); ?></h4>
+          <a href="<?php the_permalink(); ?>"><h3 class="title"><?php the_title(); ?></h3></a>
+          <p class="excerpt"><?php the_excerpt(); ?></p>
         </div>
     <?php
       }
@@ -195,14 +197,13 @@ if ($resources) : ?>
   </div>
   <div class="more-row">
     <h5>Load More</h5>
-    <img src="https://www.freepnglogos.com/uploads/line-png/long-lines-straight-line-transparent-7.png" alt="Click Here">
+    <img src="/wp-content/uploads/2022/07/plus_sign.png" alt="Click Here">
   </div>
 </div>
 
 <?php
-$callout2 = get_field('callout_2');
 if ($callout2) : ?>
-  <div class="callout-section">
+  <div class="callout-section callout-section-2 container">
     <img src="https://www.freepnglogos.com/uploads/line-png/long-lines-straight-line-transparent-7.png" alt="Symbiosis Background Circle Image">
     <h2><?php echo esc_attr($callout2['title']); ?></h2>
     <p><?php echo esc_attr($callout2['sub_title']); ?></p>
@@ -216,7 +217,7 @@ if ($callout2) : ?>
 
 <?php
 if ($tickerTape) : ?>
-  <div class="marquee3k newsTicker" data-speed="0.25" data-reverse="true" data-pausable="false">
+  <div class="marquee3k newsTicker ticker-tape" data-speed="0.25" data-reverse="true" data-pausable="false">
     <div class="marqueeInner">
       <?php echo esc_attr($tickerTape['news']); ?>
     </div>

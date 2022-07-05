@@ -368,7 +368,54 @@ body {
 }
 
 .blog-tile {
-    width: 47%;
+    width: 49%;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: solid 1px #04452E;
+    border-radius: 12px;
+}
+
+.blog-tile .category {
+    font-size: 14px;
+    color: #04452E;    
+}
+
+.blog-tile .title {
+    font-size: 30px;
+    color: #04452E;
+}
+
+.blog-tile p {
+    color: #04452E;
+}
+
+.resources .sub_text {
+    margin-bottom: 20px;
+}
+
+.blog-list .more-row {
+    border-top: solid 1px #04452E;
+    border-bottom: solid 1px #04452E;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 10px 0px;
+    color: #04452E;
+    align-items: center;    
+}
+
+.blog-list .more-row img {
+    height: 18px;
+    margin-left: 5px;    
+}
+
+.callout-section-2 h2 {
+    font-size: 86px;
+}
+
+.callout-section-2 {
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 
