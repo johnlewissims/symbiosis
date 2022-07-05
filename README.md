@@ -2,6 +2,8 @@
 
 I am running this locally using <a href="https://localwp.com/">Local WP</a>. PHP 7.4.1, Wordpress 5.9.2. I'm running Node v16.14.2 NPM 8.5.0.
 
+You will need to have <a href="https://getcomposer.org/">PHP Composer</a> installed as well.
+
 Create your site. 
 
 Clone this repo into the themes folder. CD into the theme then...

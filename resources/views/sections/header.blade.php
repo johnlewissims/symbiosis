@@ -19,7 +19,7 @@
         </div>
       </a>
       <a href="#">
-        donate 2
+        donate
       </a>
     </div>
   </div>

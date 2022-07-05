@@ -227,7 +227,7 @@ if ($tickerTape) : ?>
 
 <div class="signup-email-form">
   <h2>Subscribe</h2>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+  <p>Stay in the loop.</p>
 </div>
 
 @endsection

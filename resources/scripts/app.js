@@ -15,12 +15,12 @@ const main = async (err) => {
 
   jQuery(function ($) {
     try {
-      function copyUrl() {
-        console.log('hello')
-      }
+
+      // News Ticker
       let newsFeed = $('.news_ticker').text()
       Marquee3k.init()
 
+      // Navigation Menu
       $('.menu-item a:first-child').on( "mouseover", function() {
         if(!$(this).closest('.sub-menu').length) {
           $('.sub-menu').removeClass('active');
@@ -32,11 +32,20 @@ const main = async (err) => {
         $('.sub-menu').removeClass('active');
       });
 
+      // Blog Roll
       var elem = document.querySelector('.blog-row');
       new Masonry( elem, {
         gutter: 20,
         itemSelector: '.blog-tile'
       });
+
+
+      let startingHeight = $('.blog-list').height();
+      $('.more-row').on( "click", function() {
+        let currentHeight = $('.blog-list').height();
+        $('.blog-list').css("max-height", startingHeight + currentHeight);
+      });
+
     }
     catch (e) {
       console.log(e);

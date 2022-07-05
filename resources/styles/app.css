@@ -393,6 +393,13 @@ body {
     margin-bottom: 20px;
 }
 
+.blog-list {
+    position: relative;
+    max-height: 800px;
+    overflow: hidden;
+    transition: all .2s ease;
+}
+
 .blog-list .more-row {
     border-top: solid 1px #04452E;
     border-bottom: solid 1px #04452E;
@@ -401,7 +408,11 @@ body {
     justify-content: center;
     padding: 10px 0px;
     color: #04452E;
-    align-items: center;    
+    align-items: center;
+    background-image: linear-gradient(to bottom, transparent -400%, #e3e3e3);
+    position: absolute;
+    bottom: 0px;
+    cursor: pointer;
 }
 
 .blog-list .more-row img {
@@ -416,6 +427,25 @@ body {
 .callout-section-2 {
     margin-top: 100px;
     margin-bottom: 100px;
+}
+
+.signup-email-form {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-image: url("http://symbiosis.local/wp-content/uploads/2022/07/bg_4_small.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.signup-email-form h2 {
+    font-size: 96px;
+    text-align: center;
+    color: #E3E3E3;
+}
+
+.signup-email-form p {
+    text-align: center;
+    color: #E3E3E3;
 }
 
 
