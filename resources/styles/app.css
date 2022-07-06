@@ -2,7 +2,6 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-/*Making a new CSS TEST*/
 
 /* WHITE #FFF */
 /* DARK GREEN #0A3623 */
@@ -10,6 +9,8 @@
 /* DARK BLUE #000067 */
 
 /* GENERAL STYLE */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
 
 @font-face {
     font-family: 'kulturregular';
@@ -33,15 +34,19 @@
     --color-dark-green-1: #0A3623;
     --color-light-green-1: #E3FF48;
     --color-dark-blue-1: #000067;
+    --color-gray-1: #E3E3E3;   
 }
+
 
 h1, h2, h3 {
     font-family: 'kulturregular';
 }
 
+
 h4, h5, p, span, div {
     font-family: 'interregular';
 }
+
 
 body {
     width: 100%;
@@ -160,7 +165,7 @@ body {
 }
 
 .button {
-    padding: 10px 30px;
+    padding: 10px 15px;
     border-radius: 5px;
 }
 
@@ -178,16 +183,24 @@ body {
     height: 100%;   
     display: flex;
     align-items: center;
+    padding:40px;
+    
 }
 
 .home-banner .wrapper {
     width: 100%;
+    height:100%;
+    display:flex;
+    flex-flow:column;
+    justify-content: space-between;
 }
 
 .home-banner h1 {
-    color: #E8FF59;
+    color: var(--color-light-green-1);
     font-size: 200px;
+    line-height:200px;
     text-align: center;
+    text-transform: lowercase;
 }
 
 .home-banner .wrapper img {
@@ -198,9 +211,8 @@ body {
 
 .home-banner .wrapper h3 {
     font-size: 28px;
-    line-height: 120%;
     text-align: center;
-    color: #E3E3E3;
+    color:var(--color-gray-1);
     margin-top: 75px;
 }
 
@@ -219,7 +231,7 @@ body {
 .symbiosis-header {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 85vh;
     background: url('https://i.imgur.com/omE29Ki.jpg') no-repeat center;
     background-size: cover;
 }
@@ -231,7 +243,7 @@ body {
 .news-bar h2 {
     text-align: center;
     text-transform: uppercase;
-    color: #04452E;    
+    color: var(--color-dark-green-1);    
 }
 
 .news-bar .button-row {
@@ -241,11 +253,13 @@ body {
 }
 
 .news-bar .button-row a {
-    margin: 0px 10px;
+    margin: 0px 5px;
 }
 
 .callout-section {
     position: relative;
+    text-align:center;
+ 
 }
 
 .callout-section img {
@@ -266,13 +280,12 @@ body {
 
 .callout-section p {
     text-align: center;
-    color: #04452E;
+    color:var(--color-dark-green-1);
 }
 
 .callout-section .button {
     text-align: center;
-    max-width: 170px;
-    display: block;
+    display:inline-block;
     margin: auto;
     margin-top: 30px;
 }
@@ -300,7 +313,7 @@ body {
 .getting-started-1 .col_1 h2 {
     font-size: 86px;
     line-height: 90px;
-    color: #fff;
+    color: var(--color-gray-1);
 }
 
 .getting-started-1 .col_1 img {
@@ -314,8 +327,9 @@ body {
 }
 
 .getting-started-1 .col_2 p {
-    font-size: 29px;
-    color: #fff;
+    font-size: 26px;
+    line-height:32px;
+    color: var(--color-gray-1);
 }
 
 .getting-started-1 .col_2 .sub_text_1 {
@@ -325,7 +339,7 @@ body {
 .getting-started-2 .box {
     width: 30%;
     padding: 15px;
-    border: solid 1px #fff;
+    border: solid 1px var(--color-gray-1);
     border-radius: 12px;
     height: 350px;
     position: relative;
@@ -384,7 +398,8 @@ body {
 }
 
 .resources p {
-    font-size: 28px;
+    font-size: 26px;
+    line-height:32px;
     color: #04452E;
 }
 
