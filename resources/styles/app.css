@@ -2,6 +2,10 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+body {
+    color:inherit;
+}
+
 
 /* WHITE #FFF */
 /* DARK GREEN #0A3623 */
@@ -38,14 +42,131 @@
 }
 
 
-h1, h2, h3 {
+
+
+
+ /* Fonts */
+
+ .t-display {
     font-family: 'kulturregular';
-}
+    font-size:260px;
+    line-height: 100%;
+    color: inherit;
+ }
+ 
+
+ .t-h1 {
+    font-family: 'kulturregular';
+    font-size:96px;
+    line-height: 96px;
+    color: inherit;
+ }
 
 
-h4, h5, p, span, div {
+ .t-h2 {
+    font-family: 'kulturregular';
+    font-size:42px;
+    line-height: 42px;
+ }
+
+ .t-body1{
     font-family: 'interregular';
+    font-size: 38px;
+    line-height:42px;
+ }
+
+
+ .t-body2{
+    font-family: 'interregular';
+    font-size: 28px;
+    line-height:32px;
+ } 
+
+.t-text1 {
+    font-family: 'interregular';
+    font-size: 18px;
+    line-height:24px;
 }
+
+.t-text2 {
+    font-family:monospace;
+    font-size: 16px;
+    line-height: 21px;
+
+}
+
+.t-text2uc {
+    font-family:monospace;
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+.t-caption {
+    font-family: 'interregular';
+    font-size: 14px;
+    line-height:18px;
+}
+
+
+
+
+
+
+/* 
+Font Modifiers */
+
+.t-center {
+    text-align:center;
+}
+
+.t-lowercase {
+    text-transform: lowercase;
+}
+
+.t-uppercase {
+    text-transform: uppercase;
+}
+
+.t-green {
+    color:var(--color-dark-green-1);
+}
+
+.t-blue {
+    color: var(--color-dark-blue-1);
+}
+
+.t-gray {
+    color: var(--color-gray-1);
+}
+
+.t-lightgreen {
+    color:var(--color-light-green-1);
+
+}
+
+
+/* Vertical Spacing */
+
+
+.mb-20 {
+    margin-bottom:20px;
+}
+
+.mb-40 {
+    margin-bottom:40px;
+}
+
+.mb-60 {
+    margin-bottom:60px;
+}
+
+
+.mb-120 {
+    margin-bottom:120px;
+}
+
+
 
 
 body {
@@ -53,6 +174,7 @@ body {
     overflow-x: hidden;
     background:#e3e3e3;
 }
+
 
 .container {
     max-width: 1200px;
@@ -182,26 +304,20 @@ body {
     width: 100%;
     height: 100%;   
     display: flex;
-    align-items: center;
+    justify-content: center;
     padding:40px;
     
 }
 
 .home-banner .wrapper {
-    width: 100%;
+    width: 1200px;
     height:100%;
     display:flex;
     flex-flow:column;
+
     justify-content: space-between;
 }
 
-.home-banner h1 {
-    color: var(--color-light-green-1);
-    font-size: 200px;
-    line-height:200px;
-    text-align: center;
-    text-transform: lowercase;
-}
 
 .home-banner .wrapper img {
     display: block;
@@ -209,11 +325,8 @@ body {
     width: 200px;    
 }
 
-.home-banner .wrapper h3 {
-    font-size: 28px;
-    text-align: center;
-    color:var(--color-gray-1);
-    margin-top: 75px;
+.home-banner .sub-text {
+   padding: 0px 240px;
 }
 
 .bg-green {
