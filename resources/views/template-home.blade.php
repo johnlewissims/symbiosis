@@ -185,7 +185,13 @@ if ($resources) : ?>
     ?>
 
         <div class="blog-tile">
-          <img src="<?php the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>">
+          <?php 
+            if(get_the_post_thumbnail_url()) {
+          ?>
+            <img src="<?php the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>">
+          <?php 
+            }
+          ?>
           <h4 class="category"><?php the_category(); ?></h4>
           <a href="<?php the_permalink(); ?>"><h3 class="title"><?php the_title(); ?></h3></a>
           <p class="excerpt"><?php the_excerpt(); ?></p>
