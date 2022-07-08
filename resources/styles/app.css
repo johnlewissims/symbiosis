@@ -2,12 +2,19 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+body {
+    color:inherit;
+}
+
+
 /* WHITE #FFF */
 /* DARK GREEN #0A3623 */
 /* LIGHT GREEN #E3FF48 */
 /* DARK BLUE #000067 */
 
 /* GENERAL STYLE */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
 
 @font-face {
     font-family: 'kulturregular';
@@ -31,21 +38,143 @@
     --color-dark-green-1: #0A3623;
     --color-light-green-1: #E3FF48;
     --color-dark-blue-1: #000067;
+    --color-gray-1: #E3E3E3;   
 }
 
-h1, h2, h3 {
+
+
+
+
+ /* Fonts */
+
+ .t-display {
     font-family: 'kulturregular';
+    font-size:260px;
+    line-height: 100%;
+    color: inherit;
+ }
+ 
+
+ .t-h1 {
+    font-family: 'kulturregular';
+    font-size:96px;
+    line-height: 96px;
+    color: inherit;
+ }
+
+
+ .t-h2 {
+    font-family: 'kulturregular';
+    font-size:42px;
+    line-height: 42px;
+ }
+
+ .t-body1{
+    font-family: 'interregular';
+    font-size: 38px;
+    line-height:42px;
+ }
+
+
+ .t-body2{
+    font-family: 'interregular';
+    font-size: 28px;
+    line-height:32px;
+ } 
+
+.t-text1 {
+    font-family: 'interregular';
+    font-size: 18px;
+    line-height:24px;
 }
 
-h4, h5, p, span, div {
-    font-family: 'interregular';
+.t-text2 {
+    font-family:monospace;
+    font-size: 16px;
+    line-height: 21px;
+
 }
+
+.t-text2uc {
+    font-family:monospace;
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+.t-caption {
+    font-family: 'interregular';
+    font-size: 14px;
+    line-height:18px;
+}
+
+
+
+
+
+
+/* 
+Font Modifiers */
+
+.t-center {
+    text-align:center;
+}
+
+.t-lowercase {
+    text-transform: lowercase;
+}
+
+.t-uppercase {
+    text-transform: uppercase;
+}
+
+.t-green {
+    color:var(--color-dark-green-1);
+}
+
+.t-blue {
+    color: var(--color-dark-blue-1);
+}
+
+.t-gray {
+    color: var(--color-gray-1);
+}
+
+.t-lightgreen {
+    color:var(--color-light-green-1);
+
+}
+
+
+/* Vertical Spacing */
+
+
+.mb-20 {
+    margin-bottom:20px;
+}
+
+.mb-40 {
+    margin-bottom:40px;
+}
+
+.mb-60 {
+    margin-bottom:60px;
+}
+
+
+.mb-120 {
+    margin-bottom:120px;
+}
+
+
+
 
 body {
     width: 100%;
     overflow-x: hidden;
     background:#e3e3e3;
 }
+
 
 .container {
     max-width: 1200px;
@@ -158,7 +287,7 @@ body {
 }
 
 .button {
-    padding: 10px 30px;
+    padding: 10px 15px;
     border-radius: 5px;
 }
 
@@ -175,18 +304,20 @@ body {
     width: 100%;
     height: 100%;   
     display: flex;
-    align-items: center;
+    justify-content: center;
+    padding:40px;
+    
 }
 
 .home-banner .wrapper {
-    width: 100%;
+    width: 1200px;
+    height:100%;
+    display:flex;
+    flex-flow:column;
+
+    justify-content: space-between;
 }
 
-.home-banner h1 {
-    color: #E8FF59;
-    font-size: 200px;
-    text-align: center;
-}
 
 .home-banner .wrapper img {
     display: block;
@@ -194,12 +325,8 @@ body {
     width: 200px;    
 }
 
-.home-banner .wrapper h3 {
-    font-size: 28px;
-    line-height: 120%;
-    text-align: center;
-    color: #E3E3E3;
-    margin-top: 75px;
+.home-banner .sub-text {
+   padding: 0px 240px;
 }
 
 .bg-green {
@@ -217,7 +344,7 @@ body {
 .symbiosis-header {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 85vh;
     background: url('https://i.imgur.com/omE29Ki.jpg') no-repeat center;
     background-size: cover;
 }
@@ -229,7 +356,7 @@ body {
 .news-bar h2 {
     text-align: center;
     text-transform: uppercase;
-    color: #04452E;    
+    color: var(--color-dark-green-1);    
 }
 
 .news-bar .button-row {
@@ -239,11 +366,13 @@ body {
 }
 
 .news-bar .button-row a {
-    margin: 0px 10px;
+    margin: 0px 5px;
 }
 
 .callout-section {
     position: relative;
+    text-align:center;
+ 
 }
 
 .callout-section img {
@@ -264,13 +393,12 @@ body {
 
 .callout-section p {
     text-align: center;
-    color: #04452E;
+    color:var(--color-dark-green-1);
 }
 
 .callout-section .button {
     text-align: center;
-    max-width: 170px;
-    display: block;
+    display:inline-block;
     margin: auto;
     margin-top: 30px;
 }
@@ -298,7 +426,7 @@ body {
 .getting-started-1 .col_1 h2 {
     font-size: 86px;
     line-height: 90px;
-    color: #fff;
+    color: var(--color-gray-1);
 }
 
 .getting-started-1 .col_1 img {
@@ -312,8 +440,9 @@ body {
 }
 
 .getting-started-1 .col_2 p {
-    font-size: 29px;
-    color: #fff;
+    font-size: 26px;
+    line-height:32px;
+    color: var(--color-gray-1);
 }
 
 .getting-started-1 .col_2 .sub_text_1 {
@@ -323,7 +452,7 @@ body {
 .getting-started-2 .box {
     width: 30%;
     padding: 15px;
-    border: solid 1px #fff;
+    border: solid 1px var(--color-gray-1);
     border-radius: 12px;
     height: 350px;
     position: relative;
@@ -382,7 +511,8 @@ body {
 }
 
 .resources p {
-    font-size: 28px;
+    font-size: 26px;
+    line-height:32px;
     color: #04452E;
 }
 

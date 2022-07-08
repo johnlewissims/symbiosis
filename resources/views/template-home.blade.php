@@ -13,9 +13,9 @@
   if ($hero) : ?>
     <div class="home-banner">
       <div class="wrapper">
-        <h1><?php echo esc_attr($hero['banner_text']); ?></h1>
+        <div class="t-lightgreen t-display t-center t-lowercase"><?php echo esc_attr($hero['banner_text']); ?></div>
         <img src="wp-content/uploads/2022/07/Group-55.png" alt="Symbiosis Flare">
-        <h3><?php echo esc_attr($hero['sub_text']); ?></h3>
+        <div class="t-body2 t-center t-gray sub-text"><?php echo esc_attr($hero['sub_text']); ?></div>
       </div>
     </div>
   <?php endif; ?>
@@ -24,8 +24,8 @@
 <?php
 $tickerTape = get_field('ticker_tape');
 if ($tickerTape) : ?>
-  <div class="marquee3k ticker-tape" data-speed="0.25" data-reverse="true" data-pausable="false">
-    <div class="marqueeInner">
+  <div class="marquee3k ticker-tape" data-speed="0.5" data-reverse="true" data-pausable="false">
+    <div class="marqueeInner t-text2">
       <?php echo esc_attr($tickerTape['news']); ?>
     </div>
   </div>
@@ -35,7 +35,7 @@ if ($tickerTape) : ?>
 $newsBar = get_field('news_bar');
 if ($newsBar) : ?>
   <div class="news-bar">
-    <h2><?php echo esc_attr($newsBar['title']); ?></h2>
+    <div class="t-text2 t-center t-uppercase t-green"><?php echo esc_attr($newsBar['title']); ?></div>
     <div class="button-row">
       <? if (!empty($newsBar['link_1'])) : ?>
         <a href="<?php echo esc_attr($newsBar['link_1']); ?>">
@@ -68,8 +68,8 @@ $callout2 = get_field('callout_2');
 if ($callout1) : ?>
   <div class="callout-section container">
     <img src="/wp-content/uploads/2022/07/circle_graphic.png" alt="Symbiosis Background Circle Image">
-    <h2><?php echo esc_attr($callout1['title']); ?></h2>
-    <p><?php echo esc_attr($callout1['sub_title']); ?></p>
+    <div class="t-h1 t-lowercase t-center t-green mb-20"><?php echo esc_attr($callout1['title']); ?></div>
+    <div class="t-text2 t-center t-green"><?php echo esc_attr($callout1['sub_title']); ?></div>
     <a href="<?php echo esc_attr($callout1['link']); ?>">
       <div class="button bg-green button-big">
         <?php echo esc_attr($callout1['link_title']); ?>
@@ -217,7 +217,7 @@ if ($callout2) : ?>
 
 <?php
 if ($tickerTape) : ?>
-  <div class="marquee3k newsTicker ticker-tape" data-speed="0.25" data-reverse="true" data-pausable="false">
+  <div class="marquee3k newsTicker ticker-tape" data-speed="0.5" data-reverse="true" data-pausable="false">
     <div class="marqueeInner">
       <?php echo esc_attr($tickerTape['news']); ?>
     </div>
