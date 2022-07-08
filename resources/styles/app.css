@@ -618,7 +618,67 @@ body {
 
 .about-banner {
     background: #E8FF59;
-    padding: 50px 15px;
+    padding: 100px 15px;
+}
+
+.about-banner h1 {
+    margin-bottom: 50px;
+}
+
+.about-banner-2 {
+    margin-top: 50px;
+}
+
+.about-banner-2 .socials {
+    width: 30%;
+}
+
+.about-banner-2 .sub_text {
+    width: 70%;
+}
+
+.socials {
+    display: flex;
+}
+
+.socials a {
+    margin-right: 30px;
+}
+
+.about-2 .callout-section-2 {
+    margin-top: 150px;
+    margin-bottom: 150px;    
+}
+
+.about-2 .col_1 {
+    width: 30%;
+}
+
+.about-2 .col_2 {
+    width: 70%;
+}
+
+.about-2 .image_wrapper {
+    margin-bottom: 100px;
+}
+
+.about-2 .about-2a {
+    margin-bottom: 50px;
+}
+
+.about-2 .number_box {
+    margin-bottom: 50px;
+    padding: 30px;
+    border: solid 1px var(--color-dark-green-1);
+    border-radius: 12px;
+    position: relative;
+    padding-top: 80px;
+}
+
+.about-2 .number_box span {
+    position: absolute;
+    top: 15px;
+    font-size: 16px;
 }
 
 /* News Ticker */
