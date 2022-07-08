@@ -50,12 +50,23 @@ body {
 
  /* Fonts */
 
+ 
+ 
  .t-display {
     font-family: 'kulturregular';
     font-size:260px;
     line-height: 100%;
     color: inherit;
  }
+ 
+
+ @media (max-width:1080px) {
+    .t-display {
+        font-family: 'kulturregular';
+        font-size:24vw;
+     }
+ }
+ 
  
 
  .t-h1 {
@@ -78,12 +89,23 @@ body {
     line-height:42px;
  }
 
+ 
+
 
  .t-body2{
     font-family: 'Inter', sans-serif;
     font-size: 28px;
     line-height:34px;
  } 
+
+
+ /* @media (max-width:1080px) {
+    .t-body2 {
+    
+        font-size: 20px;
+        line-height:24px;
+     }
+ } */
 
 .t-text1 {
     font-family: 'Inter', sans-serif;
@@ -188,18 +210,25 @@ body {
     background:#e3e3e3;
 }
 
-
 .container {
-    max-width: 1080px;
-    display: block;
-    margin: auto;
-    /* padding-left: 10px;
-    padding-right: 10px; */
+    width:100%;
+    padding:0px 20px;
 }
 
-/* .container_2 {
-    max-width: 1000px;
-} */
+
+@media only screen and (min-width: 1080px) {
+    .container {
+
+        max-width: 1080px;
+        display: block;
+        margin: auto;
+        /* padding-left: 10px;
+        padding-right: 10px; */
+    }
+  }
+
+
+
 
 .banner {
     display: flex;
@@ -302,6 +331,7 @@ body {
 .button {
     padding: 15px 20px;
     border-radius: 5px;
+    display: inline;
 }
 
 @media screen and (max-width: 768px) {
@@ -342,6 +372,12 @@ body {
    padding: 0px 240px;
 }
 
+@media (max-width:1080px){
+    .home-banner .sub-text {
+        padding: 0px 20px;
+     }
+}
+
 .bg-green {
     background: var(--color-light-green-1);
     color: var(--color-dark-green-1);
@@ -378,6 +414,14 @@ body {
     margin-top: 30px;    
 }
 
+@media (max-width:740px){
+    .news-bar .button-row {
+        flex-direction: column;
+        align-items: center;
+        gap:40px;
+    }
+
+}
 .news-bar .button-row a {
     margin: 0px 5px;
 }
@@ -516,18 +560,6 @@ body {
     width: 530px;
 }
 
-.resources h2 {
-    color: #04452E;
-    font-size: 96px;
-    text-transform: lowercase;
-    line-height: 60px;
-}
-
-.resources p {
-    font-size: 26px;
-    line-height:32px;
-    color: #04452E;
-}
 
 .resource-row {
     display: flex;

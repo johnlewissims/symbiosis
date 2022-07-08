@@ -82,10 +82,10 @@ if ($callout1) : ?>
 $gettingStarted = get_field('getting_started');
 if ($gettingStarted) : ?>
   <div class="getting-started">
-    <div class="container_2 container">
+    <div class="container">
       <div class="row getting-started-1">
         <div class="col col_1">
-          <div class="t-h1 t-center t-green"><?php echo esc_attr($gettingStarted['title']); ?></div>
+          <div class="t-h1 t-gray"><?php echo esc_attr($gettingStarted['title']); ?></div>
           <img src="/wp-content/uploads/2022/07/down_arrow.png" alt="Arrow Pointing Down">
         </div>
         <div class="col col_2">
@@ -144,7 +144,7 @@ if ($gettingStarted) : ?>
 <?php
 $resources = get_field('resources');
 if ($resources) : ?>
-  <div class="resources container container_2">
+  <div class="resources container">
     <div class="row space-between">
       <div class="col">
         <div class="t-h1 t-green t-lowercase"><?php echo esc_attr($resources['title']); ?></div>
