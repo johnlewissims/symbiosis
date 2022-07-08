@@ -537,6 +537,7 @@ body {
     padding: 20px;
     border: solid 1px #04452E;
     border-radius: 12px;
+    cursor: pointer;
 }
 
 .blog-tile .category {

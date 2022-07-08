@@ -184,7 +184,7 @@ if ($resources) : ?>
         $post_query->the_post();
     ?>
 
-        <div class="blog-tile">
+        <div class="blog-tile" data-url="<?php the_permalink(); ?>">
           <?php 
             if(get_the_post_thumbnail_url()) {
           ?>

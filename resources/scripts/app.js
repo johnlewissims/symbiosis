@@ -48,6 +48,12 @@ const main = async (err) => {
         });
       }
 
+      // Make Entire Blog Card Clickable
+      $('.blog-tile').on( "click", function() {
+        let url = $(this).data( "url");
+        location.href = url;
+      });
+
       // // Stick Header
       // var fixed = document.querySelector('.sticky-scroll');
       // if(fixed) {
