@@ -36,24 +36,24 @@ $newsBar = get_field('news_bar');
 if ($newsBar) : ?>
   <div class="news-bar">
     <div class="t-text2 t-center t-uppercase t-green"><?php echo esc_attr($newsBar['title']); ?></div>
-    <div class="button-row">
+    <div class="button-row mb-60">
       <? if (!empty($newsBar['link_1'])) : ?>
         <a href="<?php echo esc_attr($newsBar['link_1']); ?>">
-          <div class="button bg-green">
+          <div class="button bg-green t-text1">
             <?php echo esc_attr($newsBar['link_title_1']); ?>
           </div>
         </a>
       <?php endif; ?>
       <? if (!empty($newsBar['link_2'])) : ?>
         <a href="<?php echo esc_attr($newsBar['link_2']); ?>">
-          <div class="button bg-green">
+          <div class="button bg-green t-text1">
             <?php echo esc_attr($newsBar['link_title_2']); ?>
           </div>
         </a>
       <?php endif; ?>
       <? if (!empty($newsBar['link_3'])) : ?>
         <a href="<?php echo esc_attr($newsBar['link_3']); ?>">
-          <div class="button bg-green">
+          <div class="button bg-green t-text1">
             <?php echo esc_attr($newsBar['link_title_3']); ?>
           </div>
         </a>
@@ -69,9 +69,9 @@ if ($callout1) : ?>
   <div class="callout-section container">
     <img src="/wp-content/uploads/2022/07/circle_graphic.png" alt="Symbiosis Background Circle Image">
     <div class="t-h1 t-lowercase t-center t-green mb-20"><?php echo esc_attr($callout1['title']); ?></div>
-    <div class="t-text2 t-center t-green"><?php echo esc_attr($callout1['sub_title']); ?></div>
+    <div class="t-text2 t-center t-green callout-section-text"><?php echo esc_attr($callout1['sub_title']); ?></div>
     <a href="<?php echo esc_attr($callout1['link']); ?>">
-      <div class="button bg-green button-big">
+      <div class="button bg-green button-big t-text1">
         <?php echo esc_attr($callout1['link_title']); ?>
       </div>
     </a>
@@ -85,12 +85,12 @@ if ($gettingStarted) : ?>
     <div class="container_2 container">
       <div class="row getting-started-1">
         <div class="col col_1">
-          <h2><?php echo esc_attr($gettingStarted['title']); ?></h2>
+          <div class="t-h1 t-center t-green"><?php echo esc_attr($gettingStarted['title']); ?></div>
           <img src="/wp-content/uploads/2022/07/down_arrow.png" alt="Arrow Pointing Down">
         </div>
         <div class="col col_2">
-          <p class="sub_text_1"><?php echo esc_attr($gettingStarted['sub_text']); ?></p>
-          <p><?php echo esc_attr($gettingStarted['sub_text_2']); ?></p>
+          <div class="t-body2 t-gray mb-40"><?php echo esc_attr($gettingStarted['sub_text']); ?></div>
+          <div class="t-body2 t-gray"><?php echo esc_attr($gettingStarted['sub_text_2']); ?></div>
         </div>
       </div>
       <div class="row getting-started-2">
@@ -145,22 +145,22 @@ if ($gettingStarted) : ?>
 $resources = get_field('resources');
 if ($resources) : ?>
   <div class="resources container container_2">
-    <div class="row">
+    <div class="row space-between">
       <div class="col">
-        <h2><?php echo esc_attr($resources['title']); ?></h2>
+        <div class="t-h1 t-green t-lowercase"><?php echo esc_attr($resources['title']); ?></div>
       </div>
       <div class="col">
-        <p class="sub_text"><?php echo esc_attr($resources['sub_text']); ?></p>
+        <div class="t-body2 t-green mb-40"  class="sub_text"><?php echo esc_attr($resources['sub_text']); ?></div>
         <a href="<?php echo esc_attr($resources['link_1']); ?>">
           <div class="resource-row">
             <img src="/wp-content/uploads/2022/07/right_arrow_yellow.png" alt="Click Here">
-            <h5><?php echo esc_attr($resources['link_title_1']); ?></h5>
+            <div class="t-text1 t-green"><?php echo esc_attr($resources['link_title_1']); ?></div>
           </div>
         </a>
         <a href="<?php echo esc_attr($resources['link_2']); ?>">
           <div class="resource-row">
             <img src="/wp-content/uploads/2022/07/right_arrow_yellow.png" alt="Click Here">
-            <h5><?php echo esc_attr($resources['link_title_2']); ?></h5>
+            <div class="t-text1 t-green"><?php echo esc_attr($resources['link_title_2']); ?></div>
           </div>
         </a>
       </div>
@@ -168,8 +168,8 @@ if ($resources) : ?>
   </div>
 <?php endif; ?>
 
-<div class="blog-list container container_2">
-  <div class="blog-row">
+<div class=" blog-list container container_2 ">
+  <div class="blog-row ">
 
     <?php
     $args = array(
@@ -185,10 +185,10 @@ if ($resources) : ?>
     ?>
 
         <div class="blog-tile">
-          <img src="<?php the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>">
-          <h4 class="category"><?php the_category(); ?></h4>
-          <a href="<?php the_permalink(); ?>"><h3 class="title"><?php the_title(); ?></h3></a>
-          <p class="excerpt"><?php the_excerpt(); ?></p>
+          <img class=" blog-image" src="<?php the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>">
+          <div class="t-text2 t-green category"><?php the_category(); ?></div>
+          <a href="<?php the_permalink(); ?>"><div class="title t-body1 t-green mb-20"><?php the_title(); ?></div></a>
+          <div class="t-text1 t-green excerpt"><?php the_excerpt(); ?></div>
         </div>
     <?php
       }
@@ -205,10 +205,10 @@ if ($resources) : ?>
 if ($callout2) : ?>
   <div class="callout-section callout-section-2 container">
     <img src="/wp-content/uploads/2022/07/circle_graphic.png" alt="Symbiosis Background Circle Image">
-    <h2><?php echo esc_attr($callout2['title']); ?></h2>
-    <p><?php echo esc_attr($callout2['sub_title']); ?></p>
+    <div class="t-h1 t-green t-center t-lowercase mb-20"><?php echo esc_attr($callout2['title']); ?></div>
+    <div class="t-text2 t-green t-center about-subtext "><?php echo esc_attr($callout2['sub_title']); ?></div>
     <a href="<?php echo esc_attr($callout2['link']); ?>">
-      <div class="button bg-green button-big">
+      <div class="button bg-green button-big t-text1">
         <?php echo esc_attr($callout2['link_title']); ?>
       </div>
     </a>
@@ -217,7 +217,7 @@ if ($callout2) : ?>
 
 <?php
 if ($tickerTape) : ?>
-  <div class="marquee3k newsTicker ticker-tape" data-speed="0.5" data-reverse="true" data-pausable="false">
+  <div class="marquee3k newsTicker ticker-tape t-text2 t-uppercase" data-speed="0.5" data-reverse="true" data-pausable="false">
     <div class="marqueeInner">
       <?php echo esc_attr($tickerTape['news']); ?>
     </div>
@@ -226,8 +226,8 @@ if ($tickerTape) : ?>
 
 
 <div class="signup-email-form">
-  <h2>Subscribe</h2>
-  <p>Stay in the loop.</p>
+  <div class="t-h1 t-lowercase t-center t-gray mb-30">Subscribe</div>
+  <div class="t-text2 t-center t-gray">Stay in the loop.</div>
 </div>
 
 @endsection
