@@ -1,8 +1,8 @@
 <header class="banner">
-  <div class="container row">
+  <div class="container flex space-between">
     <div class="column logo-column">
       <a href="/">
-        <img src="/wp-content/uploads/2022/07/symbiosis.png" alt="symbiosis">
+        <img src="/wp-content/uploads/2022/07/symbiosis.svg" alt="symbiosis">
       </a>
     </div>
 
@@ -12,15 +12,29 @@
     </nav>
     @endif
 
+    <div class="links">
+    <div class="t-gray t-text1">
+          about
+        </div>
+        <div class="t-gray t-text1">
+          connect
+        </div>
+        <div class="t-gray t-text1">
+          resources
+        </div>
+    </div>
+
+
     <div class="nav-secodary column">
       <a href="#">
-        <div class="button bg-green">
+        <div class="small-button bg-green t-text1">
           join
         </div>
       </a>
-      <a href="#">
+      <div class="t-text1 t-gray"><a href="#">
         donate
       </a>
+    </div>
     </div>
   </div>
 </header>
