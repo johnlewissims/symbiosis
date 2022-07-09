@@ -80,8 +80,8 @@ body {
 
 @media (max-width:600px){
     .t-h1 {
-        font-size:64px;
-        line-height: 64px;
+        font-size:56px;
+        line-height: 56px;
     }
  }
 
@@ -508,7 +508,7 @@ body {
 
 @media (max-width:800px){
     .callout-section-text {
-        padding:60px 20px 0px 20px;
+        padding:60px 0px 0px 0px;
     }
     }
 
@@ -776,7 +776,7 @@ adds spacing around the "all power to the people" section */
 
 
 .power .callout-section-text{
-    padding:40px 20px 0px 20px;
+    padding:40px 0px 0px 0px;
 }
 
 .power img {

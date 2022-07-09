@@ -53,17 +53,6 @@ const main = async (err) => {
         location.href = url;
       });
 
-      // Hover color for card
-      $(".blog-tile").on("mouseover", function () {
-        $(this).css("background-color", "#E3FF48");
-        $(this).css("border-color", "#E3FF48");
-      });
-
-      $(".blog-tile").on("mouseleave", function () {
-        $(this).css("background-color", "transparent");
-        $(this).css("border-color", "#04452E");
-      });
-
       // // Stick Header
       // var fixed = document.querySelector('.sticky-scroll');
       // if(fixed) {
