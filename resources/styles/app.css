@@ -444,9 +444,15 @@ body {
 
 
 .callout-section-text {
-    padding:0px 160px;
+    padding:0px 0px;
 }
 
+
+@media (max-width:740px){
+    .callout-section-text {
+        padding:160px 20px 0px 20px;
+    }
+    }
 
 
 .callout-section h2 {
@@ -582,6 +588,7 @@ body {
     padding: 20px;
     border: solid 1px #04452E;
     border-radius: 12px;
+    cursor: pointer;
 }
 
 
@@ -669,7 +676,7 @@ body {
 
 .about-banner {
     background: #E8FF59;
-    padding: 50px 15px;
+    padding: 100px 15px;
 }
 
 
