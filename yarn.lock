@@ -2583,6 +2583,11 @@
   "resolved" "https://registry.npmjs.org/es-module-lexer/-/es-module-lexer-0.9.3.tgz"
   "version" "0.9.3"
 
+"es-module-shims@^1.5.8":
+  "integrity" "sha512-HHRl0wLqpMRHKdeJAIj7rkqP72sN9QcLTNvTvtsYGs1Nt98PJ0tIPKW5ZfpCWBFawb7MBY0yIRsBeCxlwSHqeQ=="
+  "resolved" "https://registry.npmjs.org/es-module-shims/-/es-module-shims-1.5.8.tgz"
+  "version" "1.5.8"
+
 "escalade@^3.1.1":
   "integrity" "sha512-k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw=="
   "resolved" "https://registry.npmjs.org/escalade/-/escalade-3.1.1.tgz"
@@ -5508,10 +5513,10 @@
     "source-map" "~0.7.2"
     "source-map-support" "~0.5.20"
 
-"three@^0.139.2":
-  "integrity" "sha512-gV7q7QY8rogu7HLFZR9cWnOQAUedUhu2WXAnpr2kdXZP9YDKsG/0ychwQvWkZN5PlNw9mv5MoCTin6zNTXoONg=="
-  "resolved" "https://registry.npmjs.org/three/-/three-0.139.2.tgz"
-  "version" "0.139.2"
+"three@^0.138.0":
+  "integrity" "sha512-4t1cKC8gimNyJChJbaklg8W/qj3PpsLJUIFm5LIuAy/hVxxNm1ru2FGTSfbTSsuHmC/7ipsyuGKqrSAKLNtkzg=="
+  "resolved" "https://registry.npmjs.org/three/-/three-0.138.3.tgz"
+  "version" "0.138.3"
 
 "timsort@^0.3.0":
   "integrity" "sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q="

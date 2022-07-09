@@ -1,9 +1,9 @@
-import {domReady} from '@roots/sage/client';
-import 'jquery';
-import Masonry from 'masonry-layout';
-import 'es-module-shims';
+import { domReady } from "@roots/sage/client";
+import "jquery";
+import Masonry from "masonry-layout";
+import "es-module-shims";
 //import './effects/header-2.js';
-import Marquee3k from 'marquee3000';
+import Marquee3k from "marquee3000";
 
 /**
  * app.main
@@ -11,47 +11,57 @@ import Marquee3k from 'marquee3000';
 const main = async (err) => {
   if (err) {
     // handle hmr errors
-    console.error(err)
+    console.error(err);
   }
 
   jQuery(function ($) {
     try {
-
       // News Ticker
-      let newsFeed = $('.news_ticker').text()
-      Marquee3k.init()
+      let newsFeed = $(".news_ticker").text();
+      Marquee3k.init();
 
       // Navigation Menu
-      $('.menu-item a:first-child').on( "mouseover", function() {
-        if(!$(this).closest('.sub-menu').length) {
-          $('.sub-menu').removeClass('active');
-          $(this).next().addClass('active');
+      $(".menu-item a:first-child").on("mouseover", function () {
+        if (!$(this).closest(".sub-menu").length) {
+          $(".sub-menu").removeClass("active");
+          $(this).next().addClass("active");
         }
       });
 
-      $('main').on( "mouseover", function() {
-        $('.sub-menu').removeClass('active');
+      $("main").on("mouseover", function () {
+        $(".sub-menu").removeClass("active");
       });
 
       // Blog Roll
-      var elem = document.querySelector('.blog-row');
-      if(elem) {
-        new Masonry( elem, {
+      var elem = document.querySelector(".blog-row");
+      if (elem) {
+        new Masonry(elem, {
           gutter: 20,
-          itemSelector: '.blog-tile'
+          itemSelector: ".blog-tile",
         });
 
-        let startingHeight = $('.blog-list').height();
-        $('.more-row').on( "click", function() {
-          let currentHeight = $('.blog-list').height();
-          $('.blog-list').css("max-height", startingHeight + currentHeight);
+        let startingHeight = $(".blog-list").height();
+        $(".more-row").on("click", function () {
+          let currentHeight = $(".blog-list").height();
+          $(".blog-list").css("max-height", startingHeight + currentHeight);
         });
       }
 
       // Make Entire Blog Card Clickable
-      $('.blog-tile').on( "click", function() {
-        let url = $(this).data( "url");
+      $(".blog-tile").on("click", function () {
+        let url = $(this).data("url");
         location.href = url;
+      });
+
+      // Hover color for card
+      $(".blog-tile").on("mouseover", function () {
+        $(this).css("background-color", "#E3FF48");
+        $(this).css("border-color", "#E3FF48");
+      });
+
+      $(".blog-tile").on("mouseleave", function () {
+        $(this).css("background-color", "transparent");
+        $(this).css("border-color", "#04452E");
       });
 
       // // Stick Header
@@ -70,12 +80,10 @@ const main = async (err) => {
       //     }
       //   });
       // }
-
-    }
-    catch (e) {
+    } catch (e) {
       console.log(e);
     }
-  });  
+  });
 };
 
 /**
