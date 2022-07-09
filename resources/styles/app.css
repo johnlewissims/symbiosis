@@ -682,6 +682,28 @@ body {
     font-size: 16px;
 }
 
+.about-3 {
+    margin-top: 100px;
+    padding-top: 100px;
+    background: var(--color-light-green-1);
+}
+
+.about-3 .callout-section img {
+    z-index: 1;
+}
+
+.about-3 .callout-section-3 {
+    margin-top: 150px;
+    margin-bottom: 0px;
+    padding-bottom: 150px;
+}
+
+.about-3 .callout-section-3 a {
+    background-color: var(--color-dark-green-1);
+    color: var(--color-light-green-1);
+}
+
+
 /* News Ticker */
 
 .news_ticker {
