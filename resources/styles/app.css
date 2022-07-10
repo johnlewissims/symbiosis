@@ -1,6 +1,9 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
 
 body {
     color:inherit;
@@ -14,7 +17,7 @@ body {
 
 /* GENERAL STYLE */
 
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
 
 @font-face {
     font-family: 'kulturregular';
@@ -24,18 +27,18 @@ body {
     font-style: normal;
 }
 
-@font-face {
+/* @font-face {
     font-family: 'interregular';
     src: url('http://symbiosis.local/wp-content/uploads/2022/07/inter-regular.woff2') format('woff2'),
          url('http://symbiosis.local/wp-content/uploads/2022/07/inter-regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-}
+} */
 
 :root {
     /* COLORS */
     --color-white-1: #FFF;
-    --color-dark-green-1: #0A3623;
+    --color-dark-green-1: #04452E;
     --color-light-green-1: #E3FF48;
     --color-dark-blue-1: #000067;
     --color-gray-1: #E3E3E3;   
@@ -47,12 +50,23 @@ body {
 
  /* Fonts */
 
+ 
+ 
  .t-display {
     font-family: 'kulturregular';
     font-size:260px;
     line-height: 100%;
     color: inherit;
  }
+ 
+
+ @media (max-width:1080px) {
+    .t-display {
+        font-family: 'kulturregular';
+        font-size:24vw;
+     }
+ }
+ 
  
 
  .t-h1 {
@@ -70,37 +84,42 @@ body {
  }
 
  .t-body1{
-    font-family: 'interregular';
+    font-family: 'Inter', sans-serif;
     font-size: 38px;
     line-height:42px;
  }
 
+ 
+
 
  .t-body2{
-    font-family: 'interregular';
+    font-family: 'Inter', sans-serif;
     font-size: 28px;
-    line-height:32px;
+    line-height:34px;
  } 
 
+
+ /* @media (max-width:1080px) {
+    .t-body2 {
+    
+        font-size: 20px;
+        line-height:24px;
+     }
+ } */
+
 .t-text1 {
-    font-family: 'interregular';
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
     line-height:24px;
 }
 
 .t-text2 {
-    font-family:monospace;
+    font-family: 'IBM Plex Mono', monospace;
     font-size: 16px;
-    line-height: 21px;
+    line-height: 24px;
 
 }
 
-.t-text2uc {
-    font-family:monospace;
-    font-size: 16px;
-    line-height: 21px;
-    text-transform: uppercase;
-}
 
 .t-caption {
     font-family: 'interregular';
@@ -148,10 +167,20 @@ Font Modifiers */
 
 /* Vertical Spacing */
 
+.mb-10 {
+    margin-bottom:10px;
+}
+
 
 .mb-20 {
     margin-bottom:20px;
 }
+
+
+.mb-30 {
+    margin-bottom:30px;
+}
+
 
 .mb-40 {
     margin-bottom:40px;
@@ -167,6 +196,12 @@ Font Modifiers */
 }
 
 
+/* Flex */
+
+
+.space-between{
+    justify-content: space-between;
+}
 
 
 body {
@@ -175,18 +210,25 @@ body {
     background:#e3e3e3;
 }
 
-
 .container {
-    max-width: 1200px;
-    display: block;
-    margin: auto;
-    padding-left: 10px;
-    padding-right: 10px;
+    width:100%;
+    padding:0px 20px;
 }
 
-.container_2 {
-    max-width: 1000px;
-}
+
+@media only screen and (min-width: 1080px) {
+    .container {
+
+        max-width: 1080px;
+        display: block;
+        margin: auto;
+        /* padding-left: 10px;
+        padding-right: 10px; */
+    }
+  }
+
+
+
 
 .banner {
     display: flex;
@@ -287,8 +329,9 @@ body {
 }
 
 .button {
-    padding: 10px 15px;
+    padding: 15px 20px;
     border-radius: 5px;
+    display: inline;
 }
 
 @media screen and (max-width: 768px) {
@@ -329,6 +372,12 @@ body {
    padding: 0px 240px;
 }
 
+@media (max-width:1080px){
+    .home-banner .sub-text {
+        padding: 0px 20px;
+     }
+}
+
 .bg-green {
     background: var(--color-light-green-1);
     color: var(--color-dark-green-1);
@@ -350,7 +399,7 @@ body {
 }
 
 .news-bar {
-    margin: 75px 0px;
+    margin: 100px 0px 160px 0;
 }
 
 .news-bar h2 {
@@ -365,6 +414,14 @@ body {
     margin-top: 30px;    
 }
 
+@media (max-width:740px){
+    .news-bar .button-row {
+        flex-direction: column;
+        align-items: center;
+        gap:40px;
+    }
+
+}
 .news-bar .button-row a {
     margin: 0px 5px;
 }
@@ -385,6 +442,13 @@ body {
     z-index: -1;
 }
 
+
+.callout-section-text {
+    padding:0px 160px;
+}
+
+
+
 .callout-section h2 {
     text-align: center;
     font-size: 96px;
@@ -404,7 +468,7 @@ body {
 }
 
 .callout-section.container {
-    max-width: 894px;
+    max-width: 1080px;
 }
 
 .getting-started {
@@ -420,13 +484,7 @@ body {
 }
 
 .getting-started-1 .col_1 {
-    width: 40%;
-}
-
-.getting-started-1 .col_1 h2 {
-    font-size: 86px;
-    line-height: 90px;
-    color: var(--color-gray-1);
+    width: 530px;
 }
 
 .getting-started-1 .col_1 img {
@@ -435,8 +493,7 @@ body {
 }
 
 .getting-started-1 .col_2 {
-    width: 60%;
-    max-width: 500px;
+    width: 530px;
 }
 
 .getting-started-1 .col_2 p {
@@ -500,21 +557,9 @@ body {
 }
 
 .resources .col {
-    width: 50%;
+    width: 530px;
 }
 
-.resources h2 {
-    color: #04452E;
-    font-size: 96px;
-    text-transform: lowercase;
-    line-height: 60px;
-}
-
-.resources p {
-    font-size: 26px;
-    line-height:32px;
-    color: #04452E;
-}
 
 .resource-row {
     display: flex;
@@ -540,19 +585,12 @@ body {
     cursor: pointer;
 }
 
-.blog-tile .category {
-    font-size: 14px;
-    color: #04452E;    
+
+.blog-image {
+    border-radius: 12px;
 }
 
-.blog-tile .title {
-    font-size: 30px;
-    color: #04452E;
-}
 
-.blog-tile p {
-    color: #04452E;
-}
 
 .resources .sub_text {
     margin-bottom: 20px;
@@ -560,10 +598,16 @@ body {
 
 .blog-list {
     position: relative;
-    max-height: 800px;
+    max-height: 1600px;
     overflow: hidden;
     transition: all .2s ease;
 }
+
+
+.blog-row {
+    mask-image:linear-gradient(180deg, rgba(227,227,227,1) 70%, rgba(227,227,227,1) 75%, rgba(227,227,227,0) 94%)
+}
+
 
 .blog-list .more-row {
     border-top: solid 1px #04452E;
@@ -580,18 +624,25 @@ body {
     cursor: pointer;
 }
 
+
+
 .blog-list .more-row img {
     height: 18px;
     margin-left: 5px;    
 }
+
+.category {
+    margin: 15px 0px 10px 0px;
+}
+
 
 .callout-section-2 h2 {
     font-size: 86px;
 }
 
 .callout-section-2 {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 180px;
+    margin-bottom: 180px;
 }
 
 .signup-email-form {
@@ -616,6 +667,10 @@ body {
 
 
 /* OUR STRATEGY */
+
+.about-subtext{
+    padding: 0px 160px;
+ }`
 
 .about-banner {
     background: #E8FF59;
