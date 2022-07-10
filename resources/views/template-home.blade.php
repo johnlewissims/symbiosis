@@ -24,7 +24,7 @@
 <?php
 $tickerTape = get_field('ticker_tape');
 if ($tickerTape) : ?>
-  <div class="marquee3k ticker-tape" data-speed="0.5" data-reverse="true" data-pausable="false">
+  <div class="marquee3k ticker-tape" data-speed="1" data-reverse="true" data-pausable="false">
     <div class="marqueeInner t-text2">
       <?php echo esc_attr($tickerTape['news']); ?>
     </div>
@@ -223,7 +223,7 @@ if ($callout2) : ?>
 
 <?php
 if ($tickerTape) : ?>
-  <div class="marquee3k newsTicker ticker-tape t-text2 t-uppercase" data-speed="0.5" data-reverse="true" data-pausable="false">
+  <div class="marquee3k newsTicker ticker-tape t-text2 t-uppercase" data-speed="1" data-reverse="true" data-pausable="false">
     <div class="marqueeInner">
       <?php echo esc_attr($tickerTape['news']); ?>
     </div>

@@ -223,6 +223,7 @@ Font Modifiers */
 /* Flex */
 
 
+
 .space-between{
     justify-content: space-between;
 }
@@ -258,9 +259,10 @@ body {
     display: flex;
     width: 100%;
     background: var(--color-dark-blue-1);
-    padding-top: 15px;
-    padding-bottom: 15px;
-    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+ position:relative;
+    z-index: 1000;
 }
 
 .banner .column {
@@ -286,14 +288,7 @@ body {
     justify-content: space-between;    
 }
 
-.nav-secodary {
-    justify-content: end;
-}
 
-.nav-primary {
-    align-items: center;
-    display: flex;    
-}
 
 .menu-primary-navigation-container {
     width: 100%;    
@@ -310,9 +305,17 @@ body {
     align-items: center;
 }
 
+
+.links {
+    display:flex;
+    gap:40px;
+    align-items: center;
+}
+
 .logo-column {
     display: flex;
     align-items: center;
+    padding-top:5px;
 }
 
 .logo-column img {
@@ -354,11 +357,21 @@ body {
 
 .nav-secodary {
     display: flex;
+    gap:15px;
 }
 
-.nav-secodary a {
-    padding-left: 20px;
+
+.small-button {
+    padding: 8px 20px;
+    border-radius: 5px;
+    transition: all .2s ease;
 }
+
+.small-button:hover{
+    filter: drop-shadow(0 0mm 4mm rgba(232, 255, 89, 1));
+}
+
+
 
 .button {
     padding: 15px 20px;
@@ -687,6 +700,7 @@ blog-tile hover effects found in the app.js */
 }
 
 .blog-tile:hover {
+
   
         background-color:var(--color-light-green-1);
         border: solid 1px var(--color-light-green-1);
@@ -728,7 +742,7 @@ blog-tile hover effects found in the app.js */
 
 
 .blog-row {
-    mask-image:linear-gradient(180deg, rgba(227,227,227,1) 70%, rgba(227,227,227,1) 75%, rgba(227,227,227,0) 94%)
+    mask-image:linear-gradient(180deg, rgba(227,227,227,1) 70%, rgba(227,227,227,1) 85%, rgba(227,227,227,0) 95%)
 }
 
 
@@ -742,7 +756,8 @@ blog-tile hover effects found in the app.js */
     color: #04452E;
     align-items: center;
     cursor: pointer;
-    margin-top:-20px;
+    margin-top:0px;
+    z-index:1000;
 
 }
 
@@ -770,8 +785,8 @@ adds spacing around the "all power to the people" section */
 @media (max-width:800px){
   
     .power {
-        margin-top: 120px;
-        margin-bottom: 120px;
+        margin-top: 140px;
+        margin-bottom: 100px;
     }
 
 
@@ -923,4 +938,10 @@ adds spacing around the "all power to the people" section */
     color: #04452E;
     text-transform: uppercase;
     padding: 10px 0px;
+}
+
+
+
+.flex {
+    display:flex;
 }
