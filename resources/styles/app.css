@@ -77,6 +77,15 @@ body {
  }
 
 
+
+@media (max-width:600px){
+    .t-h1 {
+        font-size:56px;
+        line-height: 56px;
+    }
+ }
+
+
  .t-h2 {
     font-family: 'kulturregular';
     font-size:42px;
@@ -89,6 +98,13 @@ body {
     line-height:42px;
  }
 
+ @media (max-width:600px){
+    .t-body1 {
+        font-size:30px;
+        line-height: 34px;
+    }
+ }
+
  
 
 
@@ -97,6 +113,14 @@ body {
     font-size: 28px;
     line-height:34px;
  } 
+
+ @media (max-width:800px){
+    .t-body2{
+        font-size: 24px;
+        line-height:28px;
+     } 
+ }
+
 
 
  /* @media (max-width:1080px) {
@@ -211,8 +235,8 @@ body {
 }
 
 .container {
-    width:100%;
-    padding:0px 20px;
+    max-width:100% ;
+    padding:0px 20px ;
 }
 
 
@@ -245,6 +269,14 @@ body {
 
 .row {
     display: flex;
+    gap:20px;
+}
+
+
+@media screen and (max-width: 860px) {
+    .row {
+        flex-direction: column;
+    }
 }
 
 /* NAVIGATION MENU */
@@ -331,8 +363,15 @@ body {
 .button {
     padding: 15px 20px;
     border-radius: 5px;
-    display: inline;
+    transition: all .2s ease;
+
 }
+
+.button:hover{
+    filter: drop-shadow(0 0mm 4mm rgba(232, 255, 89, 1));
+}
+
+
 
 @media screen and (max-width: 768px) {
     .banner {
@@ -402,6 +441,19 @@ body {
     margin: 100px 0px 160px 0;
 }
 
+
+@media (max-width:800px){
+   
+    .news-bar {
+        margin: 60px 0px 140px 0;
+    }
+
+    .news-bar .t-text2 {
+        margin-bottom:60px;
+    }
+
+ }
+
 .news-bar h2 {
     text-align: center;
     text-transform: uppercase;
@@ -418,7 +470,7 @@ body {
     .news-bar .button-row {
         flex-direction: column;
         align-items: center;
-        gap:40px;
+        gap:10px;
     }
 
 }
@@ -429,12 +481,11 @@ body {
 .callout-section {
     position: relative;
     text-align:center;
- 
 }
 
 .callout-section img {
-    position: absolute;
     width: 100%;
+    padding:20px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -442,23 +493,25 @@ body {
     z-index: -1;
 }
 
+@media (max-width:800px){
+    .callout-section img {
+      
+        top: 10%;
+    }
+ }
+
 
 .callout-section-text {
     padding:0px 160px;
 }
 
 
+@media (max-width:800px){
+    .callout-section-text {
+        padding:60px 0px 0px 0px;
+    }
+    }
 
-.callout-section h2 {
-    text-align: center;
-    font-size: 96px;
-    color: #04452E;
-}
-
-.callout-section p {
-    text-align: center;
-    color:var(--color-dark-green-1);
-}
 
 .callout-section .button {
     text-align: center;
@@ -467,9 +520,11 @@ body {
     margin-top: 30px;
 }
 
-.callout-section.container {
+.callout-section .container {
     max-width: 1080px;
 }
+
+
 
 .getting-started {
     background-image: url("http://symbiosis.local/wp-content/uploads/2022/07/bg_3_small.png");
@@ -479,12 +534,26 @@ body {
     background-size: cover;
 }
 
-.getting-started-1 {
-    justify-content: space-between;
+@media (max-width:860px) {
+    
+    .getting-started  {
+        margin-top: 60px;
+    }
+    
 }
 
-.getting-started-1 .col_1 {
+
+.getting-started .col {
     width: 530px;
+}
+
+
+@media (max-width:860px) {
+    
+    .getting-started .col {
+        width: 100%;
+    }
+    
 }
 
 .getting-started-1 .col_1 img {
@@ -492,15 +561,8 @@ body {
     margin-top: 15px;
 }
 
-.getting-started-1 .col_2 {
-    width: 530px;
-}
 
-.getting-started-1 .col_2 p {
-    font-size: 26px;
-    line-height:32px;
-    color: var(--color-gray-1);
-}
+
 
 .getting-started-1 .col_2 .sub_text_1 {
     margin-bottom: 25px;
@@ -556,9 +618,44 @@ body {
     margin-bottom: 100px;    
 }
 
+
+@media (max-width:860px) {
+    
+.resources {
+    margin-top: 20px;
+    margin-bottom: 30px;    
+}
+ }
+
+
+
 .resources .col {
     width: 530px;
 }
+
+
+
+@media (max-width:860px) {
+    
+    .resources .col {
+        width: 100%;
+    }
+    
+}
+
+
+@media (max-width:860px) {
+    
+    .resources .header {
+        margin-bottom:60px;
+    }
+
+    .resources .subtext {
+        margin-bottom:0px;
+    }
+}
+
+
 
 
 .resource-row {
@@ -572,18 +669,42 @@ body {
     padding-right: 10px;  
 }
 
-.resource-row h5 {
-    color: #04452E;
-}
+
+/* 
+blog-tile hover effects found in the app.js */
+
 
 .blog-tile {
     width: 49%;
     margin-bottom: 20px;
     padding: 20px;
-    border: solid 1px #04452E;
+    border: solid 1px var(--color-dark-green-1);
     border-radius: 12px;
     cursor: pointer;
+    transition: all .2s ease;
+
+
 }
+
+.blog-tile:hover {
+  
+        background-color:var(--color-light-green-1);
+        border: solid 1px var(--color-light-green-1);
+    
+}
+
+
+
+
+@media (max-width:1080px) {
+    
+    
+.blog-tile {
+    width:100%;
+}
+    
+}
+
 
 
 .blog-image {
@@ -604,6 +725,8 @@ body {
 }
 
 
+
+
 .blog-row {
     mask-image:linear-gradient(180deg, rgba(227,227,227,1) 70%, rgba(227,227,227,1) 75%, rgba(227,227,227,0) 94%)
 }
@@ -615,13 +738,12 @@ body {
     display: flex;
     width: 100%;
     justify-content: center;
-    padding: 10px 0px;
+    height:40px;
     color: #04452E;
     align-items: center;
-    background-image: linear-gradient(to bottom, transparent -400%, #e3e3e3);
-    position: absolute;
-    bottom: 0px;
     cursor: pointer;
+    margin-top:-20px;
+
 }
 
 
@@ -635,14 +757,32 @@ body {
     margin: 15px 0px 10px 0px;
 }
 
+/* 
+adds spacing around the "all power to the people" section */
 
-.callout-section-2 h2 {
-    font-size: 86px;
-}
-
-.callout-section-2 {
+.power {
     margin-top: 180px;
     margin-bottom: 180px;
+}
+
+
+
+@media (max-width:800px){
+  
+    .power {
+        margin-top: 120px;
+        margin-bottom: 120px;
+    }
+
+
+.power .callout-section-text{
+    padding:40px 0px 0px 0px;
+}
+
+.power img {
+      
+    top: 15%;
+}
 }
 
 .signup-email-form {
