@@ -184,25 +184,11 @@ if ($resources) : ?>
         $post_query->the_post();
     ?>
 
-<<<<<<< HEAD
         <div class="blog-tile">
           <img class=" blog-image" src="<?php the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>">
           <div class="t-text2 t-green category"><?php the_category(); ?></div>
           <a href="<?php the_permalink(); ?>"><div class="title t-body1 t-green mb-20"><?php the_title(); ?></div></a>
           <div class="t-text1 t-green excerpt"><?php the_excerpt(); ?></div>
-=======
-        <div class="blog-tile" data-url="<?php the_permalink(); ?>">
-          <?php 
-            if(get_the_post_thumbnail_url()) {
-          ?>
-            <img src="<?php the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>">
-          <?php 
-            }
-          ?>
-          <h4 class="category t-text2"><?php the_category(); ?></h4>
-          <a href="<?php the_permalink(); ?>"><h3 class="title"><?php the_title(); ?></h3></a>
-          <p class="excerpt"><?php the_excerpt(); ?></p>
->>>>>>> e45fefd162b4f0970acd98d6a49ebdb53649a6e7
         </div>
     <?php
       }
