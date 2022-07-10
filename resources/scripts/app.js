@@ -1,7 +1,8 @@
 import {domReady} from '@roots/sage/client';
 import 'jquery';
 import Masonry from 'masonry-layout';
-import './effects/header.js';
+import 'es-module-shims';
+//import './effects/header-2.js';
 import Marquee3k from 'marquee3000';
 
 /**
@@ -34,17 +35,41 @@ const main = async (err) => {
 
       // Blog Roll
       var elem = document.querySelector('.blog-row');
-      new Masonry( elem, {
-        gutter: 20,
-        itemSelector: '.blog-tile'
+      if(elem) {
+        new Masonry( elem, {
+          gutter: 20,
+          itemSelector: '.blog-tile'
+        });
+
+        let startingHeight = $('.blog-list').height();
+        $('.more-row').on( "click", function() {
+          let currentHeight = $('.blog-list').height();
+          $('.blog-list').css("max-height", startingHeight + currentHeight);
+        });
+      }
+
+      // Make Entire Blog Card Clickable
+      $('.blog-tile').on( "click", function() {
+        let url = $(this).data( "url");
+        location.href = url;
       });
 
-
-      let startingHeight = $('.blog-list').height();
-      $('.more-row').on( "click", function() {
-        let currentHeight = $('.blog-list').height();
-        $('.blog-list').css("max-height", startingHeight + currentHeight);
-      });
+      // // Stick Header
+      // var fixed = document.querySelector('.sticky-scroll');
+      // if(fixed) {
+      //   var header = document.querySelector('header');
+      //   document.addEventListener("scroll", function() {
+      //     const el = header;
+      //     let rect = el.getBoundingClientRect();
+      //     console.log(rect.top);
+      //     if (rect.top <= 0 - header.offsetHeight) {
+      //       console.log('here');
+      //       $('.sticky-scroll').addClass('fixed_navbar');
+      //       $('.spacer-section').height(document.querySelector('.sticky-scroll').offsetHeight);
+      //     } else {
+      //     }
+      //   });
+      // }
 
     }
     catch (e) {
