@@ -192,7 +192,7 @@ if ($resources) : ?>
           <?php 
             }
           ?>
-          <h4 class="category"><?php the_category(); ?></h4>
+          <h4 class="category t-text2"><?php the_category(); ?></h4>
           <a href="<?php the_permalink(); ?>"><h3 class="title"><?php the_title(); ?></h3></a>
           <p class="excerpt"><?php the_excerpt(); ?></p>
         </div>
