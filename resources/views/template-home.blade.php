@@ -192,9 +192,9 @@ if ($resources) : ?>
           <?php 
             }
           ?>
-          <h4 class="category t-text2"><?php the_category(); ?></h4>
-          <a href="<?php the_permalink(); ?>"><h3 class="title"><?php the_title(); ?></h3></a>
-          <p class="excerpt"><?php the_excerpt(); ?></p>
+          <h4 class="category t-text2 t-green"><?php the_category(); ?></h4>
+         <div class="t-body1 t-green mb-20"> <a href="<?php the_permalink(); ?>"><h3 class="title"><?php the_title(); ?></h3></a></div>
+          <div class="t-text1 t-green"><p class="excerpt"><?php the_excerpt(); ?></p></div>
         </div>
     <?php
       }
