@@ -126,22 +126,4 @@ if ($aboutBanner) : ?>
 
 </div>
 
-  <?php
-    $newTicker = get_field('news_ticker');
-    if ($newTicker) : ?>
-    <div class="marquee3k newsTicker"
-      data-speed="0.25"
-      data-reverse="true"
-      data-pausable="false">
-      <div class="marqueeInner">
-        <?php echo $newTicker; ?>
-      </div>
-    </div>
-  <?php endif; ?>
-
-<div class="signup-email-form">
-  <h2>Subscribe</h2>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-</div>
-
 @endsection

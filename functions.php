@@ -77,3 +77,39 @@ collect(['setup', 'filters'])
 */
 
 add_theme_support('sage');
+
+
+/*
+|--------------------------------------------------------------------------
+| Universal Custom Fields
+|--------------------------------------------------------------------------
+*/
+
+//Custom Theme Settings
+add_action('admin_menu', 'add_gcf_interface');
+
+function add_gcf_interface() {
+	add_options_page('Ticker Tape', 'Ticker Tape', '8', 'functions', 'editglobalcustomfields');
+}
+
+function editglobalcustomfields() {
+	?>
+	<div class='wrap'>
+	<h2>Ticker Tape</h2>
+	<form method="post" action="options.php">
+	<?php wp_nonce_field('update-options') ?>
+
+    <p><strong>Ticker Tape:</strong><br />
+	<textarea type="text" name="tickertape" size="45" style="width: 100%; height: 300px;" value="<?php echo get_option('tickertape'); ?>" /><?php echo get_option('tickertape'); ?></textarea></p>
+
+	<p><input type="submit" name="Submit" value="Update Options" /></p>
+
+	<input type="hidden" name="action" value="update" />
+	<input type="hidden" name="page_options" value="tickertape,amazonid,todaysite,welcomemessage" />
+
+	</form>
+	</div>
+	<?php
+}
+
+?>

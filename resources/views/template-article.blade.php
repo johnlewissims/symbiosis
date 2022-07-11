@@ -9,30 +9,139 @@
 <?php
 
 // Check value exists.
-if( have_rows('article_layout') ):
+if (have_rows('article_layout')) :
 
-    // Loop through rows.
-    while ( have_rows('article_layout') ) : the_row();
+  // Loop through rows.
+  while (have_rows('article_layout')) : the_row();
 
-        // Case: Paragraph layout.
-        if( get_row_layout() == 'header' ):
-            $header = get_sub_field('field_62c9b0cd085d9');
-            ?>
+    // Case: Paragraph layout.
+    if (get_row_layout() == 'header') :
+      $header = get_sub_field('field_62c9b0cd085d9');
+?>
 
-            <h1><?php $header['title']; ?></h1>
-            
+      <div class="default_header_layout">
+        <div class="container container_2">
+          <?php if ($header['title']) { ?>
+            <h1 class="t-h1 t-green"><?php echo $header['title']; ?></h1>
+          <?php } ?>
+          <?php if ($header['image']) { ?>
+            <div class="default_header_layout_image">
+              <img src="<?php echo $header['image']['url']; ?>" alt="<?php echo $header['image']['caption']; ?>">
+              <span class="caption t-caption"><?php echo $header['image']['caption']; ?></span>
+            </div>
+          <?php } ?>
 
-            <?
+          <div class="row about-banner-2">
+            <div class="col socials">
+              <a href="#" class="twitter">
+                <img src="/wp-content/uploads/2022/05/Vector.png" alt="Twitter Link">
+              </a>
+              <a href="#" class="instagram">
+                <img src="/wp-content/uploads/2022/05/instagram.png" alt="Instagram Link">
+              </a>
+            </div>
+            <?php if ($header['text']) { ?>
+              <div class="col sub_text t-body2 t-green">
+                <?php echo $header['text']; ?>
+              </div>
+            <?php } ?>
+          </div>
+        </div>
+      </div>
 
-        // Case: Download layout.
-        // elseif( get_row_layout() == 'download' ): 
-        //     $file = get_sub_field('file');
-        //     // Do something...
+    <?
+    elseif (get_row_layout() == 'list_section') :
+      $sideLinks = get_sub_field('field_62c9b15c8f164');
+      $list = get_sub_field('field_62c9b1bf8f166');
+    ?>
 
-        endif;
+      <div class="default_list_section_layout">
+        <div class="container container_2">
+          <div class="row">
+            <div class="col_1">
+              <?php if ($sideLinks) { ?>
+                <div class="side_links">
+                  <h4>Getting Started</h4>
+                  <?php foreach ($sideLinks as $sideLink) { ?>
+                    <a class="link" href="<?php echo $sideLink['link']['url']; ?>">
+                      <img src="/wp-content/uploads/2022/07/right_arrow_yellow.png" alt="Arrow">
+                      <span><?php echo $sideLink['link']['title']; ?></span>
+                    </a>
+                  <?php } ?>
+                </div>
+              <?php } ?>
+            </div>
+            <div class="col_2">
+              <?php foreach ($list as $item) { ?>
+                <h4><?php echo $item['title']; ?></h4>
+                <div class="text_section"><?php echo $item['text']; ?></div>
+              <?php } ?>
+            </div>
+          </div>
+        </div>
+      </div>
 
-    // End loop.
-    endwhile;
+      <?
+    elseif (get_row_layout() == 'link_boxes') :
+      $linkBoxes = get_sub_field('field_62c9b21d3c45c');
+      if ($linkBoxes) {
+      ?>
+
+        <div class="default_link_boxes container container_2">
+          <div class="row">
+            <div class="col_1">
+            </div>
+
+            <div class="col_2">
+              <?php foreach ($linkBoxes as $linkBox) { ?>
+                <a class="link link-box" href="<?php echo $linkBox['link']['url']; ?>">
+                  <div class="button bg-green t-text1">
+                    <?php echo $linkBox['link']['title']; ?>
+                  </div>
+                </a>
+              <?php } ?>
+            </div>
+          </div>
+        </div>
+
+      <?php } ?>
+
+
+      <?
+    elseif (get_row_layout() == 'call_to_action') :
+      $title = get_sub_field('field_62cb8be4a14c3');
+      $text = get_sub_field('field_62cb8beda14c4');
+      $link = get_sub_field('field_62cb8bf4a14c5');
+      if ($link) {
+      ?>
+
+        <div class="default_cta container container_2">
+          <div class="row">
+            <div class="col_1">
+            </div>
+
+            <div class="col_2">
+              <div class="box">
+                <h6><?php echo $title; ?></h6>
+                <h4><?php echo $text; ?></h4>
+                <a class="link link-box" href="<?php echo $link['url']; ?>">
+                  <div class="button bg-green t-text1">
+                    <?php echo $link['title']; ?>
+                  </div>
+                </a>                
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+      <?php } ?>
+
+
+<?php
+    endif;
+  endwhile;
 endif;
 ?>
 
