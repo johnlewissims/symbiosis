@@ -21,12 +21,16 @@ const main = async (err) => {
       Marquee3k.init();
 
       // Navigation Menu
-      $(".menu-item a:first-child").on("mouseover", function () {
-        if (!$(this).closest(".sub-menu").length) {
-          $(".sub-menu").removeClass("active");
-          $(this).next().addClass("active");
-        }
+      $(".menu-button").on("mouseover", function () {
+        $(this).children(".sub-menu").addClass("active");
       });
+
+      // $(".menu-item a:first-child").on("mouseover", function () {
+      //   if (!$(this).closest(".sub-menu").length) {
+      //     $(".sub-menu").removeClass("active");
+      //     $(this).next().addClass("active");
+      //   }
+      // });
 
       $("main").on("mouseover", function () {
         $(".sub-menu").removeClass("active");

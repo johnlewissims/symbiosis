@@ -329,22 +329,31 @@ body {
 
 .sub-menu {
     display: none;
+
 }
 
-.sub-menu.active {
-    display: block;
+.sub-menu a{
+color:var(--color-dark-green-1);
+}
+
+.sub-menu.active{
+    display: flex;
+    gap:60px;
+    align-items: center;
+    justify-content: center;
     position: absolute;
-    background: #04452E;
+    background:var(--color-light-green-1);
     width: 100%;
     left: 0;
     top: 100%;
     z-index: 10;
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
-    padding-bottom: 50px;    
+    min-height:200px;
+  
 }
 
+
+
+/* 
 .sub-menu .menu-item {
     padding-right: 25px;
     padding-left: 25px;
@@ -353,7 +362,7 @@ body {
 .sub-menu .menu-item a {
     color: #E8FF59;
     text-transform: lowercase;
-}
+} */
 
 .nav-secodary {
     display: flex;

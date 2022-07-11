@@ -13,16 +13,68 @@
     @endif
 
     <div class="links">
-    <div class="t-gray t-text1">
-          about
+<!--     
+The sub menu should have a transition fade in and fade out. -->
+
+
+        <div class="menu-button t-gray t-text1">
+        <a href="">about</a>
+
+          <div class="sub-menu">
+          <div class="t-green t-body2">
+          <a href="">our strategy</a> 
+         </div>
+
+          <div class="t-green t-body2">
+          <a href="">approach</a> 
+          </div>
+
+          <div class="t-green t-body2">
+          <a href="">points of unity</a> 
+         </div>
+
+
+           </div>
         </div>
-        <div class="t-gray t-text1">
-          connect
+        <div class="menu-button t-gray t-text1">
+            <a href="">connect</a>
+            <div class="sub-menu">
+            <div class="t-lightgreen t-body2">
+                <a href="">local orgs</a>
+                </div>
+
+                  <div class="t-lightgreen t-body2">
+                  <a href="">our discord</a> 
+                  </div>
+
+                  <div class="t-lightgreen t-body2">
+                 <a href="">contact</a> 
+                </div>
+              </div>
+
+       
+
         </div>
-        <div class="t-gray t-text1">
-          resources
+        <div class="menu-button t-gray t-text1">
+        <a href="">resources</a>
+
+        <div class="sub-menu">
+            <div class="t-lightgreen t-body2">
+                <a href="">readings</a>
+                </div>
+
+                  <div class="t-lightgreen t-body2">
+                  <a href="">events & classes</a> 
+                  </div>
+
+              </div>
+
+
+
+
         </div>
     </div>
+   
 
 
     <div class="nav-secodary column">
