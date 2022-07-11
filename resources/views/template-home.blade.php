@@ -21,15 +21,13 @@
   <?php endif; ?>
 </div>
 
-<?php
-$tickerTape = get_field('ticker_tape');
-if ($tickerTape) : ?>
-  <div class="marquee3k ticker-tape" data-speed="1" data-reverse="true" data-pausable="false">
-    <div class="marqueeInner t-text2">
-      <?php echo get_option('tickertape'); ?>
-    </div>
+<div class="marquee3k ticker-tape" data-speed="1" data-reverse="true" data-pausable="false">
+  <div class="marqueeInner t-text2">
+    <?php if (get_option('tickertape')) {
+      echo (get_option('tickertape'));
+    } ?>
   </div>
-<?php endif; ?>
+</div>
 
 <?php
 $newsBar = get_field('news_bar');
@@ -150,7 +148,7 @@ if ($resources) : ?>
         <div class="t-h1 t-green t-lowercase header"><?php echo esc_attr($resources['title']); ?></div>
       </div>
       <div class="col">
-        <div class="t-body2 t-green mb-40 sub-text"  ><?php echo esc_attr($resources['sub_text']); ?></div>
+        <div class="t-body2 t-green mb-40 sub-text"><?php echo esc_attr($resources['sub_text']); ?></div>
         <a href="<?php echo esc_attr($resources['link_1']); ?>">
           <div class="resource-row">
             <img src="/wp-content/uploads/2022/07/right_arrow_yellow.png" alt="Click Here">
@@ -185,15 +183,17 @@ if ($resources) : ?>
     ?>
 
         <div class="blog-tile" data-url="<?php the_permalink(); ?>">
-          <?php 
-            if(get_the_post_thumbnail_url()) {
+          <?php
+          if (get_the_post_thumbnail_url()) {
           ?>
             <img src="<?php the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>">
-          <?php 
-            }
+          <?php
+          }
           ?>
           <h4 class="category t-text2"><?php the_category(); ?></h4>
-          <a href="<?php the_permalink(); ?>"><h3 class="title"><?php the_title(); ?></h3></a>
+          <a href="<?php the_permalink(); ?>">
+            <h3 class="title"><?php the_title(); ?></h3>
+          </a>
           <p class="excerpt"><?php the_excerpt(); ?></p>
         </div>
     <?php
@@ -209,7 +209,7 @@ if ($resources) : ?>
 
 <?php
 if ($callout2) : ?>
-  <div  class="power callout-section container">
+  <div class="power callout-section container">
     <img src="/wp-content/uploads/2022/07/circle_graphic.png" alt="Symbiosis Background Circle Image">
     <div class="t-h1 t-green t-center t-lowercase mb-20"><?php echo esc_attr($callout2['title']); ?></div>
     <div class="t-text2 t-green t-center callout-section-text"><?php echo esc_attr($callout2['sub_title']); ?></div>
