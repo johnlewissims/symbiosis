@@ -141,7 +141,6 @@ body {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 16px;
     line-height: 24px;
-
 }
 
 
@@ -267,6 +266,8 @@ body {
 
 .banner .column {
     width: 33%;
+    display: flex;
+    align-items: center;
 }
 
 .row {
@@ -384,11 +385,102 @@ body {
     filter: drop-shadow(0 0mm 4mm rgba(232, 255, 89, 1));
 }
 
+.mobile-banner {
+    display: none;
+    position: relative;
+}
 
+.mobile-banner .fixed-menu {
+    width: 100%;
+    background-color: var(--color-dark-blue-1);
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+}
+
+.mobile-banner .fixed-menu .button {
+    background: var(--color-light-green-1);
+    text-align: center;
+    max-width: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-transform: lowercase;
+    color: var(--color-dark-green-1);
+    cursor: pointer;
+}
+
+.mobile-banner .sliding-menu {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    transition: all .2s ease;
+    right: -100%;    
+    background-color: var(--color-dark-green-1);
+    top: 0;
+    padding: 10px;
+}
+
+.mobile-banner .sliding-menu.active {
+    right: 0%;    
+}
+
+.mobile-banner .sliding-menu .button {
+    background: var(--color-light-green-1);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: var(--color-dark-green-1);
+    cursor: pointer;
+    text-transform: lowercase;
+}
+
+.mobile-banner .sub-menu {
+    display: block;
+}
+
+.mobile_menu {
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;    
+}
+
+.mobile_menu .menu-primary-navigation-container a {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 16px;   
+    color: var(--color-light-green-1); 
+    text-transform: lowercase;
+}
+
+.mobile_menu .menu-primary-navigation-container .sub-menu {
+    margin-bottom: 30px;
+}
+
+.mobile_menu .menu-primary-navigation-container .sub-menu li {
+    padding-left: 0px;
+}
+
+.mobile_menu .menu-primary-navigation-container .sub-menu li a {
+    padding-left: 0px;
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+}
+
+.lock {
+    max-height: 100vh;
+    overflow: hidden;
+}
 
 @media screen and (max-width: 768px) {
     .banner {
         display: none;
+    }
+
+    .mobile-banner {
+        display: block;
     }
 }
 
@@ -825,7 +917,7 @@ adds spacing around the "all power to the people" section */
 
 .about-subtext{
     padding: 0px 160px;
- }`
+ }
 
 .about-banner {
     background: #E8FF59;

@@ -21,7 +21,7 @@ const main = async (err) => {
       Marquee3k.init();
 
       // Navigation Menu
-      $(".menu-item a:first-child").on("mouseover", function () {
+      $(".banner .menu-item a:first-child").on("mouseover", function () {
         if (!$(this).closest(".sub-menu").length) {
           $(".sub-menu").removeClass("active");
           $(this).next().addClass("active");
@@ -30,6 +30,17 @@ const main = async (err) => {
 
       $("main").on("mouseover", function () {
         $(".sub-menu").removeClass("active");
+      });
+
+      // Mobile
+      $(".open_button").on("click", function () {
+        $(".sliding-menu").addClass("active");
+        $("body").addClass("lock");
+      });
+
+      $(".close_button").on("click", function () {
+        $(".sliding-menu").removeClass("active");
+        $("body").removeClass("lock");
       });
 
       // Blog Roll

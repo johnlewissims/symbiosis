@@ -2,7 +2,9 @@
 
   <div class="marquee3k newsTicker ticker-tape t-text2 t-uppercase" data-speed="1" data-reverse="true" data-pausable="false">
     <div class="marqueeInner">
-      <?php echo get_option('tickertape'); ?>
+      <?php if (get_option('tickertape')) {
+        echo (get_option('tickertape'));
+      } ?>
     </div>
   </div>
 
