@@ -16,6 +16,7 @@ if (have_rows('article_layout')) :
 
     // Case: Paragraph layout.
     if (get_row_layout() == 'header') :
+
       $header = get_sub_field('field_62c9b0cd085d9');
 ?>
 
@@ -128,10 +129,39 @@ if (have_rows('article_layout')) :
                   <div class="button bg-green t-text1">
                     <?php echo $link['title']; ?>
                   </div>
-                </a>                
+                </a>
               </div>
 
             </div>
+          </div>
+        </div>
+
+
+      <?php } ?>
+
+
+      <?
+    elseif (get_row_layout() == 'link_cards') :
+      $linkBox = get_sub_field('field_62c9b4a9d2462');
+      $links = isset($linkBox['cards']) ? $linkBox['cards'] : null;
+      if ($links) {
+      ?>
+
+        <div class="default_link_cards container container_2">
+          <div class="text_section">
+            <h3 class="t-body2 t-green"><?php echo $linkBox['title']; ?></h3>
+            <?php echo $linkBox['text']; ?>
+          </div>
+          <div class="card_row">
+            <?php foreach ($links as $link) { ?>
+              <a class="link link-box" href="<?php echo $link['link']['url']; ?>">
+                <h5 class="t-body2"><?php echo $link['title']; ?></h5>
+                <div class="bottom_text">
+                  <img src="/wp-content/uploads/2022/07/link.png" alt="link image">
+                  <p class="t-text2"><?php echo $link['location']; ?></p>
+                </div>
+              </a>
+            <?php } ?>
           </div>
         </div>
 
