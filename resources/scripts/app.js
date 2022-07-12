@@ -23,12 +23,16 @@ const main = async (err) => {
       // Navigation Menu
       $(".banner .menu-item a:first-child").on("mouseover", function () {
         if (!$(this).closest(".sub-menu").length) {
+          $(".banner .menu-item a:first-child").removeClass('menu-hover-effect')
+          $(this).addClass('menu-hover-effect')
+
           $(".sub-menu").removeClass("active");
           $(this).next().addClass("active");
         }
       });
 
       $("main").on("mouseover", function () {
+        $(".banner .menu-item a:first-child").removeClass('menu-hover-effect')
         $(".sub-menu").removeClass("active");
       });
 

@@ -323,7 +323,12 @@ body {
     height: 30px;;
 }
 
+.menu-hover-effect {
+    opacity: .6;
+}
+
 .banner a {
+    transition: all .2s ease;
     color: var(--color-white-1);
     text-transform: lowercase;
 }
