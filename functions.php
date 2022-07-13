@@ -81,7 +81,7 @@ add_theme_support('sage');
 
 /*
 |--------------------------------------------------------------------------
-| Universal Custom Fields
+| Ticker Tape Fields
 |--------------------------------------------------------------------------
 */
 
@@ -106,6 +106,45 @@ function editglobalcustomfields() {
 
 	<input type="hidden" name="action" value="update" />
 	<input type="hidden" name="page_options" value="tickertape,amazonid,todaysite,welcomemessage" />
+
+	</form>
+	</div>
+	<?php
+}
+
+/*
+|--------------------------------------------------------------------------
+| Social Media Fields
+|--------------------------------------------------------------------------
+*/
+
+//Custom Theme Settings
+add_action('admin_menu', 'add_gcf2_interface');
+
+function add_gcf2_interface() {
+	add_options_page('Social Media Links', 'Social Media Links', '9', 'functions', 'editglobalcustomfields2');
+}
+
+function editglobalcustomfields2() {
+	?>
+	<div class='wrap'>
+	<h2>Social Media Links</h2>
+	<form method="post" action="options.php">
+	<?php wp_nonce_field('update-options') ?>
+
+    <p><strong>Twitter:</strong><br />
+	<textarea type="text" name="twitterlink" size="45" style="width: 100%;" value="<?php echo get_option('twitterlink'); ?>" /><?php echo get_option('twitterlink'); ?></textarea></p>
+
+    <p><strong>Facebook:</strong><br />
+	<textarea type="text" name="facebooklink" size="45" style="width: 100%;" value="<?php echo get_option('facebooklink'); ?>" /><?php echo get_option('facebooklink'); ?></textarea></p>
+
+    <p><strong>Instagram:</strong><br />
+	<textarea type="text" name="instagramlink" size="45" style="width: 100%;" value="<?php echo get_option('instagramlink'); ?>" /><?php echo get_option('instagramlink'); ?></textarea></p>
+
+	<p><input type="submit" name="Submit" value="Update Options" /></p>
+
+	<input type="hidden" name="action" value="update" />
+	<input type="hidden" name="page_options" value="twitterlink,facebooklink,instagramlink" />
 
 	</form>
 	</div>

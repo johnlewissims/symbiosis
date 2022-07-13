@@ -26,12 +26,23 @@ if ($aboutBanner) : ?>
       ?>
       <div class="row about-banner-2">
         <div class="col socials">
-          <a href="#" class="twitter">
-            <img src="/wp-content/uploads/2022/05/Vector.png" alt="Twitter Link">
-          </a>
-          <a href="#" class="instagram">
-            <img src="/wp-content/uploads/2022/05/instagram.png" alt="Instagram Link">
-          </a>
+          <?php if (get_option('twitterlink')) { ?>
+            <a href="<?php echo get_option('twitterlink'); ?>" class="twitter">
+              <img src="/wp-content/uploads/2022/05/Vector.png" alt="Twitter Link">
+            </a>
+          <? } ?>
+
+          <?php if (get_option('instagramlink')) { ?>
+            <a href="<?php echo get_option('instagramlink'); ?>" class="instagram">
+              <img src="/wp-content/uploads/2022/05/instagram.png" alt="Instagram Link">
+            </a>
+          <? } ?>
+
+          <?php if (get_option('facebooklink')) { ?>
+            <a href="<?php echo get_option('facebooklink'); ?>" class="facebook">
+              <img src="/wp-content/uploads/2022/07/facebook2x.png" alt="Facebook Link">
+            </a>
+          <? } ?>
         </div>
         <div class="col sub_text t-body2 t-green">
           <?php echo $aboutBanner['sub_text']; ?>
