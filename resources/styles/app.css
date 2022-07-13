@@ -1146,4 +1146,56 @@ adds spacing around the "all power to the people" section */
     padding-bottom: 10px;
 }
 
+.default_contact_section {
+    padding-top: 50px;
+    padding-bottom: 100px;    
+}
 
+.float_right {
+    justify-content: flex-end;
+}
+
+.default_contact_section .col {
+    width: 70%;
+}
+
+.default_contact_section .contact_box {
+    padding: 30px;
+    border: solid 1px var(--color-dark-green-1);
+    color: var(--color-dark-green-1);
+    border-radius: 12px;
+    margin-bottom: 50px;
+}
+
+.default_contact_section .text {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.default_contact_section .wpforms-field-label, .default_contact_section label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color-dark-green-1);
+}
+
+.default_contact_section input, .default_contact_section textarea {
+    background: transparent !important;
+    padding: 25px !important;
+    border: solid 1px var(--color-dark-green-1) !important;
+    color: var(--color-dark-green-1) !important;
+    border-radius: 12px !important;
+}
+
+.wpforms-submit-container button {
+    padding: 15px 20px !important;
+    border-radius: 5px !important;
+    transition: all .2s ease !important;
+    background: var(--color-light-green-1) !important;
+    font-family: 'Inter', sans-serif !important;
+    color: var(--color-dark-green-1) !important;
+}
+
+.wpforms-submit-container button:hover{
+    filter: drop-shadow(0 0mm 4mm rgba(232, 255, 89, 1)) !important;
+}

@@ -169,6 +169,39 @@ if (have_rows('article_layout')) :
       <?php } ?>
 
 
+      <?
+    elseif (get_row_layout() == 'contact_section') :
+      $social = get_sub_field('social_media_boxes');
+      $form = get_sub_field('form_section');
+      if ($social) {
+      ?>
+
+        <div class="default_contact_section container container_2">
+          <div class="row float_right">
+            <div class="col">
+              <div class="contact_box">
+                <span class="title t-text2"><?php echo $social['title']; ?></span>
+                <div class="text t-body2"><?php echo $social['text']; ?></div>
+                <div class="button_row row">
+                  <?php foreach ($social['buttons'] as $button) { ?>
+                    <a class="link link-box" href="<?php echo $button['button']['url']; ?>">
+                      <div class="button bg-green t-text1">
+                        <?php echo $button['button']['title']; ?>
+                      </div>
+                    </a>
+                  <?php } ?>
+                </div>
+              </div>
+              <div class="form_section">
+                <?php echo $form; ?>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <?php } ?>
+
+
 <?php
     endif;
   endwhile;
