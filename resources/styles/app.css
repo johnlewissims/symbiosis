@@ -994,7 +994,6 @@ adds spacing around the "all power to the people" section */
 }
 
 .about-3 {
-    margin-top: 100px;
     padding-top: 100px;
     background: var(--color-light-green-1);
 }
@@ -1202,4 +1201,22 @@ adds spacing around the "all power to the people" section */
 
 .wpforms-submit-container button:hover{
     filter: drop-shadow(0 0mm 4mm rgba(232, 255, 89, 1)) !important;
+}
+
+/* STICKY EFFECT */
+
+.sticky-scroll {
+
+}
+
+.sticky-scroll.active {
+    position: fixed;
+    width: 100%;
+    z-index: -1;    
+    bottom: 0;
+}
+
+.next-section {
+    background: var(--color-gray-1);
+    padding-bottom: 100px;
 }

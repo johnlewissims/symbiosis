@@ -68,22 +68,21 @@ const main = async (err) => {
         location.href = url;
       });
 
-      // // Stick Header
-      // var fixed = document.querySelector('.sticky-scroll');
-      // if(fixed) {
-      //   var header = document.querySelector('header');
-      //   document.addEventListener("scroll", function() {
-      //     const el = header;
-      //     let rect = el.getBoundingClientRect();
-      //     console.log(rect.top);
-      //     if (rect.top <= 0 - header.offsetHeight) {
-      //       console.log('here');
-      //       $('.sticky-scroll').addClass('fixed_navbar');
-      //       $('.spacer-section').height(document.querySelector('.sticky-scroll').offsetHeight);
-      //     } else {
-      //     }
-      //   });
-      // }
+      // Stick Header
+      var fixed = document.querySelector('.sticky-scroll');
+      var next = document.querySelector('.next-section');
+      var header = document.querySelector('header');
+      if(fixed && (document.documentElement.clientWidth > 772)) {
+        document.addEventListener("scroll", function() {
+          if (isVisible(next)) {
+            $('.sticky-scroll').addClass('active')
+            $('.next-section').css('margin-top', document.documentElement.clientHeight + (document.documentElement.clientHeight / 3))
+          } else {
+            $('.sticky-scroll').removeClass('active')
+            $('.next-section').css('margin-top', 0)
+          }
+        });
+      }
     } catch (e) {
       console.log(e);
     }
@@ -97,3 +96,14 @@ const main = async (err) => {
  */
 domReady(main);
 import.meta.webpackHot?.accept(main);
+
+
+// Is Visible Function
+function isVisible(elem) {
+  if (!(elem instanceof Element)) throw Error('DomUtil: elem is not an element.');
+
+  const elemTop = elem.getBoundingClientRect().top
+
+  console.log(elemTop, document.documentElement.clientHeight, window.innerHeight)
+  if (elemTop > (document.documentElement.clientHeight || window.innerHeight)) {return false} else { return true };
+}

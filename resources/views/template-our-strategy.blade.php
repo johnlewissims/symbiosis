@@ -52,7 +52,7 @@ if ($aboutBanner) : ?>
   </div>
 <?php endif; ?>
 
-<div class="about-2 text_section">
+<div class="about-2 text_section next-section">
   <div class="container container_2 row">
     <?php
     $textBlock1 = get_field('text_block_1');
