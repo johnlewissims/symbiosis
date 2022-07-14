@@ -13,15 +13,16 @@
     @endif
 
     <div class="nav-secodary column">
-      <a href="#">
+      <a href="/join">
         <div class="small-button bg-green t-text1">
           join
         </div>
       </a>
-      <div class="t-text1 t-gray"><a href="#">
-        donate
-      </a>
-    </div>
+      <div class="t-text1 t-gray">
+        <a href="/donate">
+          donate
+        </a>
+      </div>
     </div>
   </div>
 </header>

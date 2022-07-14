@@ -65,6 +65,7 @@ if (have_rows('article_layout')) :
     elseif (get_row_layout() == 'list_section') :
       $sideLinks = get_sub_field('field_62c9b15c8f164');
       $list = get_sub_field('field_62c9b1bf8f166');
+      $title = get_sub_field('title');
     ?>
 
       <div class="default_list_section_layout">
@@ -73,7 +74,7 @@ if (have_rows('article_layout')) :
             <div class="col_1">
               <?php if ($sideLinks) { ?>
                 <div class="side_links">
-                  <h4>Getting Started</h4>
+                  <h4><?php echo $title; ?></h4>
                   <?php foreach ($sideLinks as $sideLink) { ?>
                     <a class="link" href="<?php echo $sideLink['link']['url']; ?>">
                       <img src="/wp-content/uploads/2022/07/right_arrow_yellow.png" alt="Arrow">
@@ -85,8 +86,21 @@ if (have_rows('article_layout')) :
             </div>
             <div class="col_2">
               <?php foreach ($list as $item) { ?>
-                <h4><?php echo $item['title']; ?></h4>
-                <div class="text_section"><?php echo $item['text']; ?></div>
+                <div class="list_item">
+                  <h4><?php echo $item['title']; ?></h4>
+                  <div class="text_section"><?php echo $item['text']; ?></div>
+                  <?php if ($item['links']) { ?>
+                    <div class="button_row">
+                      <?php foreach($item['links'] as $link) { ?>
+                        <a class="link link-box" href="<?php echo $link['link']['url']; ?>">
+                          <div class="button bg-green t-text1">
+                            <?php echo $link['link']['title']; ?>
+                          </div>
+                        </a>
+                      <?php } ?>
+                    </div>
+                  <?php } ?>
+                </div>
               <?php } ?>
             </div>
           </div>

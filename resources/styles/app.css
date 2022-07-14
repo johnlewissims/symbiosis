@@ -393,6 +393,7 @@ body {
 .mobile-banner {
     display: none;
     position: relative;
+    z-index: 10;
 }
 
 .mobile-banner .fixed-menu {
@@ -1054,7 +1055,7 @@ adds spacing around the "all power to the people" section */
 
 .default_list_section_layout {
     padding-top: 100px;
-    padding-bottom: 0px;
+    padding-bottom: 100px;
 }
 
 .default_list_section_layout .col_1 {
@@ -1063,6 +1064,19 @@ adds spacing around the "all power to the people" section */
 
 .default_list_section_layout .col_2 {
     width: 70%;
+}
+
+.default_list_section_layout .button_row {
+    display: flex;
+}
+
+.default_header_layout_image img {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.default_list_section_layout .list_item {
+    margin-bottom: 50px;
 }
 
 .default_link_boxes {
