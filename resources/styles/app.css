@@ -231,6 +231,10 @@ Font Modifiers */
     margin-bottom:60px;
 }
 
+.mb-80 {
+    margin-bottom:80px;
+}
+
 
 .mb-120 {
     margin-bottom:120px;
@@ -984,8 +988,8 @@ adds spacing around the "all power to the people" section */
 }
 
 .about-banner-2 .sub_text {
-    width: 70%;
-    margin-bottom:60px
+    width: 100%;
+    margin-bottom:0px
 }
 
 
@@ -1203,7 +1207,7 @@ adds spacing around the "all power to the people" section */
 }
 
 .default_list_section_layout .col_1 {
-    width: 30%;
+    width: calc(30% - 20px);
 }
 
 .default_list_section_layout .col_2 {

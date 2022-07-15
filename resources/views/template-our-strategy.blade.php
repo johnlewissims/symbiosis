@@ -12,11 +12,11 @@ if ($aboutBanner) : ?>
 <!-- sticky scroll is here -->
   <div class="about-1 about-banner sticky-scroll">
     <div class="container container_2">
-      <h1 class="t-display2 t-lowercase t-green"><?php echo esc_attr($aboutBanner['banner_text']); ?></h1>
+      <h1 class="t-display2 t-lowercase t-green t-center"><?php echo esc_attr($aboutBanner['banner_text']); ?></h1>
       <?php
       if ($aboutBanner['image']) {
       ?>
-        <div class="image_wrapper">
+        <div class="image_wrapper mb-60">
           <img class="mb-10"src="<?php echo $aboutBanner['image']['url']; ?>" alt="<?php echo $aboutBanner['image']['caption']; ?>">
           <?php if ($aboutBanner['image']['caption']) { ?>
             <span class="caption t-text2 t-green"><?php echo $aboutBanner['image']['caption']; ?></span>
@@ -25,8 +25,8 @@ if ($aboutBanner) : ?>
       <?php
       }
       ?>
-      <div class="row about-banner-2">
-        <div class="col socials">
+   
+        <div class="col socials mb-40">
           <?php if (get_option('twitterlink')) { ?>
             <a href="<?php echo get_option('twitterlink'); ?>" class="twitter">
               <img src="wp-content/uploads/2022/05/Vector-1.png" alt="Twitter Link">
@@ -45,10 +45,10 @@ if ($aboutBanner) : ?>
             </a>
           <? } ?>
         </div>
-        <div class="col sub_text t-body2 t-green">
+        <div class="col sub_text mb-120 t-body1 t-green">
           <?php echo $aboutBanner['sub_text']; ?>
         </div>
-      </div>
+
     </div>
   </div>
 <?php endif; ?>
@@ -215,7 +215,7 @@ if ($aboutBanner) : ?>
   $callToAction = get_field('call_to_action');
   if ($callToAction) : ?>
     <div class="about-4 callout-section callout-section-3 container">
-      <h3 class="t-h1 t-green"><?php echo $callToAction['header']; ?></h3>
+      <h3 class="t-h1 t-lowercase t-green"><?php echo $callToAction['header']; ?></h3>
       <p><?php echo $callToAction['text']; ?></p>
       <a href="<?php echo $callToAction['link']['url']; ?>" class="button bg-green"><?php echo $callToAction['link']['title']; ?></a>
     </div>
