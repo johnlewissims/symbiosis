@@ -45,7 +45,7 @@ if ($aboutBanner) : ?>
             </a>
           <? } ?>
         </div>
-        <div class="col sub_text mb-120 t-body1 t-green">
+        <div class="col intro mb-120 t-body1 t-green">
           <?php echo $aboutBanner['sub_text']; ?>
         </div>
 

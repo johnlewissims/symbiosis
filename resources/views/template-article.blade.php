@@ -73,20 +73,23 @@ if (have_rows('article_layout')) :
             <div class="col_1">
               <?php if ($sideLinks) { ?>
                 <div class="side_links">
-                  <h4>Getting Started</h4>
+                  <div class="t-text1 t-green mb-20">Getting Started</div>
                   <?php foreach ($sideLinks as $sideLink) { ?>
-                    <a class="link" href="<?php echo $sideLink['link']['url']; ?>">
-                      <img src="/wp-content/uploads/2022/07/right_arrow_yellow.png" alt="Arrow">
-                      <span><?php echo $sideLink['link']['title']; ?></span>
+                    <div class="side_link_entry">
+                    <div><a class="link" href="<?php echo $sideLink['link']['url']; ?>">
+                      <img src="/wp-content/uploads/2022/07/right_arrow_yellow.png" alt="Arrow"></div>
+                      <div class="t-caption t-green side_link_text"><?php echo $sideLink['link']['title']; ?></div>
                     </a>
+                  </div>
+                    
                   <?php } ?>
                 </div>
               <?php } ?>
             </div>
             <div class="col_2">
               <?php foreach ($list as $item) { ?>
-                <h4><?php echo $item['title']; ?></h4>
-                <div class="text_section"><?php echo $item['text']; ?></div>
+                <div class="t-body2 t-green mb-20"><?php echo $item['title']; ?></div>
+                <div class="text_section t-text1 t-green mb-40"><?php echo $item['text']; ?></div>
               <?php } ?>
             </div>
           </div>

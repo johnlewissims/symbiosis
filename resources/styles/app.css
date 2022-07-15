@@ -163,7 +163,7 @@ body {
 
 
 .t-caption {
-    font-family: 'interregular';
+    font-family: 'Inter', sans-serif;
     font-size: 14px;
     line-height:18px;
 }
@@ -984,10 +984,16 @@ adds spacing around the "all power to the people" section */
 
 
 .about-banner-2 .socials {
-    width: calc(30% - 20px);;
+    width: calc(30% - 20px);
 }
 
 .about-banner-2 .sub_text {
+    width: 70%;
+    margin-bottom:0px
+}
+
+
+.about-banner-2 .intro {
     width: 100%;
     margin-bottom:0px
 }
@@ -1220,7 +1226,7 @@ adds spacing around the "all power to the people" section */
 }
 
 .default_link_boxes .col_1 {
-    width: 30%;
+    width: calc(30% - 20px);
 }
 
 .default_link_boxes .col_2 {
@@ -1239,7 +1245,7 @@ adds spacing around the "all power to the people" section */
 }
 
 .default_cta .col_1 {
-    width: 30%;
+    width: calc(30% - 20px);
 }
 
 .default_cta .col_2 {
@@ -1265,6 +1271,10 @@ adds spacing around the "all power to the people" section */
 .default_link_cards .text_section {
     max-width: 771px;
     padding-bottom: 30px;
+}
+
+.text_section p {
+    margin-bottom:20px;
 }
 
 .default_link_cards .text_section p {
@@ -1351,6 +1361,43 @@ adds spacing around the "all power to the people" section */
 .wpforms-submit-container button:hover{
     filter: drop-shadow(0 0mm 4mm rgba(232, 255, 89, 1)) !important;
 }
+
+
+.side_links {
+    background-color: var(--color-light-green-1);
+    border-radius: 6px;
+    padding:20px;
+    width:80%;
+    position: sticky;
+    top: 80px;
+}
+
+.side_link_entry {
+    display:flex;
+    align-items: center;
+    justify-content:flex-start;
+    margin-bottom:10px;
+    align-content: flex-start;
+    gap:10px;
+    flex-shrink: 0;
+ 
+}
+
+
+.side_link_entry img{
+    width:14px;
+    height:14px;
+}
+
+
+.side_link_entry:last-child{
+    margin-bottom:0;
+}
+
+.side_link_text {
+    width:180px;
+}
+
 
 /* STICKY EFFECT */
 
