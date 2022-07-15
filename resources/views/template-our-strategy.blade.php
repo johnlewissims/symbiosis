@@ -9,16 +9,17 @@
 <?php
 $aboutBanner = get_field('about_banner');
 if ($aboutBanner) : ?>
+<!-- sticky scroll is here -->
   <div class="about-1 about-banner sticky-scroll">
     <div class="container container_2">
-      <h1 class="t-h1 t-green"><?php echo esc_attr($aboutBanner['banner_text']); ?></h1>
+      <h1 class="t-display2 t-lowercase t-green"><?php echo esc_attr($aboutBanner['banner_text']); ?></h1>
       <?php
       if ($aboutBanner['image']) {
       ?>
         <div class="image_wrapper">
-          <img src="<?php echo $aboutBanner['image']['url']; ?>" alt="<?php echo $aboutBanner['image']['caption']; ?>">
+          <img class="mb-10"src="<?php echo $aboutBanner['image']['url']; ?>" alt="<?php echo $aboutBanner['image']['caption']; ?>">
           <?php if ($aboutBanner['image']['caption']) { ?>
-            <span class="caption t-caption"><?php echo $aboutBanner['image']['caption']; ?></span>
+            <span class="caption t-text2 t-green"><?php echo $aboutBanner['image']['caption']; ?></span>
           <?php } ?>
         </div>
       <?php
@@ -28,7 +29,7 @@ if ($aboutBanner) : ?>
         <div class="col socials">
           <?php if (get_option('twitterlink')) { ?>
             <a href="<?php echo get_option('twitterlink'); ?>" class="twitter">
-              <img src="/wp-content/uploads/2022/05/Vector.png" alt="Twitter Link">
+              <img src="wp-content/uploads/2022/05/Vector-1.png" alt="Twitter Link">
             </a>
           <? } ?>
 
@@ -58,24 +59,25 @@ if ($aboutBanner) : ?>
     $textBlock1 = get_field('text_block_1');
     if ($textBlock1) : ?>
       <div class="text_block_1">
-        <div class="callout-section callout-section-2 container">
-          <img src="/wp-content/uploads/2022/07/circle_graphic.png" alt="Symbiosis Background Circle Image">
+        <div class="callout-section callout-section-2 container t-lowercase">
+        <img src="/wp-content/uploads/2022/07/circle_graphic.png" alt="Symbiosis Background Circle Image">
           <h3 class="t-h1 t-green"><?php echo esc_attr($textBlock1['header']); ?></h3>
         </div>
         <?php
         if ($textBlock1['image']) {
         ?>
           <div class="image_wrapper">
-            <img src="<?php echo $textBlock1['image']['url']; ?>" alt="<?php echo $textBlock1['image']['caption']; ?>">
+            <img class="mb-10" src="<?php echo $textBlock1['image']['url']; ?>" alt="<?php echo $textBlock1['image']['caption']; ?>">
             <?php if ($textBlock1['image']['caption']) { ?>
-              <span class="caption t-caption"><?php echo $textBlock1['image']['caption']; ?></span>
+              <span class="caption t-text2 t-green"><?php echo $textBlock1['image']['caption']; ?></span>
             <?php } ?>
           </div>
         <?php
         }
         ?>
-
+            
         <div class="row">
+         
           <div class="col_1"></div>
           <div class="col_2">
             <?php
@@ -89,7 +91,7 @@ if ($aboutBanner) : ?>
             <?php
             if ($textBlock1['list_item_1']) :
             ?>
-              <div class="about-2b t-body1 t-green number_box">
+              <div class="about-2b t-body1 t-green number_box number_box_border">
                 <div class="list_item_1">
                   <span class="number">1</span>
                   <?php echo $textBlock1['list_item_1']; ?>
@@ -100,7 +102,7 @@ if ($aboutBanner) : ?>
             <?php
             if ($textBlock1['list_item_2']) :
             ?>
-              <div class="about-2c t-body1 t-green number_box">
+              <div class="about-2c t-body1 t-green number_box number_box_border">
                 <div class="list_item_1">
                   <span class="number">2</span>
                   <?php echo $textBlock1['list_item_2']; ?>
@@ -116,6 +118,7 @@ if ($aboutBanner) : ?>
               </div>
             <?php endif; ?>
           </div>
+      
         </div>
 
       </div>
@@ -129,17 +132,17 @@ if ($aboutBanner) : ?>
     $textBlock2 = get_field('text_block_2');
     if ($textBlock2) : ?>
       <div class="text_block_1">
-        <div class="callout-section callout-section-2 container">
-          <img src="/wp-content/uploads/2022/07/circle_graphic.png" alt="Symbiosis Background Circle Image">
-          <h3 class="t-h1 t-green"><?php echo esc_attr($textBlock2['header']); ?></h3>
+        <div class="callout-section callout-section-2 container ">
+          <img  src="/wp-content/uploads/2022/07/circle_graphic.png" alt="Symbiosis Background Circle Image">
+          <h3 class="t-h1 t-green t-lowercase"><?php echo esc_attr($textBlock2['header']); ?></h3>
         </div>
         <?php
         if ($textBlock2['image']) {
         ?>
           <div class="image_wrapper">
-            <img src="<?php echo $textBlock2['image']['url']; ?>" alt="<?php echo $textBlock2['image']['caption']; ?>">
+            <img class="mb-10" src="<?php echo $textBlock2['image']['url']; ?>" alt="<?php echo $textBlock2['image']['caption']; ?>">
             <?php if ($textBlock2['image']['caption']) { ?>
-              <span class="caption t-caption"><?php echo $textBlock2['image']['caption']; ?></span>
+              <span class="caption t-text2 t-green"><?php echo $textBlock2['image']['caption']; ?></span>
             <?php } ?>
           </div>
         <?php
@@ -152,7 +155,7 @@ if ($aboutBanner) : ?>
             <?php
             if ($textBlock2['body']) :
             ?>
-              <div class="about-2a t-body2 t-green">
+              <div class="about-2a t-body1 t-green">
                 <?php echo $textBlock2['body']; ?>
               </div>
             <?php endif; ?>
@@ -160,7 +163,7 @@ if ($aboutBanner) : ?>
             <?php
             if ($textBlock2['list_item_1']) :
             ?>
-              <div class="about-2b t-body2 t-green number_box">
+              <div class="about-2b t-body2 t-green number_box mb-20">
                 <div class="list_item_1">
                   <span class="number">1</span>
                   <?php echo $textBlock2['list_item_1']; ?>
