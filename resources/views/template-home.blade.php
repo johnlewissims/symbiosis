@@ -190,11 +190,11 @@ if ($resources) : ?>
           <?php
           }
           ?>
-          <h4 class="category t-text2"><?php the_category(); ?></h4>
+          <h4 class="category t-text2 t-green"><?php the_category(); ?></h4>
           <a href="<?php the_permalink(); ?>">
-            <h3 class="title"><?php the_title(); ?></h3>
+            <div class="title t-body1 t-green mb-20"><?php the_title(); ?></div>
           </a>
-          <p class="excerpt"><?php the_excerpt(); ?></p>
+          <div class="excerpt t-text1 t-green"><?php the_excerpt(); ?></div>
         </div>
     <?php
       }
