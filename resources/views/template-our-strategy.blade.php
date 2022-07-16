@@ -10,7 +10,7 @@
 $aboutBanner = get_field('about_banner');
 if ($aboutBanner) : ?>
 <!-- sticky scroll is here -->
-  <div class="about-1 about-banner sticky-scroll">
+  <div class="about-1 about-banner">
     <div class="container container_2">
       <h1 class="t-display2 t-lowercase t-green t-center"><?php echo esc_attr($aboutBanner['banner_text']); ?></h1>
       <?php
@@ -45,7 +45,7 @@ if ($aboutBanner) : ?>
             </a>
           <? } ?>
         </div>
-        <div class="col intro mb-120 t-body1 t-green">
+        <div class="col intro t-body1 t-green">
           <?php echo $aboutBanner['sub_text']; ?>
         </div>
 
@@ -93,7 +93,7 @@ if ($aboutBanner) : ?>
             ?>
               <div class="about-2b t-body1 t-green number_box number_box_border">
                 <div class="list_item_1">
-                  <span class="number">1</span>
+                  <span class="number t-text2 t-green">1</span>
                   <?php echo $textBlock1['list_item_1']; ?>
                 </div>
               </div>
@@ -104,7 +104,7 @@ if ($aboutBanner) : ?>
             ?>
               <div class="about-2c t-body1 t-green number_box number_box_border">
                 <div class="list_item_1">
-                  <span class="number">2</span>
+                  <span class="number t-text2 t-green">2</span>
                   <?php echo $textBlock1['list_item_2']; ?>
                 </div>
               </div>
@@ -165,7 +165,7 @@ if ($aboutBanner) : ?>
             ?>
               <div class="about-2b t-body2 t-green number_box mb-20">
                 <div class="list_item_1">
-                  <span class="number">1</span>
+                  <span class="number t-text2 t-green">1</span>
                   <?php echo $textBlock2['list_item_1']; ?>
                 </div>
               </div>
@@ -176,7 +176,7 @@ if ($aboutBanner) : ?>
             ?>
               <div class="about-2c t-body2 t-green number_box">
                 <div class="list_item_1">
-                  <span class="number">2</span>
+                  <span class="number t-text2 t-green">2</span>
                   <?php echo $textBlock2['list_item_2']; ?>
                 </div>
               </div>
@@ -187,7 +187,7 @@ if ($aboutBanner) : ?>
             ?>
               <div class="about-2c t-body2 t-green number_box">
                 <div class="list_item_1">
-                  <span class="number">3</span>
+                  <span class="number t-text2 t-green">3</span>
                   <?php echo $textBlock2['list_item_3']; ?>
                 </div>
               </div>
@@ -198,7 +198,7 @@ if ($aboutBanner) : ?>
             ?>
               <div class="about-2c t-body2 t-green number_box">
                 <div class="list_item_1">
-                  <span class="number">4</span>
+                  <span class="number t-text2 t-green">4</span>
                   <?php echo $textBlock2['list_item_4']; ?>
                 </div>
               </div>
