@@ -23,7 +23,7 @@ if (have_rows('article_layout')) :
       <div class="default_header_layout">
         <div class="container container_2">
           <?php if ($header['title']) { ?>
-            <h1 class="t-display2 t-lowercase t-green mb-80"><?php echo $header['title']; ?></h1>
+            <h1 class="t-display2 t-lowercase t-green mb-80 title"><?php echo $header['title']; ?></h1>
           <?php } ?>
           <?php if ($header['image']) { ?>
             <div class="default_header_layout_image">
@@ -32,7 +32,7 @@ if (have_rows('article_layout')) :
             </div>
           <?php } ?>
 
-          <div class="row about-banner-2">
+          <div class="row banner-template">
             <div class="col socials">
               <?php if (get_option('twitterlink')) { ?>
                 <a href="<?php echo get_option('twitterlink'); ?>" class="twitter">
