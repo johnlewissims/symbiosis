@@ -59,7 +59,6 @@ body {
     color: inherit;
  }
  
-
  @media (max-width:1080px) {
     .t-display {
         font-family: 'kulturregular';
@@ -67,6 +66,25 @@ body {
      }
  }
  
+
+ .t-display2 {
+    font-family: 'kulturregular';
+    font-size:144px;
+    line-height: 100%;
+    color: inherit;
+ }
+
+
+
+ @media (max-width:860px) {
+    .t-display2 {
+        font-size:56px;
+        line-height: 56px;
+     }
+ }
+
+
+
  
 
  .t-h1 {
@@ -100,8 +118,8 @@ body {
 
  @media (max-width:600px){
     .t-body1 {
-        font-size:30px;
-        line-height: 34px;
+        font-size:24px;
+        line-height: 28px;
     }
  }
 
@@ -121,6 +139,14 @@ body {
      } 
  }
 
+ @media (max-width:600px){
+    .t-body2{
+        font-size: 20px;
+        line-height:24px;
+     } 
+ }
+
+
 
 
  /* @media (max-width:1080px) {
@@ -137,20 +163,51 @@ body {
     line-height:24px;
 }
 
+
+@media (max-width:600px){
+    .t-text1 {
+        font-family: 'Inter', sans-serif;
+        font-size: 14px;
+        line-height:18px;
+    }
+    
+ }
+
+
 .t-text2 {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 20px;
 }
+
+@media (max-width:600px){
+  
+
+.t-text2 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    line-height: 16px;
+}
+    
+ }
+
 
 
 .t-caption {
-    font-family: 'interregular';
+    font-family: 'Inter', sans-serif;
     font-size: 14px;
     line-height:18px;
 }
 
 
+@media (max-width:600px){
+    .t-caption {
+        font-family: 'Inter', sans-serif;
+        font-size: 12px;
+        line-height:18px;
+    }
+    
+ }
 
 
 
@@ -213,6 +270,10 @@ Font Modifiers */
     margin-bottom:60px;
 }
 
+.mb-80 {
+    margin-bottom:80px;
+}
+
 
 .mb-120 {
     margin-bottom:120px;
@@ -228,6 +289,13 @@ Font Modifiers */
 }
 
 
+/* 
+Global image */
+
+img {
+    border-radius: 12px;
+}
+
 body {
     width: 100%;
     overflow-x: hidden;
@@ -236,7 +304,7 @@ body {
 
 .container {
     max-width:100% ;
-    padding:0px 20px ;
+
 }
 
 
@@ -251,6 +319,12 @@ body {
     }
   }
 
+  @media only screen and (max-width: 1080px) {
+    .container {
+
+        padding:0px 20px ;
+    }
+  }
 
 
 
@@ -606,8 +680,8 @@ body {
 
 @media (max-width:800px){
     .callout-section img {
-      
-        top: 10%;
+        padding: 0px;
+       top: 10%;
     }
  }
 
@@ -929,24 +1003,91 @@ adds spacing around the "all power to the people" section */
 
 .about-banner {
     background: #E8FF59;
-    padding: 100px 15px;
+    padding-top:100px;
 }
+
+@media (max-width:860px) {
+    .about-banner {
+        padding-top:40px;
+    }
+    
+ }
+
+
 
 .about-banner h1 {
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
+
+
+@media (max-width:860px) {
+    .about-banner h1 {
+        margin-bottom: 40px;
+    }
+    
+ }
+
+
+ @media (max-width:860px) {
+    .about-1 .image_wrapper {
+        margin-bottom:0px;
+
+    }
+ }
+
+
 
 .about-banner-2 {
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
+
+
+@media (max-width:860px) {
+    .about-banner-2 {
+        margin-top: 40px;
+    }
+    
+ }
+
+
+
 .about-banner-2 .socials {
-    width: 30%;
+    width: calc(30% - 20px);
 }
 
 .about-banner-2 .sub_text {
     width: 70%;
+    margin-bottom:0px
 }
+
+
+.about-1 .intro {
+    width: 100%;
+    padding-bottom:100px
+}
+
+
+@media (max-width:860px){
+    .about-1 .intro {
+        width: 100%;
+        padding-bottom:20px
+    }
+    
+    
+}
+
+
+@media (max-width:860px){
+    .about-banner-2 .sub_text {
+        width: 100%;
+        margin-bottom:60px
+    }
+    
+}
+
+
+
 
 .socials {
     display: flex;
@@ -960,44 +1101,144 @@ adds spacing around the "all power to the people" section */
     max-height: 25px;
 }
 
-.about-2 .callout-section-2 {
-    margin-top: 150px;
-    margin-bottom: 150px;    
+.about-2 {
+    padding-top:30px;
 }
 
+.about-2 .callout-section-2 {
+    margin-top: 200px;
+    margin-bottom: 230px;    
+}
+
+
+@media (max-width:800px){
+    .about-2 .callout-section-2 {
+        margin-top: 20px;
+        margin-bottom: 20px;    
+    }
+    
+    .text_block_1 .callout-section img {
+        padding: 0px;
+        top: 45%;
+     }
+
+}
+
+
+
+
 .about-2 .col_1 {
-    width: 30%;
+    width: calc(10% - 20px);;
 }
 
 .about-2 .col_2 {
-    width: 70%;
+    width: 80%;
 }
+
+
+@media (max-width:860px){
+
+    .about-2 .col_2 {
+        width: 100%;
+    }
+    
+    
+}
+
 
 .about-2 .image_wrapper {
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
 
+
+
+@media (max-width:860px){
+
+    
+.about-2 .image_wrapper {
+    margin-top: 40px;
+    margin-bottom: 0px;
+    
+}
+
+    
+    
+}
+
+
+
 .about-2 .about-2a {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
+}
+
+
+@media (max-width:860px){
+    
+.about-2 .about-2a {
+    margin-bottom: 20px;
+}
+    
+    
 }
 
 .about-2 .number_box {
-    margin-bottom: 50px;
-    padding: 30px;
-    border: solid 1px var(--color-dark-green-1);
-    border-radius: 12px;
+   
     position: relative;
-    padding-top: 80px;
+    margin-bottom: 40px;
+    border-radius: 12px;
+    padding-top: 60px;
+}
+
+
+@media (max-width:860px){
+    
+    .about-2 .number_box {
+        margin-bottom: 20px;
+        padding-top: 40px;
+    
+    }
+} 
+        
+
+
+.number_box_border {
+    border: solid 1px var(--color-dark-green-1);
+    padding: 30px;
 }
 
 .about-2 .number_box span {
     position: absolute;
     top: 15px;
-    font-size: 16px;
 }
 
+@media (max-width:860px){
+    .number_box_border {
+    padding: 15px;
+    }
+} 
+
+
+
+
+.about-2c ul {
+    margin-top:20px;
+    margin-left:20px;
+}
+
+.bullet li{
+
+    margin-bottom:20px;
+    padding-inline-start: 0px;
+    list-style-type: disc;
+    
+
+}
+
+
+
+
 .about-3 {
-    padding-top: 100px;
+    padding-top: 30px;
     background: var(--color-light-green-1);
 }
 
@@ -1011,11 +1252,47 @@ adds spacing around the "all power to the people" section */
     padding-bottom: 150px;
 }
 
+@media (max-width:860px){
+    .about-3 .callout-section-3 {
+        margin-top: 80px;
+        padding-bottom: 80px;
+    }
+    
+} 
+
+
+
 .about-3 .callout-section-3 a {
     background-color: var(--color-dark-green-1);
     color: var(--color-light-green-1);
 }
 
+.about-3 .callout-section-3 a:hover {
+    filter: drop-shadow(0 0mm 4mm rgba(4, 69, 46, 1)) !important;
+    
+}
+
+
+
+
+.callout-section-2 {
+    z-index: 1;
+}
+
+
+.callout-section-2 img{
+    z-index: 0;
+}
+
+#started-bullet-list {
+    margin-top:40px;
+}
+
+@media (max-width:860px) {
+    #started-bullet-list {
+        margin-top:20px;
+    }
+}
 
 /* News Ticker */
 
@@ -1037,8 +1314,8 @@ adds spacing around the "all power to the people" section */
 }
 
 .ticker-tape {
-    background: #E8FF59;
-    color: #04452E;
+    background: var(--color-light-green-1);
+    color: var(--color-dark-green-1);
     text-transform: uppercase;
     padding: 10px 0px;
 }
@@ -1055,18 +1332,99 @@ adds spacing around the "all power to the people" section */
     padding-top: 100px;
 }
 
+
+
+@media (max-width:860px) {
+    .default_header_layout {
+        padding-bottom: 20px;
+        padding-top: 40px;
+    } 
+
+
+
+    .default_header_layout  .title{
+        margin-bottom:40px;
+        
+    } 
+    
+ }
+
+
+ .banner-template {
+    margin-top: 70px;
+}
+
+
+
+.banner-template  .socials {
+    width: calc(30% - 20px);
+}
+
+.banner-template  .sub_text {
+    width: 70%;
+    margin-bottom:0px
+}
+
+
+
+
+
+@media (max-width:860px) {
+  
+ .banner-template {
+    margin-top: 0px;
+}
+
+
+.banner-template  .socials {
+    width: 100%;
+}
+
+.banner-template  .sub_text {
+    width: 100%;
+    margin-bottom:0px
+}
+    
+ }
+
+
 .default_list_section_layout {
     padding-top: 100px;
     padding-bottom: 100px;
 }
 
+@media (max-width:860px) {
+  
+    .default_list_section_layout {
+        padding-top: 0px;
+    }
+       
+    }
+
+
+
 .default_list_section_layout .col_1 {
-    width: 30%;
+    width: calc(30% - 20px);
 }
+
+
+@media (max-width:860px) {
+    .default_list_section_layout .col_1 {
+        width: 100%;
+    }
+    
+ }
 
 .default_list_section_layout .col_2 {
     width: 70%;
 }
+
+@media (max-width:860px) {
+    .default_list_section_layout .col_2 {
+        width: 100%;
+    }
+    
+ }
 
 .default_list_section_layout .button_row {
     display: flex;
@@ -1086,14 +1444,34 @@ adds spacing around the "all power to the people" section */
     padding-bottom: 100px;
 }
 
+
+@media (max-width:860px) {
+  
+
+    .default_link_boxes {
+        margin-top: 0px;
+        padding-bottom: 40px;
+    }
+}
+
 .default_link_boxes .col_1 {
-    width: 30%;
+    width: calc(30% - 20px);
 }
 
 .default_link_boxes .col_2 {
     width: 70%;
     display: flex;
 }
+
+
+
+
+@media (max-width:860px) {
+    .default_list_section_layout .col_2 {
+        width: 100%;
+    }
+    
+ }
 
 .default_link_boxes .link-box {
     text-align: center;
@@ -1106,8 +1484,11 @@ adds spacing around the "all power to the people" section */
 }
 
 .default_cta .col_1 {
-    width: 30%;
+    width: calc(30% - 20px);
 }
+
+
+
 
 .default_cta .col_2 {
     width: 70%;
@@ -1132,6 +1513,21 @@ adds spacing around the "all power to the people" section */
 .default_link_cards .text_section {
     max-width: 771px;
     padding-bottom: 30px;
+}
+
+@media (max-width:860px) {
+  
+.default_list_section_layout .text_section {
+    margin-bottom:0px;
+}
+
+    
+ }
+
+
+
+.text_section p {
+    margin-bottom:20px;
 }
 
 .default_link_cards .text_section p {
@@ -1219,20 +1615,77 @@ adds spacing around the "all power to the people" section */
     filter: drop-shadow(0 0mm 4mm rgba(232, 255, 89, 1)) !important;
 }
 
+
+.side_links {
+    background-color: var(--color-light-green-1);
+    border-radius: 6px;
+    padding:20px;
+    width:80%;
+    position: sticky;
+    top: 80px;
+}
+
+.side_link_entry {
+    display:flex;
+    align-items: center;
+    justify-content:flex-start;
+    margin-bottom:10px;
+    align-content: flex-start;
+    gap:10px;
+    flex-shrink: 0;
+ 
+}
+
+
+.side_link_entry img{
+    width:14px;
+    height:14px;
+}
+
+
+.side_link_entry:last-child{
+    margin-bottom:0;
+}
+
+.side_link_text {
+    width:180px;
+}
+
+
+
+@media (max-width:1080px) {
+    .side_links {
+       display:none;
+    }
+    
+ }
+
+
+
+
 /* STICKY EFFECT */
 
-.sticky-scroll {
+ .sticky-scroll {
 
 }
 
-.sticky-scroll.active {
+ /* .sticky-scroll.active {
     position: fixed;
     width: 100%;
     z-index: -1;    
     bottom: 0;
-}
+}  */
 
 .next-section {
     background: var(--color-gray-1);
     padding-bottom: 100px;
-}
+} 
+
+
+@media (max-width:860px) {
+    .next-section {
+      
+        padding-bottom: 0px;
+    }
+    
+ }
