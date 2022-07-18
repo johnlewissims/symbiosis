@@ -467,6 +467,7 @@ body {
 .mobile-banner {
     display: none;
     position: relative;
+    z-index: 10;
 }
 
 .mobile-banner .fixed-menu {
@@ -869,6 +870,8 @@ blog-tile hover effects found in the app.js */
 
 
 }
+
+
 
 .blog-tile:hover {
 
@@ -1387,7 +1390,7 @@ adds spacing around the "all power to the people" section */
 
 .default_list_section_layout {
     padding-top: 100px;
-    padding-bottom: 0px;
+    padding-bottom: 100px;
 }
 
 @media (max-width:860px) {
@@ -1416,7 +1419,6 @@ adds spacing around the "all power to the people" section */
     width: 70%;
 }
 
-
 @media (max-width:860px) {
     .default_list_section_layout .col_2 {
         width: 100%;
@@ -1424,6 +1426,18 @@ adds spacing around the "all power to the people" section */
     
  }
 
+.default_list_section_layout .button_row {
+    display: flex;
+}
+
+.default_header_layout_image img {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.default_list_section_layout .list_item {
+    margin-bottom: 50px;
+}
 
 .default_link_boxes {
     margin-top: 20px;
