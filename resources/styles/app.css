@@ -418,6 +418,7 @@ body {
     display: block;
     position: absolute;
     background: var(--color-light-green-1);
+    filter: drop-shadow(0px 20px 20px #13188B);
     width: 100%;
     left: 0;
     top: 100%;
@@ -425,13 +426,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 150px;
+    min-height: 60px;
 }
 
 .sub-menu .menu-item {
     padding-right: 25px;
     padding-left: 25px;
-
+    min-width:200px;
+    text-align:center;
 }
 
 .sub-menu .menu-item a {
