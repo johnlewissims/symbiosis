@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.0.1" created="2022-07-20 22:59" -->
+	<!-- generator="WordPress/6.0.1" created="2022-07-20 23:58" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>symbiosis</title>
 	<link>http://symbiosis.local</link>
 	<description>Just another WordPress site</description>
-	<pubDate>Wed, 20 Jul 2022 22:59:17 +0000</pubDate>
+	<pubDate>Wed, 20 Jul 2022 23:58:38 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://symbiosis.local</wp:base_site_url>
@@ -3482,105 +3482,6 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title><![CDATA[photo-1580845884420-a44b1e37b8e9]]></title>
-		<link>http://symbiosis.local/lorem-ipsum-dolor-sit-amet-1/photo-1580845884420-a44b1e37b8e9/</link>
-		<pubDate>Tue, 29 Mar 2022 23:08:28 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://symbiosis.local/wp-content/uploads/2022/03/photo-1580845884420-a44b1e37b8e9.jpeg</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>68</wp:post_id>
-		<wp:post_date><![CDATA[2022-03-29 23:08:28]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2022-03-29 23:08:28]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-03-29 23:08:28]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-03-29 23:08:28]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[photo-1580845884420-a44b1e37b8e9]]></wp:post_name>
-		<wp:status><![CDATA[inherit]]></wp:status>
-		<wp:post_parent>66</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://symbiosis.local/wp-content/uploads/2022/03/photo-1580845884420-a44b1e37b8e9-scaled.jpeg]]></wp:attachment_url>
-											<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2022/03/photo-1580845884420-a44b1e37b8e9-scaled.jpeg]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1708;s:6:"height";i:2560;s:4:"file";s:52:"2022/03/photo-1580845884420-a44b1e37b8e9-scaled.jpeg";s:5:"sizes";a:6:{s:6:"medium";a:4:{s:4:"file";s:45:"photo-1580845884420-a44b1e37b8e9-200x300.jpeg";s:5:"width";i:200;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:46:"photo-1580845884420-a44b1e37b8e9-683x1024.jpeg";s:5:"width";i:683;s:6:"height";i:1024;s:9:"mime-type";s:10:"image/jpeg";}s:9:"thumbnail";a:4:{s:4:"file";s:45:"photo-1580845884420-a44b1e37b8e9-150x150.jpeg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:46:"photo-1580845884420-a44b1e37b8e9-768x1151.jpeg";s:5:"width";i:768;s:6:"height";i:1151;s:9:"mime-type";s:10:"image/jpeg";}s:9:"1536x1536";a:4:{s:4:"file";s:47:"photo-1580845884420-a44b1e37b8e9-1025x1536.jpeg";s:5:"width";i:1025;s:6:"height";i:1536;s:9:"mime-type";s:10:"image/jpeg";}s:9:"2048x2048";a:4:{s:4:"file";s:47:"photo-1580845884420-a44b1e37b8e9-1366x2048.jpeg";s:5:"width";i:1366;s:6:"height";i:2048;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:3:"3.2";s:6:"credit";s:7:"Rxspawn";s:6:"camera";s:9:"ILCE-7RM2";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1579201266";s:9:"copyright";s:0:"";s:12:"focal_length";s:2:"60";s:3:"iso";s:3:"640";s:13:"shutter_speed";s:9:"0.0015625";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}s:14:"original_image";s:37:"photo-1580845884420-a44b1e37b8e9.jpeg";}]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[golfball]]></title>
-		<link>http://symbiosis.local/golfball/</link>
-		<pubDate>Wed, 06 Apr 2022 01:43:34 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://symbiosis.local/wp-content/uploads/2022/04/golfball.png</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>90</wp:post_id>
-		<wp:post_date><![CDATA[2022-04-06 01:43:34]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2022-04-06 01:43:34]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-04-06 01:43:34]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-04-06 01:43:34]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[golfball]]></wp:post_name>
-		<wp:status><![CDATA[inherit]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://symbiosis.local/wp-content/uploads/2022/04/golfball.png]]></wp:attachment_url>
-											<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2022/04/golfball.png]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:512;s:6:"height";i:512;s:4:"file";s:20:"2022/04/golfball.png";s:5:"sizes";a:2:{s:6:"medium";a:4:{s:4:"file";s:20:"golfball-300x300.png";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:9:"image/png";}s:9:"thumbnail";a:4:{s:4:"file";s:20:"golfball-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[robert-murray-toCqTyxsT4Q-unsplash]]></title>
-		<link>http://symbiosis.local/our-approach/robert-murray-tocqtyxst4q-unsplash/</link>
-		<pubDate>Thu, 07 Apr 2022 20:00:03 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://symbiosis.local/wp-content/uploads/2022/04/robert-murray-toCqTyxsT4Q-unsplash.jpeg</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[My Caption]]></excerpt:encoded>
-		<wp:post_id>91</wp:post_id>
-		<wp:post_date><![CDATA[2022-04-07 20:00:03]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2022-04-07 20:00:03]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-07-10 17:59:18]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-07-10 17:59:18]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[robert-murray-tocqtyxst4q-unsplash]]></wp:post_name>
-		<wp:status><![CDATA[inherit]]></wp:status>
-		<wp:post_parent>268</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://symbiosis.local/wp-content/uploads/2022/04/robert-murray-toCqTyxsT4Q-unsplash-scaled.jpeg]]></wp:attachment_url>
-											<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2022/04/robert-murray-toCqTyxsT4Q-unsplash-scaled.jpeg]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:2560;s:6:"height";i:1699;s:4:"file";s:54:"2022/04/robert-murray-toCqTyxsT4Q-unsplash-scaled.jpeg";s:5:"sizes";a:6:{s:6:"medium";a:4:{s:4:"file";s:47:"robert-murray-toCqTyxsT4Q-unsplash-300x199.jpeg";s:5:"width";i:300;s:6:"height";i:199;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:48:"robert-murray-toCqTyxsT4Q-unsplash-1024x680.jpeg";s:5:"width";i:1024;s:6:"height";i:680;s:9:"mime-type";s:10:"image/jpeg";}s:9:"thumbnail";a:4:{s:4:"file";s:47:"robert-murray-toCqTyxsT4Q-unsplash-150x150.jpeg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:47:"robert-murray-toCqTyxsT4Q-unsplash-768x510.jpeg";s:5:"width";i:768;s:6:"height";i:510;s:9:"mime-type";s:10:"image/jpeg";}s:9:"1536x1536";a:4:{s:4:"file";s:49:"robert-murray-toCqTyxsT4Q-unsplash-1536x1019.jpeg";s:5:"width";i:1536;s:6:"height";i:1019;s:9:"mime-type";s:10:"image/jpeg";}s:9:"2048x2048";a:4:{s:4:"file";s:49:"robert-murray-toCqTyxsT4Q-unsplash-2048x1359.jpeg";s:5:"width";i:2048;s:6:"height";i:1359;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}s:14:"original_image";s:39:"robert-murray-toCqTyxsT4Q-unsplash.jpeg";}]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
 		<title><![CDATA[Our Strategy]]></title>
 		<link>http://symbiosis.local/?post_type=acf-field-group&#038;p=102</link>
 		<pubDate>Sun, 29 May 2022 21:06:58 +0000</pubDate>
@@ -4088,6 +3989,181 @@
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 														</item>
+					<item>
+		<title><![CDATA[Post Template Sidelinks]]></title>
+		<link>http://symbiosis.local/?post_type=acf-field-group&#038;p=392</link>
+		<pubDate>Wed, 20 Jul 2022 23:39:38 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://symbiosis.local/?post_type=acf-field-group&#038;p=392</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:7:{s:8:"location";a:2:{i:0;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:7:"reading";}}i:1;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:18:"events_and_classes";}}}s:8:"position";s:6:"normal";s:5:"style";s:7:"default";s:15:"label_placement";s:3:"top";s:21:"instruction_placement";s:5:"label";s:14:"hide_on_screen";s:0:"";s:11:"description";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[post-template-sidelinks]]></excerpt:encoded>
+		<wp:post_id>392</wp:post_id>
+		<wp:post_date><![CDATA[2022-07-20 23:39:38]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-07-20 23:39:38]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-07-20 23:39:38]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-07-20 23:39:38]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[group_62d8920a61dea]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Sidelinks]]></title>
+		<link>http://symbiosis.local/?post_type=acf-field&#038;p=393</link>
+		<pubDate>Wed, 20 Jul 2022 23:39:38 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://symbiosis.local/?post_type=acf-field&#038;p=393</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:10:{s:4:"type";s:8:"repeater";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:9:"collapsed";s:0:"";s:3:"min";s:0:"";s:3:"max";s:0:"";s:6:"layout";s:5:"table";s:12:"button_label";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[sidelinks]]></excerpt:encoded>
+		<wp:post_id>393</wp:post_id>
+		<wp:post_date><![CDATA[2022-07-20 23:39:38]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-07-20 23:39:38]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-07-20 23:39:38]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-07-20 23:39:38]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_62d8921bd6eaa]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>392</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Link]]></title>
+		<link>http://symbiosis.local/?post_type=acf-field&#038;p=394</link>
+		<pubDate>Wed, 20 Jul 2022 23:39:38 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://symbiosis.local/?post_type=acf-field&#038;p=394</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:6:{s:4:"type";s:4:"link";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"return_format";s:5:"array";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[link]]></excerpt:encoded>
+		<wp:post_id>394</wp:post_id>
+		<wp:post_date><![CDATA[2022-07-20 23:39:38]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-07-20 23:39:38]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-07-20 23:39:38]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-07-20 23:39:38]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_62d89224d6eab]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>393</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[photo-1580845884420-a44b1e37b8e9]]></title>
+		<link>http://symbiosis.local/lorem-ipsum-dolor-sit-amet-1/photo-1580845884420-a44b1e37b8e9/</link>
+		<pubDate>Tue, 29 Mar 2022 23:08:28 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://symbiosis.local/wp-content/uploads/2022/03/photo-1580845884420-a44b1e37b8e9.jpeg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>68</wp:post_id>
+		<wp:post_date><![CDATA[2022-03-29 23:08:28]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-03-29 23:08:28]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-03-29 23:08:28]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-03-29 23:08:28]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[photo-1580845884420-a44b1e37b8e9]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>66</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[http://symbiosis.local/wp-content/uploads/2022/03/photo-1580845884420-a44b1e37b8e9-scaled.jpeg]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2022/03/photo-1580845884420-a44b1e37b8e9-scaled.jpeg]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1708;s:6:"height";i:2560;s:4:"file";s:52:"2022/03/photo-1580845884420-a44b1e37b8e9-scaled.jpeg";s:5:"sizes";a:6:{s:6:"medium";a:4:{s:4:"file";s:45:"photo-1580845884420-a44b1e37b8e9-200x300.jpeg";s:5:"width";i:200;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:46:"photo-1580845884420-a44b1e37b8e9-683x1024.jpeg";s:5:"width";i:683;s:6:"height";i:1024;s:9:"mime-type";s:10:"image/jpeg";}s:9:"thumbnail";a:4:{s:4:"file";s:45:"photo-1580845884420-a44b1e37b8e9-150x150.jpeg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:46:"photo-1580845884420-a44b1e37b8e9-768x1151.jpeg";s:5:"width";i:768;s:6:"height";i:1151;s:9:"mime-type";s:10:"image/jpeg";}s:9:"1536x1536";a:4:{s:4:"file";s:47:"photo-1580845884420-a44b1e37b8e9-1025x1536.jpeg";s:5:"width";i:1025;s:6:"height";i:1536;s:9:"mime-type";s:10:"image/jpeg";}s:9:"2048x2048";a:4:{s:4:"file";s:47:"photo-1580845884420-a44b1e37b8e9-1366x2048.jpeg";s:5:"width";i:1366;s:6:"height";i:2048;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:3:"3.2";s:6:"credit";s:7:"Rxspawn";s:6:"camera";s:9:"ILCE-7RM2";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1579201266";s:9:"copyright";s:0:"";s:12:"focal_length";s:2:"60";s:3:"iso";s:3:"640";s:13:"shutter_speed";s:9:"0.0015625";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}s:14:"original_image";s:37:"photo-1580845884420-a44b1e37b8e9.jpeg";}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[golfball]]></title>
+		<link>http://symbiosis.local/golfball/</link>
+		<pubDate>Wed, 06 Apr 2022 01:43:34 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://symbiosis.local/wp-content/uploads/2022/04/golfball.png</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>90</wp:post_id>
+		<wp:post_date><![CDATA[2022-04-06 01:43:34]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-04-06 01:43:34]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-04-06 01:43:34]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-04-06 01:43:34]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[golfball]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[http://symbiosis.local/wp-content/uploads/2022/04/golfball.png]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2022/04/golfball.png]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:5:{s:5:"width";i:512;s:6:"height";i:512;s:4:"file";s:20:"2022/04/golfball.png";s:5:"sizes";a:2:{s:6:"medium";a:4:{s:4:"file";s:20:"golfball-300x300.png";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:9:"image/png";}s:9:"thumbnail";a:4:{s:4:"file";s:20:"golfball-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[robert-murray-toCqTyxsT4Q-unsplash]]></title>
+		<link>http://symbiosis.local/our-approach/robert-murray-tocqtyxst4q-unsplash/</link>
+		<pubDate>Thu, 07 Apr 2022 20:00:03 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://symbiosis.local/wp-content/uploads/2022/04/robert-murray-toCqTyxsT4Q-unsplash.jpeg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[My Caption]]></excerpt:encoded>
+		<wp:post_id>91</wp:post_id>
+		<wp:post_date><![CDATA[2022-04-07 20:00:03]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-04-07 20:00:03]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-07-10 17:59:18]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-07-10 17:59:18]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[robert-murray-tocqtyxst4q-unsplash]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>268</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[http://symbiosis.local/wp-content/uploads/2022/04/robert-murray-toCqTyxsT4Q-unsplash-scaled.jpeg]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2022/04/robert-murray-toCqTyxsT4Q-unsplash-scaled.jpeg]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:2560;s:6:"height";i:1699;s:4:"file";s:54:"2022/04/robert-murray-toCqTyxsT4Q-unsplash-scaled.jpeg";s:5:"sizes";a:6:{s:6:"medium";a:4:{s:4:"file";s:47:"robert-murray-toCqTyxsT4Q-unsplash-300x199.jpeg";s:5:"width";i:300;s:6:"height";i:199;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:48:"robert-murray-toCqTyxsT4Q-unsplash-1024x680.jpeg";s:5:"width";i:1024;s:6:"height";i:680;s:9:"mime-type";s:10:"image/jpeg";}s:9:"thumbnail";a:4:{s:4:"file";s:47:"robert-murray-toCqTyxsT4Q-unsplash-150x150.jpeg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:47:"robert-murray-toCqTyxsT4Q-unsplash-768x510.jpeg";s:5:"width";i:768;s:6:"height";i:510;s:9:"mime-type";s:10:"image/jpeg";}s:9:"1536x1536";a:4:{s:4:"file";s:49:"robert-murray-toCqTyxsT4Q-unsplash-1536x1019.jpeg";s:5:"width";i:1536;s:6:"height";i:1019;s:9:"mime-type";s:10:"image/jpeg";}s:9:"2048x2048";a:4:{s:4:"file";s:49:"robert-murray-toCqTyxsT4Q-unsplash-2048x1359.jpeg";s:5:"width";i:2048;s:6:"height";i:1359;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}s:14:"original_image";s:39:"robert-murray-toCqTyxsT4Q-unsplash.jpeg";}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
 					<item>
 		<title><![CDATA[zelle-duda-DBUvQCYNJgk-unsplash]]></title>
 		<link>http://symbiosis.local/zelle-duda-dbuvqcynjgk-unsplash/</link>
@@ -4650,105 +4726,6 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title><![CDATA[bg_3_small]]></title>
-		<link>http://symbiosis.local/bg_3_small/</link>
-		<pubDate>Mon, 04 Jul 2022 19:57:39 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://symbiosis.local/wp-content/uploads/2022/07/bg_3_small.png</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>226</wp:post_id>
-		<wp:post_date><![CDATA[2022-07-04 19:57:39]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2022-07-04 19:57:39]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-07-04 19:57:39]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-07-04 19:57:39]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[bg_3_small]]></wp:post_name>
-		<wp:status><![CDATA[inherit]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://symbiosis.local/wp-content/uploads/2022/07/bg_3_small.png]]></wp:attachment_url>
-											<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2022/07/bg_3_small.png]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:2880;s:6:"height";i:2176;s:4:"file";s:22:"2022/07/bg_3_small.png";s:8:"filesize";i:549650;s:5:"sizes";a:6:{s:6:"medium";a:5:{s:4:"file";s:22:"bg_3_small-300x227.png";s:5:"width";i:300;s:6:"height";i:227;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:49283;}s:5:"large";a:5:{s:4:"file";s:23:"bg_3_small-1024x774.png";s:5:"width";i:1024;s:6:"height";i:774;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:332097;}s:9:"thumbnail";a:5:{s:4:"file";s:22:"bg_3_small-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:20771;}s:12:"medium_large";a:5:{s:4:"file";s:22:"bg_3_small-768x580.png";s:5:"width";i:768;s:6:"height";i:580;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:207778;}s:9:"1536x1536";a:5:{s:4:"file";s:24:"bg_3_small-1536x1161.png";s:5:"width";i:1536;s:6:"height";i:1161;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:666323;}s:9:"2048x2048";a:5:{s:4:"file";s:24:"bg_3_small-2048x1547.png";s:5:"width";i:2048;s:6:"height";i:1547;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:1133906;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[right_arrow_yellow]]></title>
-		<link>http://symbiosis.local/right_arrow_yellow/</link>
-		<pubDate>Mon, 04 Jul 2022 22:22:15 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://symbiosis.local/wp-content/uploads/2022/07/right_arrow_yellow.png</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>235</wp:post_id>
-		<wp:post_date><![CDATA[2022-07-04 22:22:15]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2022-07-04 22:22:15]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-07-04 22:22:15]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-07-04 22:22:15]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[right_arrow_yellow]]></wp:post_name>
-		<wp:status><![CDATA[inherit]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://symbiosis.local/wp-content/uploads/2022/07/right_arrow_yellow.png]]></wp:attachment_url>
-											<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2022/07/right_arrow_yellow.png]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:22;s:6:"height";i:22;s:4:"file";s:30:"2022/07/right_arrow_yellow.png";s:8:"filesize";i:556;s:5:"sizes";a:0:{}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[plus_sign]]></title>
-		<link>http://symbiosis.local/plus_sign/</link>
-		<pubDate>Tue, 05 Jul 2022 01:44:26 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://symbiosis.local/wp-content/uploads/2022/07/plus_sign.png</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>237</wp:post_id>
-		<wp:post_date><![CDATA[2022-07-05 01:44:26]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2022-07-05 01:44:26]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-07-05 01:44:26]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-07-05 01:44:26]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[plus_sign]]></wp:post_name>
-		<wp:status><![CDATA[inherit]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://symbiosis.local/wp-content/uploads/2022/07/plus_sign.png]]></wp:attachment_url>
-											<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2022/07/plus_sign.png]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:20;s:6:"height";i:20;s:4:"file";s:21:"2022/07/plus_sign.png";s:8:"filesize";i:484;s:5:"sizes";a:0:{}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
 		<title><![CDATA[About]]></title>
 		<link>http://symbiosis.local/about/</link>
 		<pubDate>Thu, 24 Mar 2022 19:55:42 +0000</pubDate>
@@ -4980,149 +4957,102 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title><![CDATA[Our Discord]]></title>
-		<link>http://symbiosis.local/our-discord/</link>
-		<pubDate>Mon, 04 Jul 2022 15:51:48 +0000</pubDate>
+		<title><![CDATA[bg_3_small]]></title>
+		<link>http://symbiosis.local/bg_3_small/</link>
+		<pubDate>Mon, 04 Jul 2022 19:57:39 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://symbiosis.local/?p=212</guid>
+		<guid isPermaLink="false">http://symbiosis.local/wp-content/uploads/2022/07/bg_3_small.png</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>212</wp:post_id>
-		<wp:post_date><![CDATA[2022-07-20 22:56:53]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2022-07-04 15:51:48]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-07-20 22:56:53]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-07-20 22:56:53]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:post_id>226</wp:post_id>
+		<wp:post_date><![CDATA[2022-07-04 19:57:39]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-07-04 19:57:39]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-07-04 19:57:39]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-07-04 19:57:39]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[our-discord]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_name><![CDATA[bg_3_small]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>6</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="primary-navigation"><![CDATA[Primary Navigation]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+						<wp:attachment_url><![CDATA[http://symbiosis.local/wp-content/uploads/2022/07/bg_3_small.png]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2022/07/bg_3_small.png]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[14]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[212]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://discord.gg/adyWDhTU]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2022-07-04]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2022-07-09]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2022-07-12]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2022-07-13]]></wp:meta_value>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:2880;s:6:"height";i:2176;s:4:"file";s:22:"2022/07/bg_3_small.png";s:8:"filesize";i:549650;s:5:"sizes";a:6:{s:6:"medium";a:5:{s:4:"file";s:22:"bg_3_small-300x227.png";s:5:"width";i:300;s:6:"height";i:227;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:49283;}s:5:"large";a:5:{s:4:"file";s:23:"bg_3_small-1024x774.png";s:5:"width";i:1024;s:6:"height";i:774;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:332097;}s:9:"thumbnail";a:5:{s:4:"file";s:22:"bg_3_small-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:20771;}s:12:"medium_large";a:5:{s:4:"file";s:22:"bg_3_small-768x580.png";s:5:"width";i:768;s:6:"height";i:580;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:207778;}s:9:"1536x1536";a:5:{s:4:"file";s:24:"bg_3_small-1536x1161.png";s:5:"width";i:1536;s:6:"height";i:1161;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:666323;}s:9:"2048x2048";a:5:{s:4:"file";s:24:"bg_3_small-2048x1547.png";s:5:"width";i:2048;s:6:"height";i:1547;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:1133906;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
-		<title><![CDATA[Events and Classes]]></title>
-		<link>http://symbiosis.local/events-and-classes/</link>
-		<pubDate>Mon, 04 Jul 2022 15:51:48 +0000</pubDate>
+		<title><![CDATA[right_arrow_yellow]]></title>
+		<link>http://symbiosis.local/right_arrow_yellow/</link>
+		<pubDate>Mon, 04 Jul 2022 22:22:15 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://symbiosis.local/?p=215</guid>
+		<guid isPermaLink="false">http://symbiosis.local/wp-content/uploads/2022/07/right_arrow_yellow.png</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>215</wp:post_id>
-		<wp:post_date><![CDATA[2022-07-20 22:56:53]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2022-07-04 15:51:48]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-07-20 22:56:53]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-07-20 22:56:53]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:post_id>235</wp:post_id>
+		<wp:post_date><![CDATA[2022-07-04 22:22:15]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-07-04 22:22:15]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-07-04 22:22:15]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-07-04 22:22:15]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[events-and-classes]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_name><![CDATA[right_arrow_yellow]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>11</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="primary-navigation"><![CDATA[Primary Navigation]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+						<wp:attachment_url><![CDATA[http://symbiosis.local/wp-content/uploads/2022/07/right_arrow_yellow.png]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2022/07/right_arrow_yellow.png]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[15]]></wp:meta_value>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:22;s:6:"height";i:22;s:4:"file";s:30:"2022/07/right_arrow_yellow.png";s:8:"filesize";i:556;s:5:"sizes";a:0:{}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[plus_sign]]></title>
+		<link>http://symbiosis.local/plus_sign/</link>
+		<pubDate>Tue, 05 Jul 2022 01:44:26 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://symbiosis.local/wp-content/uploads/2022/07/plus_sign.png</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>237</wp:post_id>
+		<wp:post_date><![CDATA[2022-07-05 01:44:26]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-07-05 01:44:26]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-07-05 01:44:26]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-07-05 01:44:26]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[plus_sign]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[http://symbiosis.local/wp-content/uploads/2022/07/plus_sign.png]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2022/07/plus_sign.png]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[215]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[/events_and_classes/]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2022-07-04]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2022-07-09]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2022-07-12]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2022-07-13]]></wp:meta_value>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:20;s:6:"height";i:20;s:4:"file";s:21:"2022/07/plus_sign.png";s:8:"filesize";i:484;s:5:"sizes";a:0:{}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -5354,75 +5284,6 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
 		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1084;s:6:"height";i:686;s:4:"file";s:26:"2022/07/Rectangle_53-1.png";s:8:"filesize";i:991678;s:5:"sizes";a:4:{s:6:"medium";a:5:{s:4:"file";s:26:"Rectangle_53-1-300x190.png";s:5:"width";i:300;s:6:"height";i:190;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:103056;}s:5:"large";a:5:{s:4:"file";s:27:"Rectangle_53-1-1024x648.png";s:5:"width";i:1024;s:6:"height";i:648;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:904921;}s:9:"thumbnail";a:5:{s:4:"file";s:26:"Rectangle_53-1-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:40922;}s:12:"medium_large";a:5:{s:4:"file";s:26:"Rectangle_53-1-768x486.png";s:5:"width";i:768;s:6:"height";i:486;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:565935;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[]]></title>
-		<link>http://symbiosis.local/267/</link>
-		<pubDate>Sat, 09 Jul 2022 16:39:02 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://symbiosis.local/?p=267</guid>
-		<description></description>
-		<content:encoded><![CDATA[ ]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>267</wp:post_id>
-		<wp:post_date><![CDATA[2022-07-20 22:56:53]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2022-07-09 16:39:02]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-07-20 22:56:53]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-07-20 22:56:53]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[267]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>2</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="primary-navigation"><![CDATA[Primary Navigation]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[13]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[97]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2022-07-09]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2022-07-12]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2022-07-13]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -6148,31 +6009,6 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title><![CDATA[Custom Styles]]></title>
-		<link>http://symbiosis.local/wp-global-styles-symbiosis/</link>
-		<pubDate>Thu, 24 Mar 2022 19:38:26 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://symbiosis.local/wp-global-styles-symbiosis/</guid>
-		<description></description>
-		<content:encoded><![CDATA[{"version": 2, "isGlobalStylesUserThemeJSON": true }]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>9</wp:post_id>
-		<wp:post_date><![CDATA[2022-03-24 19:38:26]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2022-03-24 19:38:26]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-03-24 19:38:26]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-03-24 19:38:26]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[wp-global-styles-symbiosis]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[wp_global_styles]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="wp_theme" nicename="symbiosis"><![CDATA[symbiosis]]></category>
-						</item>
-					<item>
 		<title><![CDATA[Lorem ipsum dolor sit amet 1]]></title>
 		<link>http://symbiosis.local/lorem-ipsum-dolor-sit-amet-1/</link>
 		<pubDate>Tue, 29 Mar 2022 23:09:10 +0000</pubDate>
@@ -6252,112 +6088,6 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
 		<wp:meta_value><![CDATA[lorem-ipsum-dolor-sit-amet-1]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Lorem ipsum dolor sit amet 4]]></title>
-		<link>http://symbiosis.local/lorem-ipsum-dolor-sit-amet-4/</link>
-		<pubDate>Tue, 29 Mar 2022 23:10:46 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://symbiosis.local/?p=72</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit.]]></excerpt:encoded>
-		<wp:post_id>72</wp:post_id>
-		<wp:post_date><![CDATA[2022-03-29 23:10:46]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2022-03-29 23:10:46]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-07-04 23:07:01]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-07-04 23:07:01]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[lorem-ipsum-dolor-sit-amet-4]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="category" nicename="practical-guide"><![CDATA[Practical Guide]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_cdp_origin]]></wp:meta_key>
-		<wp:meta_value><![CDATA[70]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_cdp_origin_site]]></wp:meta_key>
-		<wp:meta_value><![CDATA[-1]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_cdp_origin_title]]></wp:meta_key>
-		<wp:meta_value><![CDATA[ Lorem ipsum dolor sit amet 2 #[Counter]]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_cdp_counter]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_cdp_origin]]></wp:meta_key>
-		<wp:meta_value><![CDATA[66]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[68]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
-		<wp:meta_value><![CDATA[lorem-ipsum-dolor-sit-amet-1]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
-		<wp:meta_value><![CDATA[lorem-ipsum-dolor-sit-amet-1-2]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Lorem ipsum dolor sit amet 3]]></title>
-		<link>http://symbiosis.local/lorem-ipsum-dolor-sit-amet-1-3/</link>
-		<pubDate>Tue, 29 Mar 2022 23:10:54 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://symbiosis.local/?p=73</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit.]]></excerpt:encoded>
-		<wp:post_id>73</wp:post_id>
-		<wp:post_date><![CDATA[2022-03-29 23:10:54]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2022-03-29 23:10:54]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-07-08 01:05:23]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-07-08 01:05:23]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[lorem-ipsum-dolor-sit-amet-1-3]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="category" nicename="introductory-essay"><![CDATA[Introductory Essay]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_cdp_origin]]></wp:meta_key>
-		<wp:meta_value><![CDATA[66]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_cdp_origin_site]]></wp:meta_key>
-		<wp:meta_value><![CDATA[-1]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_cdp_origin_title]]></wp:meta_key>
-		<wp:meta_value><![CDATA[ Lorem ipsum dolor sit amet 1 #[Counter]]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_cdp_counter]]></wp:meta_key>
-		<wp:meta_value><![CDATA[3]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
@@ -7245,6 +6975,221 @@ This dual power strategy can help sustain our communities under capitalism, chan
 														<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
 		<wp:meta_value><![CDATA[template-projects.php]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Our Discord]]></title>
+		<link>http://symbiosis.local/our-discord/</link>
+		<pubDate>Mon, 04 Jul 2022 15:51:48 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://symbiosis.local/?p=212</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>212</wp:post_id>
+		<wp:post_date><![CDATA[2022-07-20 22:56:53]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-07-04 15:51:48]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-07-20 22:56:53]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-07-20 22:56:53]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[our-discord]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>6</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="primary-navigation"><![CDATA[Primary Navigation]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[14]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[212]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[https://discord.gg/adyWDhTU]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2022-07-04]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2022-07-09]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2022-07-12]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2022-07-13]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Events and Classes]]></title>
+		<link>http://symbiosis.local/events-and-classes/</link>
+		<pubDate>Mon, 04 Jul 2022 15:51:48 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://symbiosis.local/?p=215</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>215</wp:post_id>
+		<wp:post_date><![CDATA[2022-07-20 22:56:53]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-07-04 15:51:48]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-07-20 22:56:53]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-07-20 22:56:53]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[events-and-classes]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>11</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="primary-navigation"><![CDATA[Primary Navigation]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[15]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[215]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[/events_and_classes/]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2022-07-04]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2022-07-09]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2022-07-12]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2022-07-13]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[]]></title>
+		<link>http://symbiosis.local/267/</link>
+		<pubDate>Sat, 09 Jul 2022 16:39:02 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://symbiosis.local/?p=267</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>267</wp:post_id>
+		<wp:post_date><![CDATA[2022-07-20 22:56:53]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-07-09 16:39:02]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-07-20 22:56:53]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-07-20 22:56:53]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[267]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>2</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="primary-navigation"><![CDATA[Primary Navigation]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[13]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[97]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2022-07-09]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2022-07-12]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2022-07-13]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -8796,6 +8741,137 @@ Our full launch statement is available here:]]></wp:meta_value>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[/reading]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Custom Styles]]></title>
+		<link>http://symbiosis.local/wp-global-styles-symbiosis/</link>
+		<pubDate>Thu, 24 Mar 2022 19:38:26 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://symbiosis.local/wp-global-styles-symbiosis/</guid>
+		<description></description>
+		<content:encoded><![CDATA[{"version": 2, "isGlobalStylesUserThemeJSON": true }]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>9</wp:post_id>
+		<wp:post_date><![CDATA[2022-03-24 19:38:26]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-03-24 19:38:26]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-03-24 19:38:26]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-03-24 19:38:26]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[wp-global-styles-symbiosis]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_global_styles]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="wp_theme" nicename="symbiosis"><![CDATA[symbiosis]]></category>
+						</item>
+					<item>
+		<title><![CDATA[Lorem ipsum dolor sit amet 4]]></title>
+		<link>http://symbiosis.local/lorem-ipsum-dolor-sit-amet-4/</link>
+		<pubDate>Tue, 29 Mar 2022 23:10:46 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://symbiosis.local/?p=72</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit.]]></excerpt:encoded>
+		<wp:post_id>72</wp:post_id>
+		<wp:post_date><![CDATA[2022-03-29 23:10:46]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-03-29 23:10:46]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-07-04 23:07:01]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-07-04 23:07:01]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[lorem-ipsum-dolor-sit-amet-4]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="category" nicename="practical-guide"><![CDATA[Practical Guide]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_cdp_origin]]></wp:meta_key>
+		<wp:meta_value><![CDATA[70]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_cdp_origin_site]]></wp:meta_key>
+		<wp:meta_value><![CDATA[-1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_cdp_origin_title]]></wp:meta_key>
+		<wp:meta_value><![CDATA[ Lorem ipsum dolor sit amet 2 #[Counter]]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_cdp_counter]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_cdp_origin]]></wp:meta_key>
+		<wp:meta_value><![CDATA[66]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[68]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
+		<wp:meta_value><![CDATA[lorem-ipsum-dolor-sit-amet-1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
+		<wp:meta_value><![CDATA[lorem-ipsum-dolor-sit-amet-1-2]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Lorem ipsum dolor sit amet 3]]></title>
+		<link>http://symbiosis.local/lorem-ipsum-dolor-sit-amet-1-3/</link>
+		<pubDate>Tue, 29 Mar 2022 23:10:54 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://symbiosis.local/?p=73</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit.]]></excerpt:encoded>
+		<wp:post_id>73</wp:post_id>
+		<wp:post_date><![CDATA[2022-03-29 23:10:54]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-03-29 23:10:54]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-07-08 01:05:23]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-07-08 01:05:23]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[lorem-ipsum-dolor-sit-amet-1-3]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="category" nicename="introductory-essay"><![CDATA[Introductory Essay]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_cdp_origin]]></wp:meta_key>
+		<wp:meta_value><![CDATA[66]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_cdp_origin_site]]></wp:meta_key>
+		<wp:meta_value><![CDATA[-1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_cdp_origin_title]]></wp:meta_key>
+		<wp:meta_value><![CDATA[ Lorem ipsum dolor sit amet 1 #[Counter]]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_cdp_counter]]></wp:meta_key>
+		<wp:meta_value><![CDATA[3]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 				</channel>
