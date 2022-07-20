@@ -11,11 +11,22 @@
     {!! get_search_form(false) !!}
   @endif
 
-  @while(have_posts()) @php(the_post())
-    @includeFirst(['partials.content-' . get_post_type(), 'partials.content'])
-  @endwhile
+  <div class="container default_posts_section">
+    <div class="blog-row">
+      @while(have_posts()) @php(the_post())
+        @includeFirst(['partials.content-' . get_post_type(), 'partials.content'])
+      @endwhile
+    </div>
 
-  {!! get_the_posts_navigation() !!}
+    <?php if(get_the_posts_navigation()) { ?>
+      <div class="more-row">
+        {!! get_the_posts_navigation() !!}
+      </div>
+    <?php } ?>
+
+  </div>
+
+  
 @endsection
 
 @section('sidebar')

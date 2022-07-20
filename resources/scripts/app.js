@@ -55,6 +55,11 @@ const main = async (err) => {
           itemSelector: ".blog-tile",
         });
 
+        // Fix Height Bug 
+        if($('.blog-row').height() == 0) {
+          $('.blog-row').addClass('force_height');
+        }
+
         let startingHeight = $(".blog-list").height();
         $(".more-row").on("click", function () {
           let currentHeight = $(".blog-list").height();

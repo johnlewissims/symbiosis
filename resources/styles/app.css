@@ -915,7 +915,6 @@ blog-tile hover effects found in the app.js */
 .blog-list {
     position: relative;
     max-height: 1600px;
-    overflow: hidden;
     transition: all .2s ease;
 }
 
@@ -926,8 +925,7 @@ blog-tile hover effects found in the app.js */
     mask-image:linear-gradient(180deg, rgba(227,227,227,1) 70%, rgba(227,227,227,1) 85%, rgba(227,227,227,0) 95%)
 }
 
-
-.blog-list .more-row {
+.more-row {
     border-top: solid 1px #04452E;
     border-bottom: solid 1px #04452E;
     display: flex;
@@ -944,7 +942,7 @@ blog-tile hover effects found in the app.js */
 
 
 
-.blog-list .more-row img {
+.more-row img {
     height: 18px;
     margin-left: 5px;    
 }
@@ -1696,3 +1694,45 @@ adds spacing around the "all power to the people" section */
     }
     
  }
+
+/* POSTS AND INDEX PAGES */
+
+.posts_history {
+    background: var(--color-dark-blue-1);
+}
+
+.posts_history .default_header_layout {
+    background: transparent;
+}
+
+.posts_history h1 {
+    color: var(--color-light-green-1);
+    max-width: 700px;
+}
+
+.blog-row.force_height {
+    height: initial !important;
+}
+
+.default_posts_section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.default_posts_section .blog-row {
+    -webkit-mask-image: none;
+    mask-image: none;
+}
+
+.default_posts_section .nav-links {
+    display: flex;
+}
+
+.default_posts_section .nav-links div {
+    margin: 0px 15px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
