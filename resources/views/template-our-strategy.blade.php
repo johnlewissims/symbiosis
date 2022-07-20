@@ -29,7 +29,7 @@ if ($aboutBanner) : ?>
         <div class="col socials mb-40">
           <?php if (get_option('twitterlink')) { ?>
             <a href="<?php echo get_option('twitterlink'); ?>" class="twitter">
-              <img src="wp-content/uploads/2022/05/Vector-1.png" alt="Twitter Link">
+              <img src="/wp-content/uploads/2022/05/Vector.png" alt="Twitter Link">
             </a>
           <? } ?>
 
