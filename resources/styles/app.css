@@ -1781,3 +1781,61 @@ adds spacing around the "all power to the people" section */
 .post_content .wp-block-button__link:hover {
     filter: drop-shadow(0 0mm 4mm rgba(232, 255, 89, 1));
 }
+
+/* FOOTER FORM */
+#wpforms-form-399 {
+    display: flex;
+    justify-content: center;
+    max-width: 400px;
+    margin: auto;
+    border-bottom: solid 1px #e3e3e3;
+    padding-bottom: 10px; 
+    margin-top: 30px;   
+}
+
+.wpforms-field-container:first-of-type {
+    width: 70%;
+}
+
+#wpforms-399-field_2-container  {
+    padding: 0;
+}
+
+#wpforms-399-field_2-container input {
+    background: transparent;
+    height: 67px;
+    border: none;
+    width: 100%;
+    font-size: 30px;
+    color: #fff;
+    max-width: 100%;
+}
+
+#wpforms-form-399 .wpforms-error {
+    color: #fff;
+}
+
+.bottom_links {
+    max-width: 350px;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;    
+}
+
+#menu-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu-footer a {
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.content-info {
+    position: relative;
+}

@@ -171,7 +171,7 @@ if ($resources) : ?>
 
     <?php
     $args = array(
-      'post_type' => 'post',
+      'post_type' => 'reading',
       'posts_per_page' => 4
     );
 
