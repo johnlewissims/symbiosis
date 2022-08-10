@@ -176,7 +176,7 @@ body {
 
 .t-text2 {
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 20px;
 }
 
@@ -185,8 +185,8 @@ body {
 
 .t-text2 {
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 14px;
+    line-height: 20px;
 }
     
  }
@@ -304,6 +304,7 @@ body {
 
 .container {
     max-width:100% ;
+
 
 }
 
@@ -744,15 +745,25 @@ body {
     
     .getting-started .col {
         width: 100%;
+        display:flex;
+        flex-direction: column;
+        margin-bottom:40px;
     }
     
 }
 
 .getting-started-1 .col_1 img {
     width: 60px;
-    margin-top: 15px;
+   
 }
+@media (max-width:860px) {
 
+  .getting-started .col img {
+    width: 80px;
+
+  }
+
+}
 
 
 
@@ -761,47 +772,74 @@ body {
 }
 
 .getting-started-2 .box {
-    width: 30%;
-    padding: 15px;
+    width: 347px;
+    padding: 20px;
     border: solid 1px var(--color-gray-1);
     border-radius: 12px;
-    height: 350px;
+    height: 446px;
     position: relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
+
+@media (max-width:860px) {
+
+    .getting-started-2 .box {
+        width: 100%;
+        padding: 20px;
+        height: 320px;
+
+        
+    }
+  }
+
 
 .getting-started-2 {
     justify-content: space-between;
     margin-top: 100px;
 }
 
-.getting-started-2 h3 {
-    font-size: 30px;
-    color: #fff;
-}
 
-.getting-started-2 p {
-    position: absolute;
-    bottom: 75px;
-    color: #fff;
-}
+@media (max-width:860px) {
 
-.getting-started-2 a {
-    position: absolute;
-    bottom: 15px;
+    .getting-started-2 {
+
+        margin-top: 0px;
+    }
+  
+  }
+
+
+
+.getting-started-text {
+    display:flex;
+    flex-direction: column;
+    gap:20px;
 }
 
 .getting-started-2 .learn-row {
     position: relative;
+    display: flex;
+    flex-direction: row;
+    gap:8px;
+    align-items: center;
+
 }
 
+.learn-text {
+    display: inline;
+}
+/* 
 .getting-started-2 h5 {
     color: #fff;
-}
+} */
 
 .getting-started-2 img {
-    position: absolute;
-    right: -26px;
-    top: 5px;
+    /* position: absolute;
+    right: -26px; */
+
     width: 16px;
 }
 
@@ -1323,6 +1361,7 @@ adds spacing around the "all power to the people" section */
     color: var(--color-dark-green-1);
     text-transform: uppercase;
     padding: 10px 0px;
+    overflow-x: hidden;
 }
 
 .flex {
