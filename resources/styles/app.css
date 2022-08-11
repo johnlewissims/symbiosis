@@ -825,6 +825,13 @@ body {
     flex-direction: row;
     gap:8px;
     align-items: center;
+    transition: all .2s ease;
+
+}
+
+.getting-started-2 .learn-row:hover{
+
+    gap:16px;
 
 }
 
