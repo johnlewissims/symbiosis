@@ -83,7 +83,7 @@ if ($gettingStarted) : ?>
     <div class="container">
       <div class="row space-between">
         <div class="col">
-          <div class="t-h1 t-gray"><?php echo esc_attr($gettingStarted['title']); ?></div>
+          <div class="t-h1 t-gray t-lowercase mb-20"><?php echo esc_attr($gettingStarted['title']); ?></div>
           <img src="/wp-content/uploads/2022/07/down_arrow.png" alt="Arrow Pointing Down">
         </div>
         <div class="col">
@@ -96,42 +96,48 @@ if ($gettingStarted) : ?>
         $box1 = get_field('getting_started')['box_1'];
         if ($box1['title']) : ?>
           <div class="box">
-            <h3><?php echo esc_attr($box1['title']); ?></h3>
-            <p><?php echo esc_attr($box1['sub_text']); ?></p>
+            <div class="t-body2 t-gray"><?php echo esc_attr($box1['title']); ?></div>
+            <div class="getting-started-text">
+            <div class="t-text2 t-gray"><?php echo esc_attr($box1['sub_text']); ?></div>
             <a href="<?php echo esc_attr($box1['link']); ?>">
-              <div class="learn-row">
-                <h5><?php echo esc_attr($box1['link_text']); ?></h5>
-                <img src="/wp-content/uploads/2022/07/right_arrow_yellow.png" alt="Click Here">
+              <div class="learn-row t-text1 t-gray">
+                <div class="learn-text"><?php echo esc_attr($box1['link_text']); ?></div>
+                <div><img src="/wp-content/uploads/2022/07/right_arrow_yellow.png" alt="Click Here"></div>
               </div>
             </a>
+            </div>
           </div>
         <?php endif; ?>
         <?php
         $box2 = get_field('getting_started')['box_2'];
         if ($box2['title']) : ?>
           <div class="box">
-            <h3><?php echo esc_attr($box2['title']); ?></h3>
-            <p><?php echo esc_attr($box2['sub_text']); ?></p>
+          <div class="t-body2 t-gray"><?php echo esc_attr($box2['title']); ?></div>
+          <div class="getting-started-text">
+            <div class="t-text2 t-gray"><?php echo esc_attr($box2['sub_text']); ?></div>
             <a href="<?php echo esc_attr($box2['link']); ?>">
-              <div class="learn-row">
-                <h5><?php echo esc_attr($box2['link_text']); ?></h5>
+              <div class="learn-row t-text1 t-gray">
+                <?php echo esc_attr($box2['link_text']); ?>
                 <img src="/wp-content/uploads/2022/07/right_arrow_yellow.png" alt="Click Here">
               </div>
             </a>
+        </div>
           </div>
         <?php endif; ?>
         <?php
         $box3 = get_field('getting_started')['box_3'];
         if ($box3['title']) : ?>
           <div class="box">
-            <h3><?php echo esc_attr($box3['title']); ?></h3>
-            <p><?php echo esc_attr($box3['sub_text']); ?></p>
+          <div class="t-body2 t-gray"><?php echo esc_attr($box3['title']); ?></div>
+          <div class="getting-started-text">
+            <div class="t-text2 t-gray"><?php echo esc_attr($box3['sub_text']); ?></div>
             <a href="<?php echo esc_attr($box3['link']); ?>">
-              <div class="learn-row">
-                <h5><?php echo esc_attr($box3['link_text']); ?></h5>
+              <div class="learn-row t-text1 t-gray">
+                <?php echo esc_attr($box3['link_text']); ?>
                 <img src="/wp-content/uploads/2022/07/right_arrow_yellow.png" alt="Click Here">
               </div>
             </a>
+        </div>
           </div>
         <?php endif; ?>
       </div>
