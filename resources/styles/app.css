@@ -9,6 +9,14 @@ body {
     color:inherit;
 }
 
+::selection {
+    background: var(--color-light-green-1);
+    color: var(--color-dark-green-1); /* WebKit/Blink Browsers */
+  }
+  ::-moz-selection {
+    background: var(--color-light-green-1);
+    color: var(--color-dark-green-1); /* Gecko Browsers */
+  }
 
 /* WHITE #FFF */
 /* DARK GREEN #0A3623 */
