@@ -426,7 +426,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 60px;
+    min-height: 120px;
 }
 
 .sub-menu .menu-item {
@@ -1831,11 +1831,8 @@ adds spacing around the "all power to the people" section */
 }
 
 #menu-footer a {
-    text-transform: uppercase;
-    color: #fff;
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 16px;
-    line-height: 20px;
+    color: var(--color-gray-1);
+
 }
 
 .content-info {
