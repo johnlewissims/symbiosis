@@ -1512,10 +1512,6 @@ adds spacing around the "all power to the people" section */
     padding-bottom: 100px;
 }
 
-.default_link_cards h3 {
-    font-size: 34px;
-    padding-bottom: 30px;
-}
 
 .default_link_cards .text_section {
     max-width: 771px;
@@ -1549,15 +1545,43 @@ adds spacing around the "all power to the people" section */
     flex-wrap: wrap;
 }
 
+
+@media (max-width:1080px) {
+  
+   
+.default_link_cards .card_row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap:20px;
+}
+
+    
+        
+     }
+    
+
+
 .default_link_cards .link-box {
-    width: 30%;
-    padding: 15px;
+    width: 347px;
+    padding: 20px;
     border: solid 1px var(--color-dark-green-1);
     color: var(--color-dark-green-1);
     border-radius: 12px;
     height: 350px;
     position: relative;
+    transition: all .2s ease !important;
+}
+
+.default_link_cards .link-box:hover{
+
+    background: var(--color-light-green-1);
+    border: solid 1px var(--color-light-green-1);
+    color: var(--color-dark-green-1);
 } 
+
+
+
 
 .bottom_text {
     position: absolute;
