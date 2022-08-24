@@ -176,7 +176,7 @@ body {
 
 .t-text2 {
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 20px;
 }
 
@@ -185,8 +185,8 @@ body {
 
 .t-text2 {
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 14px;
+    line-height: 20px;
 }
     
  }
@@ -305,6 +305,7 @@ body {
 .container {
     max-width:100% ;
 
+
 }
 
 
@@ -418,6 +419,7 @@ body {
     display: block;
     position: absolute;
     background: var(--color-light-green-1);
+    filter: drop-shadow(0px 20px 20px #13188B);
     width: 100%;
     left: 0;
     top: 100%;
@@ -425,13 +427,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 150px;
+    min-height: 120px;
 }
 
 .sub-menu .menu-item {
     padding-right: 25px;
     padding-left: 25px;
-
+    min-width:200px;
+    text-align:center;
 }
 
 .sub-menu .menu-item a {
@@ -743,15 +746,25 @@ body {
     
     .getting-started .col {
         width: 100%;
+        display:flex;
+        flex-direction: column;
+        margin-bottom:40px;
     }
     
 }
 
 .getting-started-1 .col_1 img {
     width: 60px;
-    margin-top: 15px;
+   
 }
+@media (max-width:860px) {
 
+  .getting-started .col img {
+    width: 80px;
+
+  }
+
+}
 
 
 
@@ -760,47 +773,81 @@ body {
 }
 
 .getting-started-2 .box {
-    width: 30%;
-    padding: 15px;
+    width: 347px;
+    padding: 20px;
     border: solid 1px var(--color-gray-1);
     border-radius: 12px;
-    height: 350px;
+    height: 446px;
     position: relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
+
+@media (max-width:860px) {
+
+    .getting-started-2 .box {
+        width: 100%;
+        padding: 20px;
+        height: 320px;
+
+        
+    }
+  }
+
 
 .getting-started-2 {
     justify-content: space-between;
     margin-top: 100px;
 }
 
-.getting-started-2 h3 {
-    font-size: 30px;
-    color: #fff;
-}
 
-.getting-started-2 p {
-    position: absolute;
-    bottom: 75px;
-    color: #fff;
-}
+@media (max-width:860px) {
 
-.getting-started-2 a {
-    position: absolute;
-    bottom: 15px;
+    .getting-started-2 {
+
+        margin-top: 0px;
+    }
+  
+  }
+
+
+
+.getting-started-text {
+    display:flex;
+    flex-direction: column;
+    gap:20px;
 }
 
 .getting-started-2 .learn-row {
     position: relative;
+    display: flex;
+    flex-direction: row;
+    gap:8px;
+    align-items: center;
+    transition: all .2s ease;
+
 }
 
+.getting-started-2 .learn-row:hover{
+
+    margin-left:20px;
+
+}
+
+.learn-text {
+    display: inline;
+}
+/* 
 .getting-started-2 h5 {
     color: #fff;
-}
+} */
 
 .getting-started-2 img {
-    position: absolute;
-    right: -26px;
-    top: 5px;
+    /* position: absolute;
+    right: -26px; */
+
     width: 16px;
 }
 
@@ -1322,6 +1369,7 @@ adds spacing around the "all power to the people" section */
     color: var(--color-dark-green-1);
     text-transform: uppercase;
     padding: 10px 0px;
+    overflow-x: hidden;
 }
 
 .flex {
@@ -1509,10 +1557,6 @@ adds spacing around the "all power to the people" section */
     padding-bottom: 100px;
 }
 
-.default_link_cards h3 {
-    font-size: 34px;
-    padding-bottom: 30px;
-}
 
 .default_link_cards .text_section {
     max-width: 771px;
@@ -1546,15 +1590,43 @@ adds spacing around the "all power to the people" section */
     flex-wrap: wrap;
 }
 
+
+@media (max-width:1080px) {
+  
+   
+.default_link_cards .card_row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap:20px;
+}
+
+    
+        
+     }
+    
+
+
 .default_link_cards .link-box {
-    width: 30%;
-    padding: 15px;
+    width: 347px;
+    padding: 20px;
     border: solid 1px var(--color-dark-green-1);
     color: var(--color-dark-green-1);
     border-radius: 12px;
     height: 350px;
     position: relative;
+    transition: all .2s ease !important;
+}
+
+.default_link_cards .link-box:hover{
+
+    background: var(--color-light-green-1);
+    border: solid 1px var(--color-light-green-1);
+    color: var(--color-dark-green-1);
 } 
+
+
+
 
 .bottom_text {
     position: absolute;
@@ -1828,11 +1900,8 @@ adds spacing around the "all power to the people" section */
 }
 
 #menu-footer a {
-    text-transform: uppercase;
-    color: #fff;
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 16px;
-    line-height: 20px;
+    color: var(--color-gray-1);
+
 }
 
 .content-info {

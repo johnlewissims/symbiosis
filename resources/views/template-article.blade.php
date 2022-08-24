@@ -179,7 +179,7 @@ if (have_rows('article_layout')) :
 
         <div class="default_link_cards container container_2">
           <div class="text_section">
-            <h3 class="t-body2 t-green"><?php echo $linkBox['title']; ?></h3>
+            <h3 class="t-body1 t-green mb-40"><?php echo $linkBox['title']; ?></h3>
             <?php echo $linkBox['text']; ?>
           </div>
           <div class="card_row">
