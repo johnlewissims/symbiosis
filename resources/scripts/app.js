@@ -2,7 +2,7 @@ import { domReady } from "@roots/sage/client";
 import "jquery";
 import Masonry from "masonry-layout";
 import "es-module-shims";
-//import './effects/header-2.js';
+import './effects/header.js';
 import Marquee3k from "marquee3000";
 
 /**

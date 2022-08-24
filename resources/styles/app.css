@@ -625,8 +625,7 @@ body {
     position: relative;
     width: 100%;
     height: 85vh;
-    background: url('https://i.imgur.com/omE29Ki.jpg') no-repeat center;
-    background-size: cover;
+    overflow: hidden;
 }
 
 .news-bar {
