@@ -157,7 +157,7 @@ body {
      }
  } */
 
- p {
+.post_content p {
     font-family: 'Inter', sans-serif;
     font-size: 18px;
     line-height:24px;
