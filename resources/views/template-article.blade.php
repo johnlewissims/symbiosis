@@ -74,7 +74,7 @@ if (have_rows('article_layout')) :
             <div class="col_1">
               <?php if ($sideLinks) { ?>
                 <div class="side_links">
-                  <div class="t-text1 t-green mb-20">Getting Started</div>
+                  <div class="t-text1 t-green mb-20">Read More</div>
                   <?php foreach ($sideLinks as $sideLink) { ?>
                     <div class="side_link_entry">
                     <div><a class="link" href="<?php echo $sideLink['link']['url']; ?>">
