@@ -1178,13 +1178,6 @@ adds spacing around the "all power to the people" section */
 
 
 
-.about-2 .col_1 {
-    width: calc(10% - 20px);;
-}
-
-.about-2 .col_2 {
-    width: 80%;
-}
 
 
 @media (max-width:860px){
