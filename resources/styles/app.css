@@ -1267,13 +1267,14 @@ adds spacing around the "all power to the people" section */
 .about-2c ul {
     margin-top:20px;
     margin-left:20px;
+    list-style-type: disc;
 }
 
 .bullet li{
 
     margin-bottom:20px;
     padding-inline-start: 0px;
-    list-style-type: disc;
+    list-style-type: circle;
     
 
 }
