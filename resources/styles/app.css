@@ -467,6 +467,7 @@ body {
     padding: 15px 20px;
     border-radius: 5px;
     transition: all .2s ease;
+    display: inline-flex;
 
 }
 
@@ -1479,8 +1480,11 @@ adds spacing around the "all power to the people" section */
  }
 
 .default_list_section_layout .button_row {
-    display: flex;
+    display: inline-flex;
+    gap:10px;
 }
+
+
 
 .default_header_layout_image img {
     border-radius: 12px;
@@ -1549,7 +1553,7 @@ adds spacing around the "all power to the people" section */
 
 .default_cta .link-box {
     text-align: center;
-    margin-right: 10px;
+    
 }
 
 .default_link_cards {
