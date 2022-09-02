@@ -280,6 +280,10 @@ Font Modifiers */
 }
 
 
+.mt-60 {
+    margin-top:60px;
+}
+
 /* Flex */
 
 
@@ -335,7 +339,7 @@ body {
     background: var(--color-dark-blue-1);
     padding-top: 10px;
     padding-bottom: 10px;
- position:relative;
+ position:fixed;
     z-index: 1000;
 }
 
@@ -721,7 +725,8 @@ body {
 
 
 .getting-started {
-    background-image: url("http://symbiosis.local/wp-content/uploads/2022/07/bg_3_small.png");
+    /* background-image: url("http://symbiosis.local/wp-content/uploads/2022/07/bg_3_small.png"); */
+    background-color: var(--color-dark-blue-1);
     margin-top: 150px;
     padding: 75px 0px;
     background-position: center;
@@ -1023,12 +1028,13 @@ adds spacing around the "all power to the people" section */
       
     top: 15%;
 }
-}
+} 
 
 .signup-email-form {
     padding-top: 150px;
     padding-bottom: 150px;
-    background-image: url("http://symbiosis.local/wp-content/uploads/2022/07/bg_4_small.png");
+    background-color: var(--color-dark-blue-1);
+    /* background-image: url("http://symbiosis.local/wp-content/uploads/2022/07/bg_4_small.png"); */
     background-position: center;
     background-size: cover;
 }

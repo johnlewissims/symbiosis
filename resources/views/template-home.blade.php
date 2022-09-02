@@ -13,7 +13,7 @@
   if ($hero) : ?>
     <div class="home-banner">
       <div class="wrapper">
-        <div class="t-lightgreen t-display t-center t-lowercase"><?php echo esc_attr($hero['banner_text']); ?></div>
+        <div class="t-lightgreen t-display t-center t-lowercase mt-60"><?php echo esc_attr($hero['banner_text']); ?></div>
         <img src="wp-content/uploads/2022/07/Group-55.png" alt="Symbiosis Flare">
         <div class="t-body2 t-center t-gray sub-text"><?php echo esc_attr($hero['sub_text']); ?></div>
       </div>
@@ -208,7 +208,7 @@ if ($resources) : ?>
     ?>
   </div>
   <div class="more-row">
-    <h5>Load More</h5>
+    <h5>View More</h5>
     <img src="/wp-content/uploads/2022/07/plus_sign.png" alt="Click Here">
   </div>
 </div>
