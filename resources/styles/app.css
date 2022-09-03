@@ -721,7 +721,8 @@ body {
 
 
 .getting-started {
-    background-image: url("http://symbiosis.local/wp-content/uploads/2022/07/bg_3_small.png");
+    background-color: #106040;
+    /* background-image: url("http://symbiosis.local/wp-content/uploads/2022/07/bg_3_small.png"); */
     margin-top: 150px;
     padding: 75px 0px;
     background-position: center;
@@ -1028,9 +1029,10 @@ adds spacing around the "all power to the people" section */
 .signup-email-form {
     padding-top: 150px;
     padding-bottom: 150px;
-    background-image: url("http://symbiosis.local/wp-content/uploads/2022/07/bg_4_small.png");
+    background-color: #106040;
+    /* background-image: url("http://symbiosis.local/wp-content/uploads/2022/07/bg_4_small.png");
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
 }
 
 .signup-email-form h2 {
