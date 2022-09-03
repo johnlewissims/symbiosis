@@ -69,7 +69,6 @@
             <?php } ?>
           </div>
           <div class="col_2">
-            @include('partials.entry-meta')
             <div class="post_content">
               @php(the_content())
             </div>
