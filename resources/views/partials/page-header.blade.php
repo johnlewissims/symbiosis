@@ -8,13 +8,13 @@
       <div class="row banner-template">
         <div class="col socials">
           <?php if (get_option('twitterlink')) { ?>
-            <a href="<?php echo get_option('twitterlink') . $_SERVER['REQUEST_URI']; ?>" class="twitter">
+            <a href="<?php echo get_option('twitterlink') . 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>" class="twitter">
               <img src="/wp-content/uploads/2022/07/twitter-yellow.png" alt="Twitter Link">
             </a>
           <? } ?>
 
           <?php if (get_option('facebooklink')) { ?>
-            <a href="<?php echo get_option('facebooklink') . $_SERVER['REQUEST_URI']; ?>" class="facebook">
+            <a href="<?php echo get_option('facebooklink') . 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>" class="facebook">
               <img src="/wp-content/uploads/2022/07/facebook-yellow.png" alt="Facebook Link">
             </a>
           <? } ?>
