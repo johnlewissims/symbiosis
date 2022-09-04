@@ -9,6 +9,14 @@ body {
     color:inherit;
 }
 
+::selection {
+    background: var(--color-light-green-1);
+    color: var(--color-dark-green-1); /* WebKit/Blink Browsers */
+  }
+  ::-moz-selection {
+    background: var(--color-light-green-1);
+    color: var(--color-dark-green-1); /* Gecko Browsers */
+  }
 
 /* WHITE #FFF */
 /* DARK GREEN #0A3623 */
@@ -157,6 +165,14 @@ body {
      }
  } */
 
+.post_content p {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height:24px;
+ }
+
+
+
 .t-text1 {
     font-family: 'Inter', sans-serif;
     font-size: 18px;
@@ -280,6 +296,10 @@ Font Modifiers */
 }
 
 
+.mt-60 {
+    margin-top:60px;
+}
+
 /* Flex */
 
 
@@ -295,6 +315,12 @@ Global image */
 img {
     border-radius: 12px;
 }
+
+p img{
+    width:100%;
+    margin-bottom:20px;
+}
+
 
 body {
     width: 100%;
@@ -335,7 +361,7 @@ body {
     background: var(--color-dark-blue-1);
     padding-top: 10px;
     padding-bottom: 10px;
- position:relative;
+ position:fixed;
     z-index: 1000;
 }
 
@@ -347,7 +373,7 @@ body {
 
 .row {
     display: flex;
-    gap:20px;
+    gap:10px;
 }
 
 
@@ -467,6 +493,7 @@ body {
     padding: 15px 20px;
     border-radius: 5px;
     transition: all .2s ease;
+    display: inline-flex;
 
 }
 
@@ -721,8 +748,8 @@ body {
 
 
 .getting-started {
-    background-color: var(--color-dark-green-1);
     /* background-image: url("http://symbiosis.local/wp-content/uploads/2022/07/bg_3_small.png"); */
+    background-color: var(--color-dark-green-1);
     margin-top: 150px;
     padding: 75px 0px;
     background-position: center;
@@ -1024,13 +1051,13 @@ adds spacing around the "all power to the people" section */
       
     top: 15%;
 }
-}
+} 
 
 .signup-email-form {
     padding-top: 150px;
     padding-bottom: 150px;
-    background-color:var(--color-dark-green-1);
-    /* background-image: url("http://symbiosis.local/wp-content/uploads/2022/07/bg_4_small.png");
+    background-color: var(--color-dark-green-1);
+    /* background-image: url("http://symbiosis.local/wp-content/uploads/2022/07/bg_4_small.png"); */
     background-position: center;
     background-size: cover; */
 }
@@ -1180,13 +1207,6 @@ adds spacing around the "all power to the people" section */
 
 
 
-.about-2 .col_1 {
-    width: calc(10% - 20px);;
-}
-
-.about-2 .col_2 {
-    width: 80%;
-}
 
 
 @media (max-width:860px){
@@ -1276,13 +1296,14 @@ adds spacing around the "all power to the people" section */
 .about-2c ul {
     margin-top:20px;
     margin-left:20px;
+    list-style-type: disc;
 }
 
 .bullet li{
 
     margin-bottom:20px;
     padding-inline-start: 0px;
-    list-style-type: disc;
+    list-style-type: circle;
     
 
 }
@@ -1481,8 +1502,11 @@ adds spacing around the "all power to the people" section */
  }
 
 .default_list_section_layout .button_row {
-    display: flex;
+    display: inline-flex;
+    gap:10px;
 }
+
+
 
 .default_header_layout_image img {
     border-radius: 12px;
@@ -1551,7 +1575,7 @@ adds spacing around the "all power to the people" section */
 
 .default_cta .link-box {
     text-align: center;
-    margin-right: 10px;
+    
 }
 
 .default_link_cards {
@@ -1700,7 +1724,7 @@ adds spacing around the "all power to the people" section */
     padding:20px;
     width:80%;
     position: sticky;
-    top: 80px;
+    top: 160px;
 }
 
 .side_link_entry {

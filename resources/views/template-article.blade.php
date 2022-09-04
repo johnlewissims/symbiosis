@@ -35,19 +35,13 @@ if (have_rows('article_layout')) :
           <div class="row banner-template">
             <div class="col socials">
               <?php if (get_option('twitterlink')) { ?>
-                <a href="<?php echo get_option('twitterlink'); ?>" class="twitter">
+                <a href="<?php echo get_option('twitterlink') . 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>" class="twitter">
                   <img src="/wp-content/uploads/2022/05/Vector.png" alt="Twitter Link">
                 </a>
               <? } ?>
 
-              <?php if (get_option('instagramlink')) { ?>
-                <a href="<?php echo get_option('instagramlink'); ?>" class="instagram">
-                  <img src="/wp-content/uploads/2022/05/instagram.png" alt="Instagram Link">
-                </a>
-              <? } ?>
-
               <?php if (get_option('facebooklink')) { ?>
-                <a href="<?php echo get_option('facebooklink'); ?>" class="facebook">
+                <a href="<?php echo get_option('facebooklink') . 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?> " class="facebook">
                   <img src="/wp-content/uploads/2022/07/facebook2x.png" alt="Facebook Link">
                 </a>
               <? } ?>
@@ -74,7 +68,7 @@ if (have_rows('article_layout')) :
             <div class="col_1">
               <?php if ($sideLinks) { ?>
                 <div class="side_links">
-                  <div class="t-text1 t-green mb-20">Getting Started</div>
+                  <div class="t-text1 t-green mb-20">Read More</div>
                   <?php foreach ($sideLinks as $sideLink) { ?>
                     <div class="side_link_entry">
                     <div><a class="link" href="<?php echo $sideLink['link']['url']; ?>">
@@ -91,21 +85,6 @@ if (have_rows('article_layout')) :
               <?php foreach ($list as $item) { ?>
                 <div class="t-body2 t-green mb-20"><?php echo $item['title']; ?></div>
                 <div class="text_section t-text1 t-green mb-40"><?php echo $item['text']; ?></div>
-                <div class="list_item">
-                  <h4><?php echo $item['title']; ?></h4>
-                  <div class="text_section"><?php echo $item['text']; ?></div>
-                  <?php if ($item['links']) { ?>
-                    <div class="button_row">
-                      <?php foreach($item['links'] as $link) { ?>
-                        <a class="link link-box" href="<?php echo $link['link']['url']; ?>">
-                          <div class="button bg-green t-text1">
-                            <?php echo $link['link']['title']; ?>
-                          </div>
-                        </a>
-                      <?php } ?>
-                    </div>
-                  <?php } ?>
-                </div>
               <?php } ?>
             </div>
           </div>
