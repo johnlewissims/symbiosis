@@ -1185,13 +1185,6 @@ adds spacing around the "all power to the people" section */
 
 
 
-.about-2 .col_1 {
-    width: calc(10% - 20px);;
-}
-
-.about-2 .col_2 {
-    width: 80%;
-}
 
 
 @media (max-width:860px){
@@ -1281,13 +1274,14 @@ adds spacing around the "all power to the people" section */
 .about-2c ul {
     margin-top:20px;
     margin-left:20px;
+    list-style-type: disc;
 }
 
 .bullet li{
 
     margin-bottom:20px;
     padding-inline-start: 0px;
-    list-style-type: disc;
+    list-style-type: circle;
     
 
 }
