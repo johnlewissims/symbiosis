@@ -28,19 +28,13 @@ if ($aboutBanner) : ?>
    
         <div class="col socials mb-40">
           <?php if (get_option('twitterlink')) { ?>
-            <a href="<?php echo get_option('twitterlink'); ?>" class="twitter">
+            <a href="<?php echo get_option('twitterlink') . $_SERVER['REQUEST_URI']; ?>" class="twitter">
               <img src="/wp-content/uploads/2022/05/Vector.png" alt="Twitter Link">
             </a>
           <? } ?>
 
-          <?php if (get_option('instagramlink')) { ?>
-            <a href="<?php echo get_option('instagramlink'); ?>" class="instagram">
-              <img src="/wp-content/uploads/2022/05/instagram.png" alt="Instagram Link">
-            </a>
-          <? } ?>
-
           <?php if (get_option('facebooklink')) { ?>
-            <a href="<?php echo get_option('facebooklink'); ?>" class="facebook">
+            <a href="<?php echo get_option('facebooklink') . $_SERVER['REQUEST_URI']; ?>" class="facebook">
               <img src="/wp-content/uploads/2022/07/facebook2x.png" alt="Facebook Link">
             </a>
           <? } ?>
