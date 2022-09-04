@@ -165,6 +165,14 @@ body {
      }
  } */
 
+.post_content p {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height:24px;
+ }
+
+
+
 .t-text1 {
     font-family: 'Inter', sans-serif;
     font-size: 18px;
@@ -1710,7 +1718,7 @@ adds spacing around the "all power to the people" section */
     padding:20px;
     width:80%;
     position: sticky;
-    top: 80px;
+    top: 160px;
 }
 
 .side_link_entry {
