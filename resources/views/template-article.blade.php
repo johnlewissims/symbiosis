@@ -85,21 +85,6 @@ if (have_rows('article_layout')) :
               <?php foreach ($list as $item) { ?>
                 <div class="t-body2 t-green mb-20"><?php echo $item['title']; ?></div>
                 <div class="text_section t-text1 t-green mb-40"><?php echo $item['text']; ?></div>
-                <div class="list_item">
-                  <h4><?php echo $item['title']; ?></h4>
-                  <div class="text_section"><?php echo $item['text']; ?></div>
-                  <?php if ($item['links']) { ?>
-                    <div class="button_row">
-                      <?php foreach($item['links'] as $link) { ?>
-                        <a class="link link-box" href="<?php echo $link['link']['url']; ?>">
-                          <div class="button bg-green t-text1">
-                            <?php echo $link['link']['title']; ?>
-                          </div>
-                        </a>
-                      <?php } ?>
-                    </div>
-                  <?php } ?>
-                </div>
               <?php } ?>
             </div>
           </div>
