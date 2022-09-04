@@ -296,6 +296,12 @@ img {
     border-radius: 12px;
 }
 
+p img{
+    width:100%;
+    margin-bottom:20px;
+}
+
+
 body {
     width: 100%;
     overflow-x: hidden;
