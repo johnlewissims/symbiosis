@@ -1059,7 +1059,7 @@ adds spacing around the "all power to the people" section */
     background-color: var(--color-dark-green-1);
     /* background-image: url("http://symbiosis.local/wp-content/uploads/2022/07/bg_4_small.png"); */
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
 }
 
 .signup-email-form h2 {
