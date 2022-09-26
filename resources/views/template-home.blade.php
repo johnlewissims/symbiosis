@@ -172,46 +172,50 @@ if ($resources) : ?>
   </div>
 <?php endif; ?>
 
-<div class=" blog-list container">
-  <div class="blog-row ">
+<div class=" blog-list-wrapper container">
+  <div class="blog-list">
+    <div class="blog-row">
 
-    <?php
-    $args = array(
-      'post_type' => 'reading',
-      'posts_per_page' => 4
-    );
+      <?php
+      $args = array(
+        'tag'=> 'featured',
+        'posts_per_page' => 10,
+        'post_type' => 'any'
+      );
 
-    $post_query = new WP_Query($args);
+      $post_query = new WP_Query($args);
 
-    if ($post_query->have_posts()) {
-      while ($post_query->have_posts()) {
-        $post_query->the_post();
-    ?>
+      if ($post_query->have_posts()) {
+        while ($post_query->have_posts()) {
+          $post_query->the_post();
+      ?>
 
-        <div class="blog-tile" data-url="<?php the_permalink(); ?>">
-          <?php
-          if (get_the_post_thumbnail_url()) {
-          ?>
-            <img src="<?php the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>">
-          <?php
-          }
-          ?>
-          <h4 class="category t-text2 t-green"><?php the_category(); ?></h4>
-          <a href="<?php the_permalink(); ?>">
-            <div class="title t-body1 t-green mb-20"><?php the_title(); ?></div>
-          </a>
-          <div class="excerpt t-text1 t-green"><?php the_excerpt(); ?></div>
-        </div>
-    <?php
+          <div class="blog-tile" data-url="<?php the_permalink(); ?>">
+            <?php
+            if (get_the_post_thumbnail_url()) {
+            ?>
+              <img src="<?php the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>">
+            <?php
+            }
+            ?>
+            <h4 class="category t-text2 t-green"><?php the_category(); ?></h4>
+            <a href="<?php the_permalink(); ?>">
+              <div class="title t-body1 t-green mb-20"><?php the_title(); ?></div>
+            </a>
+            <div class="excerpt t-text1 t-green"><?php the_excerpt(); ?></div>
+          </div>
+      <?php
+        }
       }
-    }
-    ?>
+      ?>
+    </div>
   </div>
   <div class="more-row">
     <h5>View More</h5>
     <img src="/wp-content/uploads/2022/07/plus_sign.png" alt="Click Here">
   </div>
 </div>
+
 
 <?php
 if ($callout2) : ?>

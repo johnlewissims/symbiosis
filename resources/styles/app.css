@@ -6,17 +6,20 @@
 
 
 body {
-    color:inherit;
+    color: inherit;
 }
 
 ::selection {
     background: var(--color-light-green-1);
-    color: var(--color-dark-green-1); /* WebKit/Blink Browsers */
-  }
-  ::-moz-selection {
+    color: var(--color-dark-green-1);
+    /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
     background: var(--color-light-green-1);
-    color: var(--color-dark-green-1); /* Gecko Browsers */
-  }
+    color: var(--color-dark-green-1);
+    /* Gecko Browsers */
+}
 
 /* WHITE #FFF */
 /* DARK GREEN #0A3623 */
@@ -30,7 +33,7 @@ body {
 @font-face {
     font-family: 'kulturregular';
     src: url('http://symbiosis.local/wp-content/uploads/2022/07/kulture_type.woff2') format('woff2'),
-         url('http://symbiosis.local/wp-content/uploads/2022/07/kulture_type.woff') format('woff');
+        url('http://symbiosis.local/wp-content/uploads/2022/07/kulture_type.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -49,115 +52,115 @@ body {
     --color-dark-green-1: #04452E;
     --color-light-green-1: #E3FF48;
     --color-dark-blue-1: #000067;
-    --color-gray-1: #E3E3E3;   
+    --color-gray-1: #E3E3E3;
 }
 
 
 
 
 
- /* Fonts */
+/* Fonts */
 
- 
- 
- .t-display {
+
+
+.t-display {
     font-family: 'kulturregular';
-    font-size:260px;
+    font-size: 260px;
     line-height: 100%;
     color: inherit;
- }
- 
- @media (max-width:1080px) {
+}
+
+@media (max-width:1080px) {
     .t-display {
         font-family: 'kulturregular';
-        font-size:24vw;
-     }
- }
- 
+        font-size: 24vw;
+    }
+}
 
- .t-display2 {
+
+.t-display2 {
     font-family: 'kulturregular';
-    font-size:144px;
+    font-size: 144px;
     line-height: 100%;
     color: inherit;
- }
+}
 
 
 
- @media (max-width:860px) {
+@media (max-width:860px) {
     .t-display2 {
-        font-size:56px;
+        font-size: 56px;
         line-height: 56px;
-     }
- }
+    }
+}
 
 
 
- 
 
- .t-h1 {
+
+.t-h1 {
     font-family: 'kulturregular';
-    font-size:96px;
+    font-size: 96px;
     line-height: 96px;
     color: inherit;
- }
+}
 
 
 
-@media (max-width:600px){
+@media (max-width:600px) {
     .t-h1 {
-        font-size:56px;
+        font-size: 56px;
         line-height: 56px;
     }
- }
+}
 
 
- .t-h2 {
+.t-h2 {
     font-family: 'kulturregular';
-    font-size:42px;
+    font-size: 42px;
     line-height: 42px;
- }
+}
 
- .t-body1{
+.t-body1 {
     font-family: 'Inter', sans-serif;
     font-size: 38px;
-    line-height:42px;
- }
+    line-height: 42px;
+}
 
- @media (max-width:600px){
+@media (max-width:600px) {
     .t-body1 {
-        font-size:24px;
+        font-size: 24px;
         line-height: 28px;
     }
- }
-
- 
+}
 
 
- .t-body2{
+
+
+.t-body2 {
     font-family: 'Inter', sans-serif;
     font-size: 28px;
-    line-height:34px;
- } 
+    line-height: 34px;
+}
 
- @media (max-width:800px){
-    .t-body2{
+@media (max-width:800px) {
+    .t-body2 {
         font-size: 24px;
-        line-height:28px;
-     } 
- }
+        line-height: 28px;
+    }
+}
 
- @media (max-width:600px){
-    .t-body2{
+@media (max-width:600px) {
+    .t-body2 {
         font-size: 20px;
-        line-height:24px;
-     } 
- }
+        line-height: 24px;
+    }
+}
 
 
 
 
- /* @media (max-width:1080px) {
+/* @media (max-width:1080px) {
     .t-body2 {
     
         font-size: 20px;
@@ -168,26 +171,26 @@ body {
 .post_content p {
     font-family: 'Inter', sans-serif;
     font-size: 18px;
-    line-height:24px;
- }
+    line-height: 24px;
+}
 
 
 
 .t-text1 {
     font-family: 'Inter', sans-serif;
     font-size: 18px;
-    line-height:24px;
+    line-height: 24px;
 }
 
 
-@media (max-width:600px){
+@media (max-width:600px) {
     .t-text1 {
         font-family: 'Inter', sans-serif;
         font-size: 14px;
-        line-height:18px;
+        line-height: 18px;
     }
-    
- }
+
+}
 
 
 .t-text2 {
@@ -196,34 +199,34 @@ body {
     line-height: 20px;
 }
 
-@media (max-width:600px){
-  
+@media (max-width:600px) {
 
-.t-text2 {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 14px;
-    line-height: 20px;
+
+    .t-text2 {
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
 }
-    
- }
 
 
 
 .t-caption {
     font-family: 'Inter', sans-serif;
     font-size: 14px;
-    line-height:18px;
+    line-height: 18px;
 }
 
 
-@media (max-width:600px){
+@media (max-width:600px) {
     .t-caption {
         font-family: 'Inter', sans-serif;
         font-size: 12px;
-        line-height:18px;
+        line-height: 18px;
     }
-    
- }
+
+}
 
 
 
@@ -232,7 +235,7 @@ body {
 Font Modifiers */
 
 .t-center {
-    text-align:center;
+    text-align: center;
 }
 
 .t-lowercase {
@@ -244,7 +247,7 @@ Font Modifiers */
 }
 
 .t-green {
-    color:var(--color-dark-green-1);
+    color: var(--color-dark-green-1);
 }
 
 .t-blue {
@@ -256,7 +259,7 @@ Font Modifiers */
 }
 
 .t-lightgreen {
-    color:var(--color-light-green-1);
+    color: var(--color-light-green-1);
 
 }
 
@@ -264,47 +267,47 @@ Font Modifiers */
 /* Vertical Spacing */
 
 .mb-10 {
-    margin-bottom:10px;
+    margin-bottom: 10px;
 }
 
 
 .mb-20 {
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
 
 
 .mb-30 {
-    margin-bottom:30px;
+    margin-bottom: 30px;
 }
 
 
 .mb-40 {
-    margin-bottom:40px;
+    margin-bottom: 40px;
 }
 
 .mb-60 {
-    margin-bottom:60px;
+    margin-bottom: 60px;
 }
 
 .mb-80 {
-    margin-bottom:80px;
+    margin-bottom: 80px;
 }
 
 
 .mb-120 {
-    margin-bottom:120px;
+    margin-bottom: 120px;
 }
 
 
 .mt-60 {
-    margin-top:60px;
+    margin-top: 60px;
 }
 
 /* Flex */
 
 
 
-.space-between{
+.space-between {
     justify-content: space-between;
 }
 
@@ -316,20 +319,20 @@ img {
     border-radius: 12px;
 }
 
-p img{
-    width:100%;
-    margin-bottom:20px;
+p img {
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 
 body {
     width: 100%;
     overflow-x: hidden;
-    background:#e3e3e3;
+    background: #e3e3e3;
 }
 
 .container {
-    max-width:100% ;
+    max-width: 100%;
 
 
 }
@@ -344,14 +347,14 @@ body {
         /* padding-left: 10px;
         padding-right: 10px; */
     }
-  }
+}
 
-  @media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 1080px) {
     .container {
 
-        padding:0px 20px ;
+        padding: 0px 20px;
     }
-  }
+}
 
 
 
@@ -361,7 +364,7 @@ body {
     background: var(--color-dark-blue-1);
     padding-top: 10px;
     padding-bottom: 10px;
- position:fixed;
+    position: fixed;
     z-index: 1000;
 }
 
@@ -373,7 +376,7 @@ body {
 
 .row {
     display: flex;
-    gap:10px;
+    gap: 10px;
 }
 
 
@@ -387,25 +390,25 @@ body {
 
 #menu-primary-navigation {
     display: flex;
-    justify-content: space-between;  
-    align-items: center;  
-    gap:20px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
 }
 
 
 
 .menu-primary-navigation-container {
-    width: 100%;    
-    padding:0px 40px;
+    width: 100%;
+    padding: 0px 40px;
 }
 
 .menu-primary-navigation {
     display: flex;
     justify-content: space-between;
-    align-items: center;    
+    align-items: center;
 }
 
-#menu-primary-navigation ul :hover{
+#menu-primary-navigation ul :hover {
     opacity: 50%;
 }
 
@@ -420,11 +423,12 @@ body {
 .logo-column {
     display: flex;
     align-items: center;
-    padding-top:5px;
+    padding-top: 5px;
 }
 
 .logo-column img {
-    height: 30px;;
+    height: 30px;
+    ;
 }
 
 .menu-hover-effect {
@@ -459,8 +463,8 @@ body {
 .sub-menu .menu-item {
     padding-right: 25px;
     padding-left: 25px;
-    min-width:200px;
-    text-align:center;
+    min-width: 200px;
+    text-align: center;
 }
 
 .sub-menu .menu-item a {
@@ -468,12 +472,12 @@ body {
     text-transform: lowercase;
     font-family: 'Inter', sans-serif;
     font-size: 28px;
-    line-height:34px;
+    line-height: 34px;
 }
 
 .nav-secodary {
     display: flex;
-    gap:15px;
+    gap: 15px;
 }
 
 
@@ -483,7 +487,7 @@ body {
     transition: all .2s ease;
 }
 
-.small-button:hover{
+.small-button:hover {
     filter: drop-shadow(0 0mm 4mm rgba(232, 255, 89, 1));
 }
 
@@ -497,7 +501,7 @@ body {
 
 }
 
-.button:hover{
+.button:hover {
     filter: drop-shadow(0 0mm 4mm rgba(232, 255, 89, 1));
 }
 
@@ -533,14 +537,14 @@ body {
     height: 100vh;
     position: absolute;
     transition: all .2s ease;
-    right: -100%;    
+    right: -100%;
     background-color: var(--color-dark-green-1);
     top: 0;
     padding: 10px;
 }
 
 .mobile-banner .sliding-menu.active {
-    right: 0%;    
+    right: 0%;
 }
 
 .mobile-banner .sliding-menu .button {
@@ -562,13 +566,13 @@ body {
     left: 0px;
     top: 50%;
     transform: translateY(-50%);
-    padding: 10px;    
+    padding: 10px;
 }
 
 .mobile_menu .menu-primary-navigation-container a {
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 16px;   
-    color: var(--color-light-green-1); 
+    font-size: 16px;
+    color: var(--color-light-green-1);
     text-transform: lowercase;
 }
 
@@ -606,18 +610,18 @@ body {
 .home-banner {
     position: absolute;
     width: 100%;
-    height: 100%;   
+    height: 100%;
     display: flex;
     justify-content: center;
-    padding:40px;
-    
+    padding: 40px;
+
 }
 
 .home-banner .wrapper {
     width: 1200px;
-    height:100%;
-    display:flex;
-    flex-flow:column;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
 
     justify-content: space-between;
 }
@@ -626,17 +630,17 @@ body {
 .home-banner .wrapper img {
     display: block;
     margin: auto;
-    width: 200px;    
+    width: 200px;
 }
 
 .home-banner .sub-text {
-   padding: 0px 240px;
+    padding: 0px 240px;
 }
 
-@media (max-width:1080px){
+@media (max-width:1080px) {
     .home-banner .sub-text {
         padding: 0px 20px;
-     }
+    }
 }
 
 .bg-green {
@@ -663,50 +667,51 @@ body {
 }
 
 
-@media (max-width:800px){
-   
+@media (max-width:800px) {
+
     .news-bar {
         margin: 60px 0px 140px 0;
     }
 
     .news-bar .t-text2 {
-        margin-bottom:60px;
+        margin-bottom: 60px;
     }
 
- }
+}
 
 .news-bar h2 {
     text-align: center;
     text-transform: uppercase;
-    color: var(--color-dark-green-1);    
+    color: var(--color-dark-green-1);
 }
 
 .news-bar .button-row {
     display: flex;
     justify-content: center;
-    margin-top: 30px;    
+    margin-top: 30px;
 }
 
-@media (max-width:740px){
+@media (max-width:740px) {
     .news-bar .button-row {
         flex-direction: column;
         align-items: center;
-        gap:10px;
+        gap: 10px;
     }
 
 }
+
 .news-bar .button-row a {
     margin: 0px 5px;
 }
 
 .callout-section {
     position: relative;
-    text-align:center;
+    text-align: center;
 }
 
 .callout-section img {
     width: 100%;
-    padding:20px;
+    padding: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -714,29 +719,29 @@ body {
     z-index: -1;
 }
 
-@media (max-width:800px){
+@media (max-width:800px) {
     .callout-section img {
         padding: 0px;
-       top: 10%;
+        top: 10%;
     }
- }
-
-
-.callout-section-text {
-    padding:0px 160px;
 }
 
 
-@media (max-width:800px){
+.callout-section-text {
+    padding: 0px 160px;
+}
+
+
+@media (max-width:800px) {
     .callout-section-text {
-        padding:60px 0px 0px 0px;
+        padding: 60px 0px 0px 0px;
     }
-    }
+}
 
 
 .callout-section .button {
     text-align: center;
-    display:inline-block;
+    display: inline-block;
     margin: auto;
     margin-top: 30px;
 }
@@ -757,11 +762,11 @@ body {
 }
 
 @media (max-width:860px) {
-    
-    .getting-started  {
+
+    .getting-started {
         margin-top: 60px;
     }
-    
+
 }
 
 
@@ -771,26 +776,27 @@ body {
 
 
 @media (max-width:860px) {
-    
+
     .getting-started .col {
         width: 100%;
-        display:flex;
+        display: flex;
         flex-direction: column;
-        margin-bottom:40px;
+        margin-bottom: 40px;
     }
-    
+
 }
 
 .getting-started-1 .col_1 img {
     width: 60px;
-   
+
 }
+
 @media (max-width:860px) {
 
-  .getting-started .col img {
-    width: 80px;
+    .getting-started .col img {
+        width: 80px;
 
-  }
+    }
 
 }
 
@@ -807,7 +813,7 @@ body {
     border-radius: 12px;
     height: 446px;
     position: relative;
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -820,9 +826,9 @@ body {
         padding: 20px;
         height: 320px;
 
-        
+
     }
-  }
+}
 
 
 .getting-started-2 {
@@ -837,22 +843,22 @@ body {
 
         margin-top: 0px;
     }
-  
-  }
+
+}
 
 
 
 .getting-started-text {
-    display:flex;
+    display: flex;
     flex-direction: column;
-    gap:20px;
+    gap: 20px;
 }
 
 .getting-started-2 .learn-row {
     position: relative;
     display: flex;
     flex-direction: row;
-    gap:8px;
+    gap: 8px;
     align-items: center;
     transition: all .2s ease;
 
@@ -867,6 +873,7 @@ body {
 .learn-text {
     display: inline;
 }
+
 /* 
 .getting-started-2 h5 {
     color: #fff;
@@ -881,17 +888,17 @@ body {
 
 .resources {
     margin-top: 100px;
-    margin-bottom: 100px;    
+    margin-bottom: 100px;
 }
 
 
 @media (max-width:860px) {
-    
-.resources {
-    margin-top: 20px;
-    margin-bottom: 30px;    
+
+    .resources {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
 }
- }
 
 
 
@@ -902,22 +909,22 @@ body {
 
 
 @media (max-width:860px) {
-    
+
     .resources .col {
         width: 100%;
     }
-    
+
 }
 
 
 @media (max-width:860px) {
-    
+
     .resources .header {
-        margin-bottom:60px;
+        margin-bottom: 60px;
     }
 
     .resources .subtext {
-        margin-bottom:0px;
+        margin-bottom: 0px;
     }
 }
 
@@ -926,13 +933,13 @@ body {
 
 .resource-row {
     display: flex;
-    margin-bottom: 15px;    
+    margin-bottom: 15px;
 }
 
 .resource-row img {
     height: 18px;
     margin-top: 3px;
-    padding-right: 10px;  
+    padding-right: 10px;
 }
 
 
@@ -956,22 +963,22 @@ blog-tile hover effects found in the app.js */
 
 .blog-tile:hover {
 
-  
-        background-color:var(--color-light-green-1);
-        border: solid 1px var(--color-light-green-1);
-    
+
+    background-color: var(--color-light-green-1);
+    border: solid 1px var(--color-light-green-1);
+
 }
 
 
 
 
 @media (max-width:1080px) {
-    
-    
-.blog-tile {
-    width:100%;
-}
-    
+
+
+    .blog-tile {
+        width: 100%;
+    }
+
 }
 
 
@@ -990,13 +997,16 @@ blog-tile hover effects found in the app.js */
     position: relative;
     max-height: 1600px;
     transition: all .2s ease;
+    overflow: hidden;
+    mask-image: linear-gradient(180deg, rgba(227, 227, 227, 1) 70%, rgba(227, 227, 227, 1) 85%, rgba(227, 227, 227, 0) 95%)
 }
 
-
-
-
 .blog-row {
-    mask-image:linear-gradient(180deg, rgba(227,227,227,1) 70%, rgba(227,227,227,1) 85%, rgba(227,227,227,0) 95%)
+    
+}
+
+.blog-list-wrapper {
+    position: relative;
 }
 
 .more-row {
@@ -1005,20 +1015,21 @@ blog-tile hover effects found in the app.js */
     display: flex;
     width: 100%;
     justify-content: center;
-    height:40px;
+    height: 40px;
     color: #04452E;
     align-items: center;
     cursor: pointer;
-    margin-top:0px;
-    z-index:1000;
-
+    margin-top: 0px;
+    z-index: 1000;
+    position: absolute;
+    bottom: 50px;
 }
 
 
 
 .more-row img {
     height: 18px;
-    margin-left: 5px;    
+    margin-left: 5px;
 }
 
 .category {
@@ -1035,23 +1046,23 @@ adds spacing around the "all power to the people" section */
 
 
 
-@media (max-width:800px){
-  
+@media (max-width:800px) {
+
     .power {
         margin-top: 140px;
         margin-bottom: 100px;
     }
 
 
-.power .callout-section-text{
-    padding:40px 0px 0px 0px;
-}
+    .power .callout-section-text {
+        padding: 40px 0px 0px 0px;
+    }
 
-.power img {
-      
-    top: 15%;
+    .power img {
+
+        top: 15%;
+    }
 }
-} 
 
 .signup-email-form {
     padding-top: 150px;
@@ -1059,7 +1070,7 @@ adds spacing around the "all power to the people" section */
     background-color: var(--color-dark-green-1);
     /* background-image: url("http://symbiosis.local/wp-content/uploads/2022/07/bg_4_small.png"); */
     background-position: center;
-    background-size: cover; */
+    background-size: cover;
 }
 
 .signup-email-form h2 {
@@ -1077,21 +1088,21 @@ adds spacing around the "all power to the people" section */
 
 /* OUR STRATEGY */
 
-.about-subtext{
+.about-subtext {
     padding: 0px 160px;
- }
+}
 
 .about-banner {
     background: #E8FF59;
-    padding-top:100px;
+    padding-top: 100px;
 }
 
 @media (max-width:860px) {
     .about-banner {
-        padding-top:40px;
+        padding-top: 40px;
     }
-    
- }
+
+}
 
 
 
@@ -1104,16 +1115,16 @@ adds spacing around the "all power to the people" section */
     .about-banner h1 {
         margin-bottom: 40px;
     }
-    
- }
+
+}
 
 
- @media (max-width:860px) {
+@media (max-width:860px) {
     .about-1 .image_wrapper {
-        margin-bottom:0px;
+        margin-bottom: 0px;
 
     }
- }
+}
 
 
 
@@ -1127,8 +1138,8 @@ adds spacing around the "all power to the people" section */
     .about-banner-2 {
         margin-top: 40px;
     }
-    
- }
+
+}
 
 
 
@@ -1138,32 +1149,32 @@ adds spacing around the "all power to the people" section */
 
 .about-banner-2 .sub_text {
     width: 70%;
-    margin-bottom:0px
+    margin-bottom: 0px
 }
 
 
 .about-1 .intro {
     width: 100%;
-    padding-bottom:100px
+    padding-bottom: 100px
 }
 
 
-@media (max-width:860px){
+@media (max-width:860px) {
     .about-1 .intro {
         width: 100%;
-        padding-bottom:20px
+        padding-bottom: 20px
     }
-    
-    
+
+
 }
 
 
-@media (max-width:860px){
+@media (max-width:860px) {
     .about-banner-2 .sub_text {
         width: 100%;
-        margin-bottom:60px
+        margin-bottom: 60px
     }
-    
+
 }
 
 
@@ -1179,29 +1190,29 @@ adds spacing around the "all power to the people" section */
 
 .socials img {
     max-height: 25px;
-    border-radius:0;
+    border-radius: 0;
 }
 
 .about-2 {
-    padding-top:30px;
+    padding-top: 30px;
 }
 
 .about-2 .callout-section-2 {
     margin-top: 200px;
-    margin-bottom: 230px;    
+    margin-bottom: 230px;
 }
 
 
-@media (max-width:800px){
+@media (max-width:800px) {
     .about-2 .callout-section-2 {
         margin-top: 20px;
-        margin-bottom: 20px;    
+        margin-bottom: 20px;
     }
-    
+
     .text_block_1 .callout-section img {
         padding: 0px;
         top: 45%;
-     }
+    }
 
 }
 
@@ -1210,13 +1221,13 @@ adds spacing around the "all power to the people" section */
 
 
 
-@media (max-width:860px){
+@media (max-width:860px) {
 
     .about-2 .col_2 {
         width: 100%;
     }
-    
-    
+
+
 }
 
 
@@ -1226,17 +1237,17 @@ adds spacing around the "all power to the people" section */
 
 
 
-@media (max-width:860px){
+@media (max-width:860px) {
 
-    
-.about-2 .image_wrapper {
-    margin-top: 40px;
-    margin-bottom: 0px;
-    
-}
 
-    
-    
+    .about-2 .image_wrapper {
+        margin-top: 40px;
+        margin-bottom: 0px;
+
+    }
+
+
+
 }
 
 
@@ -1246,17 +1257,17 @@ adds spacing around the "all power to the people" section */
 }
 
 
-@media (max-width:860px){
-    
-.about-2 .about-2a {
-    margin-bottom: 20px;
-}
-    
-    
+@media (max-width:860px) {
+
+    .about-2 .about-2a {
+        margin-bottom: 20px;
+    }
+
+
 }
 
 .about-2 .number_box {
-   
+
     position: relative;
     margin-bottom: 40px;
     border-radius: 12px;
@@ -1264,15 +1275,15 @@ adds spacing around the "all power to the people" section */
 }
 
 
-@media (max-width:860px){
-    
+@media (max-width:860px) {
+
     .about-2 .number_box {
         margin-bottom: 20px;
         padding-top: 40px;
-    
+
     }
-} 
-        
+}
+
 
 
 .number_box_border {
@@ -1285,27 +1296,27 @@ adds spacing around the "all power to the people" section */
     top: 15px;
 }
 
-@media (max-width:860px){
+@media (max-width:860px) {
     .number_box_border {
-    padding: 15px;
+        padding: 15px;
     }
-} 
+}
 
 
 
 
 .about-2c ul {
-    margin-top:20px;
-    margin-left:20px;
+    margin-top: 20px;
+    margin-left: 20px;
     list-style-type: disc;
 }
 
-.bullet li{
+.bullet li {
 
-    margin-bottom:20px;
+    margin-bottom: 20px;
     padding-inline-start: 0px;
     list-style-type: circle;
-    
+
 
 }
 
@@ -1327,13 +1338,13 @@ adds spacing around the "all power to the people" section */
     padding-bottom: 150px;
 }
 
-@media (max-width:860px){
+@media (max-width:860px) {
     .about-3 .callout-section-3 {
         margin-top: 80px;
         padding-bottom: 80px;
     }
-    
-} 
+
+}
 
 
 
@@ -1344,7 +1355,7 @@ adds spacing around the "all power to the people" section */
 
 .about-3 .callout-section-3 a:hover {
     filter: drop-shadow(0 0mm 4mm rgba(4, 69, 46, 1)) !important;
-    
+
 }
 
 
@@ -1355,17 +1366,17 @@ adds spacing around the "all power to the people" section */
 }
 
 
-.callout-section-2 img{
+.callout-section-2 img {
     z-index: 0;
 }
 
 #started-bullet-list {
-    margin-top:40px;
+    margin-top: 40px;
 }
 
 @media (max-width:860px) {
     #started-bullet-list {
-        margin-top:20px;
+        margin-top: 20px;
     }
 }
 
@@ -1397,7 +1408,7 @@ adds spacing around the "all power to the people" section */
 }
 
 .flex {
-    display:flex;
+    display: flex;
 }
 
 /* ARTICLE TEMPLATE */
@@ -1414,31 +1425,31 @@ adds spacing around the "all power to the people" section */
     .default_header_layout {
         padding-bottom: 20px;
         padding-top: 40px;
-    } 
+    }
 
 
 
-    .default_header_layout  .title{
-        margin-bottom:40px;
-        
-    } 
-    
- }
+    .default_header_layout .title {
+        margin-bottom: 40px;
+
+    }
+
+}
 
 
- .banner-template {
+.banner-template {
     margin-top: 70px;
 }
 
 
 
-.banner-template  .socials {
+.banner-template .socials {
     width: calc(30% - 20px);
 }
 
-.banner-template  .sub_text {
+.banner-template .sub_text {
     width: 70%;
-    margin-bottom:0px
+    margin-bottom: 0px
 }
 
 
@@ -1446,22 +1457,22 @@ adds spacing around the "all power to the people" section */
 
 
 @media (max-width:860px) {
-  
- .banner-template {
-    margin-top: 0px;
-}
+
+    .banner-template {
+        margin-top: 0px;
+    }
 
 
-.banner-template  .socials {
-    width: 100%;
-}
+    .banner-template .socials {
+        width: 100%;
+    }
 
-.banner-template  .sub_text {
-    width: 100%;
-    margin-bottom:0px
+    .banner-template .sub_text {
+        width: 100%;
+        margin-bottom: 0px
+    }
+
 }
-    
- }
 
 
 .default_list_section_layout {
@@ -1470,12 +1481,12 @@ adds spacing around the "all power to the people" section */
 }
 
 @media (max-width:860px) {
-  
+
     .default_list_section_layout {
         padding-top: 0px;
     }
-       
-    }
+
+}
 
 
 
@@ -1488,8 +1499,8 @@ adds spacing around the "all power to the people" section */
     .default_list_section_layout .col_1 {
         width: 100%;
     }
-    
- }
+
+}
 
 .default_list_section_layout .col_2 {
     width: 70%;
@@ -1499,12 +1510,12 @@ adds spacing around the "all power to the people" section */
     .default_list_section_layout .col_2 {
         width: 100%;
     }
-    
- }
+
+}
 
 .default_list_section_layout .button_row {
     display: inline-flex;
-    gap:10px;
+    gap: 10px;
 }
 
 
@@ -1525,7 +1536,7 @@ adds spacing around the "all power to the people" section */
 
 
 @media (max-width:860px) {
-  
+
 
     .default_link_boxes {
         margin-top: 0px;
@@ -1549,8 +1560,8 @@ adds spacing around the "all power to the people" section */
     .default_list_section_layout .col_2 {
         width: 100%;
     }
-    
- }
+
+}
 
 .default_link_boxes .link-box {
     text-align: center;
@@ -1576,7 +1587,6 @@ adds spacing around the "all power to the people" section */
 
 .default_cta .link-box {
     text-align: center;
-    
 }
 
 .default_link_cards {
@@ -1584,32 +1594,26 @@ adds spacing around the "all power to the people" section */
     padding-bottom: 100px;
 }
 
-
 .default_link_cards .text_section {
     max-width: 771px;
     padding-bottom: 30px;
 }
 
 @media (max-width:860px) {
-  
-.default_list_section_layout .text_section {
-    margin-bottom:0px;
+    .default_list_section_layout .text_section {
+        margin-bottom: 0px;
+    }
 }
 
-    
- }
-
-
-
 .text_section p {
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
 
 .default_link_cards .text_section p {
     font-family: 'Inter', sans-serif;
     font-size: 18px;
     color: var(--color-dark-green-1);
-} 
+}
 
 .default_link_cards .card_row {
     display: flex;
@@ -1619,19 +1623,13 @@ adds spacing around the "all power to the people" section */
 
 
 @media (max-width:1080px) {
-  
-   
-.default_link_cards .card_row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    gap:20px;
+    .default_link_cards .card_row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 20px;
+    }
 }
-
-    
-        
-     }
-    
 
 
 .default_link_cards .link-box {
@@ -1645,12 +1643,11 @@ adds spacing around the "all power to the people" section */
     transition: all .2s ease !important;
 }
 
-.default_link_cards .link-box:hover{
-
+.default_link_cards .link-box:hover {
     background: var(--color-light-green-1);
     border: solid 1px var(--color-light-green-1);
     color: var(--color-dark-green-1);
-} 
+}
 
 
 
@@ -1666,7 +1663,7 @@ adds spacing around the "all power to the people" section */
 
 .default_contact_section {
     padding-top: 50px;
-    padding-bottom: 100px;    
+    padding-bottom: 100px;
 }
 
 .float_right {
@@ -1690,14 +1687,16 @@ adds spacing around the "all power to the people" section */
     margin-bottom: 25px;
 }
 
-.default_contact_section .wpforms-field-label, .default_contact_section label {
+.default_contact_section .wpforms-field-label,
+.default_contact_section label {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 16px;
     line-height: 24px;
     color: var(--color-dark-green-1);
 }
 
-.default_contact_section input, .default_contact_section textarea {
+.default_contact_section input,
+.default_contact_section textarea {
     background: transparent !important;
     padding: 25px !important;
     border: solid 1px var(--color-dark-green-1) !important;
@@ -1714,65 +1713,54 @@ adds spacing around the "all power to the people" section */
     color: var(--color-dark-green-1) !important;
 }
 
-.wpforms-submit-container button:hover{
+.wpforms-submit-container button:hover {
     filter: drop-shadow(0 0mm 4mm rgba(232, 255, 89, 1)) !important;
 }
-
 
 .side_links {
     background-color: var(--color-light-green-1);
     border-radius: 6px;
-    padding:20px;
-    width:80%;
+    padding: 20px;
+    width: 80%;
     position: sticky;
     top: 160px;
 }
 
 .side_link_entry {
-    display:flex;
+    display: flex;
     align-items: center;
-    justify-content:flex-start;
-    margin-bottom:10px;
+    justify-content: flex-start;
+    margin-bottom: 10px;
     align-content: flex-start;
-    gap:10px;
+    gap: 10px;
     flex-shrink: 0;
- 
+
 }
 
-
-.side_link_entry img{
-    width:14px;
-    height:14px;
+.side_link_entry img {
+    width: 14px;
+    height: 14px;
 }
 
-
-.side_link_entry:last-child{
-    margin-bottom:0;
+.side_link_entry:last-child {
+    margin-bottom: 0;
 }
 
 .side_link_text {
-    width:180px;
+    width: 180px;
 }
-
-
 
 @media (max-width:1080px) {
     .side_links {
-       display:none;
+        display: none;
     }
-    
- }
-
-
-
+}
 
 /* STICKY EFFECT */
 
- .sticky-scroll {
+.sticky-scroll {}
 
-}
-
- /* .sticky-scroll.active {
+/* .sticky-scroll.active {
     position: fixed;
     width: 100%;
     z-index: -1;    
@@ -1782,16 +1770,14 @@ adds spacing around the "all power to the people" section */
 .next-section {
     background: var(--color-gray-1);
     padding-bottom: 100px;
-} 
+}
 
 
 @media (max-width:860px) {
     .next-section {
-      
         padding-bottom: 0px;
     }
-    
- }
+}
 
 /* POSTS AND INDEX PAGES */
 
@@ -1887,15 +1873,15 @@ adds spacing around the "all power to the people" section */
     max-width: 400px;
     margin: auto;
     border-bottom: solid 1px #e3e3e3;
-    padding-bottom: 10px; 
-    margin-top: 30px;   
+    padding-bottom: 10px;
+    margin-top: 30px;
 }
 
 .wpforms-field-container:first-of-type {
     width: 70%;
 }
 
-#wpforms-399-field_2-container  {
+#wpforms-399-field_2-container {
     padding: 0;
 }
 
@@ -1918,7 +1904,7 @@ adds spacing around the "all power to the people" section */
     position: absolute;
     bottom: 30px;
     left: 0;
-    right: 0;    
+    right: 0;
 }
 
 #menu-footer {
@@ -1933,4 +1919,13 @@ adds spacing around the "all power to the people" section */
 
 .content-info {
     position: relative;
+}
+
+
+/* MOBILE OPTIMIZATION */
+
+@media (max-width:767px) {
+    .blog-tile {
+        width: 100%;
+    }
 }

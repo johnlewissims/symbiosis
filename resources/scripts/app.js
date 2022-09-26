@@ -48,30 +48,33 @@ const main = async (err) => {
       });
 
       // Blog Roll
-      var elem = document.querySelector(".blog-row");
-      if (elem) {
-        new Masonry(elem, {
-          gutter: 20,
-          itemSelector: ".blog-tile",
-        });
+      $(window).on('load', function () {
+        var elem = document.querySelector(".blog-row");
+        if (elem) {
+          new Masonry(elem, {
+            gutter: 20,
+            itemSelector: ".blog-tile",
+          });
 
-        // Fix Height Bug 
-        if($('.blog-row').height() == 0) {
-          $('.blog-row').addClass('force_height');
+          // Fix Height Bug 
+          if($('.blog-row').height() == 0) {
+            $('.blog-row').addClass('force_height');
+          }
+
+          let startingHeight = $(".blog-list").height();
+          $(".more-row").on("click", function () {
+            let currentHeight = $(".blog-list").height();
+            $(".blog-list").css("max-height", startingHeight + currentHeight);
+          });
         }
 
-        let startingHeight = $(".blog-list").height();
-        $(".more-row").on("click", function () {
-          let currentHeight = $(".blog-list").height();
-          $(".blog-list").css("max-height", startingHeight + currentHeight);
-        });
-      }
-
-      // Make Entire Blog Card Clickable
-      $(".blog-tile").on("click", function () {
-        let url = $(this).data("url");
-        location.href = url;
+        // Make Entire Blog Card Clickable
+        $(".blog-tile").on("click", function () {
+          let url = $(this).data("url");
+          location.href = url;
+        });      
       });
+
 
       // Stick Header
       var fixed = document.querySelector('.sticky-scroll');
