@@ -132,8 +132,8 @@ if (have_rows('article_layout')) :
 
             <div class="col_2">
               <div class="box">
-                <h6><?php echo $title; ?></h6>
-                <h4><?php echo $text; ?></h4>
+                <h6 class="t-caption t-green"><?php echo $title; ?></h6>
+                <h4 class="t-body2 t-green mb-20"><?php echo $text; ?></h4>
                 <a class="link link-box" href="<?php echo $link['url']; ?>">
                   <div class="button bg-green t-text1">
                     <?php echo $link['title']; ?>

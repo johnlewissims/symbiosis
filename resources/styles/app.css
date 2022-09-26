@@ -574,6 +574,8 @@ body {
     font-size: 16px;
     color: var(--color-light-green-1);
     text-transform: lowercase;
+    display: block;
+    text-align: center;
 }
 
 .mobile_menu .menu-primary-navigation-container .sub-menu {
@@ -582,6 +584,7 @@ body {
 
 .mobile_menu .menu-primary-navigation-container .sub-menu li {
     padding-left: 0px;
+    padding-right: 0px;
 }
 
 .mobile_menu .menu-primary-navigation-container .sub-menu li a {
@@ -1474,10 +1477,14 @@ adds spacing around the "all power to the people" section */
 
 }
 
+.page-template-template-article main {
+    padding-bottom: 100px;
+}
+
 
 .default_list_section_layout {
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 0px;
 }
 
 @media (max-width:860px) {
@@ -1570,19 +1577,27 @@ adds spacing around the "all power to the people" section */
 
 .default_cta {
     margin-top: 20px;
-    padding-bottom: 100px;
+    padding-bottom: 0px;
 }
 
 .default_cta .col_1 {
     width: calc(30% - 20px);
 }
 
-
-
-
 .default_cta .col_2 {
     width: 70%;
     display: flex;
+}
+
+.default_cta .col_2 .box {
+    width: 100%;
+    padding: 30px;
+    border: solid 1px var(--color-dark-green-1);
+    border-radius: 10px;
+}
+
+.default_cta .col_2 .box h4 {
+    margin-top: 20px;
 }
 
 .default_cta .link-box {
@@ -1927,5 +1942,55 @@ adds spacing around the "all power to the people" section */
 @media (max-width:767px) {
     .blog-tile {
         width: 100%;
+    }
+    .callout-section img {
+        width: 90%;
+    }
+    .getting-started .col img {
+        display: none;
+    }
+    .getting-started-2 .box {
+        margin-bottom: 25px;
+    }
+    .resources {
+        margin-top: 70px;
+    }
+    .about-banner .socials, .banner-template .socials {
+        margin-top: 10px;
+    }
+    .about-banner {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .about-2 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .about-4 h3 {
+        font-size: 45px;
+    }
+    .default_header_layout {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .default_list_section_layout {
+        padding-top: 50px;
+    }
+    .default_cta .col_2 {
+        width: 100%;
+    }
+    .default_link_cards {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .default_contact_section .col {
+        width: 100%;
+    }
+    .default_contact_section {
+        padding-bottom: 0px;
+    }
+    .default_posts_section {
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
 }
