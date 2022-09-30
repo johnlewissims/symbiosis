@@ -32,8 +32,8 @@ body {
 
 @font-face {
     font-family: 'kulturregular';
-    src: url('http://symbiosis.local/wp-content/uploads/2022/07/kulture_type.woff2') format('woff2'),
-        url('http://symbiosis.local/wp-content/uploads/2022/07/kulture_type.woff') format('woff');
+    src: url('https://symbiosis-dev.radlife.org/wp-content/uploads/2022/07/kulture_type.woff2') format('woff2'),
+        url('https://symbiosis-dev.radlife.org/wp-content/uploads/2022/07/kulture_type.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
